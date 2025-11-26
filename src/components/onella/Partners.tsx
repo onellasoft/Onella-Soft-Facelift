@@ -14,7 +14,7 @@ export function Partners() {
   const partnerImages = partnerIds.map(id => PlaceHolderImages.find(img => img.id === id)).filter(Boolean);
 
   return (
-    <section className="bg-background border-y border-white/10">
+    <section className="bg-background">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-center items-center gap-8 md:gap-12 flex-wrap py-8">
           {partnerImages.map((image, index) => (
