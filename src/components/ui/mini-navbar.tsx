@@ -185,7 +185,7 @@ export function Navbar() {
     <NavigationMenu onValueChange={() => setIsOpen(false)}>
       <NavigationMenuList>
          <NavigationMenuItem>
-            <Link href="/" legacyBehavior={false}>
+            <Link href="/" legacyBehavior passHref>
               <NavigationMenuLink asChild className={cn(navigationMenuTriggerStyle(), "bg-transparent text-sm hover:text-white rounded-full", pathname === "/" ? "bg-white/90 text-black hover:bg-white/90 hover:text-black shadow-[0_0_10px_1px_rgba(255,255,255,0.3)]" : "text-gray-300")}>
                 <a>Home</a>
               </NavigationMenuLink>
@@ -237,14 +237,14 @@ export function Navbar() {
           </NavigationMenuContent>
         </NavigationMenuItem>
         <NavigationMenuItem>
-            <Link href="/blogs" legacyBehavior={false}>
+            <Link href="/blogs" legacyBehavior passHref>
               <NavigationMenuLink asChild className={cn(navigationMenuTriggerStyle(), "bg-transparent text-sm hover:text-white rounded-full", pathname === "/blogs" ? "bg-white/90 text-black hover:bg-white/90 hover:text-black shadow-[0_0_10px_1px_rgba(255,255,255,0.3)]" : "text-gray-300")}>
                 <a>Blogs</a>
               </NavigationMenuLink>
             </Link>
         </NavigationMenuItem>
          <NavigationMenuItem>
-            <Link href="/support" legacyBehavior={false}>
+            <Link href="/support" legacyBehavior passHref>
               <NavigationMenuLink asChild className={cn(navigationMenuTriggerStyle(), "bg-transparent text-sm hover:text-white rounded-full", pathname === "/support" ? "bg-white/90 text-black hover:bg-white/90 hover:text-black shadow-[0_0_10px_1px_rgba(255,255,255,0.3)]" : "text-gray-300")}>
                 <a>Support</a>
               </NavigationMenuLink>
