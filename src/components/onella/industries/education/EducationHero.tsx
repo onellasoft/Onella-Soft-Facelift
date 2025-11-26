@@ -10,16 +10,14 @@ export function EducationHero() {
   return (
     <section className="relative w-full min-h-[70vh] flex items-center justify-center text-center overflow-hidden">
         <div className="absolute inset-0 z-0">
-          {heroImage && (
-            <Image
-              src={heroImage.imageUrl}
-              alt={heroImage.description}
-              layout="fill"
-              objectFit="cover"
-              className="opacity-30"
-              data-ai-hint={heroImage.imageHint}
-            />
-          )}
+          <SparklesCore
+            background="transparent"
+            minSize={0.6}
+            maxSize={1.4}
+            particleDensity={250}
+            particleColor="#FFFFFF"
+            className="w-full h-full"
+          />
         </div>
 
       <div className="absolute inset-0 bg-black/60"></div>
