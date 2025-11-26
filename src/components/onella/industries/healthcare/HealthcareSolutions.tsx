@@ -2,12 +2,12 @@
 
 import { GlowingCard } from '@/components/ui/glowing-card';
 import { Button } from '@/components/ui/button';
-import { Facebook, Megaphone, Share2, Video, Code, ArrowRight } from 'lucide-react';
+import { Megaphone, Share2, Video, Code, ArrowRight, Stethoscope } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const solutions = [
   {
-    icon: <Facebook className="h-8 w-8 text-white" />,
+    icon: <Share2 className="h-8 w-8 text-white" />,
     title: 'Social Media Marketing',
     description: 'Strategic social media campaigns to engage patients and build trust across platforms.',
     points: ['HIPAA-compliant content', 'Patient engagement', 'Brand trust'],
@@ -19,7 +19,7 @@ const solutions = [
     points: ['Google Ads', 'Social media ads', 'Lead generation'],
   },
   {
-    icon: <Share2 className="h-8 w-8 text-white" />,
+    icon: <Stethoscope className="h-8 w-8 text-white" />,
     title: 'Clinic Software Development',
     description: 'Custom software solutions to streamline your clinic\'s operations and enhance patient experience.',
     points: ['Appointment systems', 'Patient portals', 'Practice management'],

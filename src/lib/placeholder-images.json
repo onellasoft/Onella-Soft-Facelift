@@ -33,43 +33,43 @@
     {
       "id": "company-mission",
       "description": "A lightbulb with a glowing brain inside, sitting on a table, representing focus and execution.",
-      "imageUrl": "https://images.unsplash.com/photo-1623077299184-5cc7fd33ea99?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzdHJhdGVnaWMlMjBleGVjdXRpb258ZW58MHx8fHwxNzYzOTc3NzkwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1623077299184-5cc7fd33ea99?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzdHJhdGVnaWMlMjBleGVjdXRpb258ZW58MHx8fHwxNzYzOTc3NzkwfDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "strategic execution"
     },
     {
       "id": "local-seo-indian-business",
       "description": "A vibrant Indian market street scene, representing local business.",
-      "imageUrl": "https://images.unsplash.com/flagged/photo-1553617569-8ef7a8da3146?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxJbmRpYW4lMjBtYXJrZXR8ZW58MHx8fHwxNzY0MDY3Nzg2fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/flagged/photo-1553617569-8ef7a8da3146?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxJbmRpYW4lMjBtYXJrZXR8ZW58MHx8fHwxNzY0MDY3Nzg2fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "Indian market"
     },
     {
       "id": "multilingual-seo",
       "description": "The word WELCOME written in many different languages on a digital screen.",
-      "imageUrl": "https://images.unsplash.com/photo-1706860540919-c41e6532c3b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bXVsdGlsaW5ndWFsJTIwdGV4dHxlbnwwfHx8fDE3NjQwNjc3ODZ8MA&ixlibrb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1706860540919-c41e6532c3b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bXVsdGlsaW5ndWFsJTIwdGV4dHxlbnwwfHx8fDE3NjQwNjc3ODZ8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "multilingual text"
     },
     {
       "id": "technical-seo-audit",
       "description": "A person holding a magnifying glass over a laptop screen showing an AUDIT icon.",
-      "imageUrl": "https://images.unsplash.com/photo-1686061594183-8c864f508b00?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzZW8lMjBhdWRpdHxlbnwwfHx8fDE3NjQwNjc3ODZ8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1686061594183-8c864f508b00?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzZW8lMjBhdWRpdHxlbnwwfHx8fDE3NjQwNjc3ODZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "seo audit"
     },
     {
       "id": "seo-reporting-analytics",
       "description": "A person typing on a laptop with analytics charts and graphs overlaid.",
-      "imageUrl": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxkYXRhJTIwYW5hbHl0aWNzfGVufDB8fHx8MTc2Mzk3Nzk4OHww&ixlibrb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxkYXRhJTIwYW5hbHl0aWNzfGVufDB8fHx8MTc2Mzk3Nzk4OHww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "data analytics"
     },
     {
       "id": "performance-hero",
       "description": "An abstract 3D ring shape.",
-      "imageUrl": "https://images.unsplash.com/photo-1579548122080-c35fd6820ecb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhYnN0cmFjdCUyMHRlY2h8ZW58MHx8fHwxNzY0MDI0NzM5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1579548122080-c35fd6820ecb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhYnN0cmFjdCUyMHRlY2h8ZW58MHx8fHwxNzY0MDI0NzM5fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "abstract tech"
     },
     {
       "id": "fb-insta-ads",
       "description": "A hand holding a smartphone with social media like and heart icons floating out of it.",
-      "imageUrl": "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzb2NpYWwlMjBtZWRpYXxlbnwwfHx8fDE3NjQwMDc1OTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzb2NpYWwlMjBtZWRpYXxlbnwwfHx8fDE3NjQwMDc1OTl8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "social media"
     },
     {
@@ -93,7 +93,7 @@
     {
       "id": "smm-hero",
       "description": "Abstract network connections with a person in the background.",
-      "imageUrl": "https://images.unsplash.com/photo-1738082956257-06cde4444b1c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxhYnN0cmFjdCUyMG5ldHdvcmt8ZW58MHx8fHwxNzY0MDMxMDY5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1738082956257-06cde4444b1c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxhYnN0cmFjdCUyMG5ldHdvcmt8ZW58MHx8fHwxNzY0MDMxMDY5fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "abstract network"
     },
     {
@@ -122,39 +122,39 @@
     },
     {
       "id": "partner-logo-1",
-      "description": "Placeholder for partner logo 1",
-      "imageUrl": "https://images.unsplash.com/photo-1620288627223-53302f4e8c74?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjb21wYW55JTIwbG9nb3xlbnwwfHx8fDE3NjQwNjc1ODh8MA&ixlib-rb-4.1.0&q=80&w=1080",
-      "imageHint": "company logo"
+      "description": "Abstract geometric logo for a partner company",
+      "imageUrl": "https://images.unsplash.com/photo-1744390166798-bb7d46da976b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxhYnN0cmFjdCUyMGxvZ298ZW58MHx8fHwxNzY0MTE0OTM2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract logo"
     },
     {
       "id": "partner-logo-2",
-      "description": "Placeholder for partner logo 2",
-      "imageUrl": "https://images.unsplash.com/photo-1619551734325-81aaf323686c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjb21wYW55JTIwbG9nb3xlbnwwfHx8fDE3NjQwNjc1ODh8MA&ixlib-rb-4.1.0&q=80&w=1080",
-      "imageHint": "company logo"
+      "description": "Abstract geometric logo for a partner company",
+      "imageUrl": "https://images.unsplash.com/photo-1755435140567-3c9df5ceffa1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxhYnN0cmFjdCUyMGxvZ298ZW58MHx8fHwxNzY0MTE0OTM2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract logo"
     },
     {
       "id": "partner-logo-3",
-      "description": "Placeholder for partner logo 3",
-      "imageUrl": "https://images.unsplash.com/photo-1622465911368-72162f8da3e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjb21wYW55JTIwbG9nb3xlbnwwfHx8fDE3NjQwNjc1ODh8MA&ixlib-rb-4.1.0&q=80&w=1080",
-      "imageHint": "company logo"
+      "description": "Abstract geometric logo for a partner company",
+      "imageUrl": "https://images.unsplash.com/photo-1755435140567-3c9df5ceffa1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxhYnN0cmFjdCUyMGxvZ298ZW58MHx8fHwxNzY0MTE0OTM2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract logo"
     },
     {
       "id": "partner-logo-4",
-      "description": "Placeholder for partner logo 4",
-      "imageUrl": "https://images.unsplash.com/photo-1549924231-f129b911e442?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjb21wYW55JTIwbG9nb3xlbnwwfHx8fDE3NjQwNjc1ODh8MA&ixlib-rb-4.1.0&q=80&w=1080",
-      "imageHint": "company logo"
+      "description": "Abstract geometric logo for a partner company",
+      "imageUrl": "https://images.unsplash.com/photo-1748326650737-33500fdfda30?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhYnN0cmFjdCUyMGxvZ298ZW58MHx8fHwxNzY0MTE0OTM2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract logo"
     },
     {
       "id": "partner-logo-5",
-      "description": "Placeholder for partner logo 5",
-      "imageUrl": "https://images.unsplash.com/photo-1496200186974-4293800e2c20?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjb21wYW55JTIwbG9nb3xlbnwwfHx8fDE3NjQwNjc1ODh8MA&ixlib-rb-4.1.0&q=80&w=1080",
-      "imageHint": "company logo"
+      "description": "Abstract geometric logo for a partner company",
+      "imageUrl": "https://images.unsplash.com/photo-1760037028517-e5cc6e3ebd3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxhYnN0cmFjdCUyMGxvZ298ZW58MHx8fHwxNzY0MTE0OTM2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract logo"
     },
     {
       "id": "partner-logo-6",
-      "description": "Placeholder for partner logo 6",
-      "imageUrl": "https://images.unsplash.com/photo-1619551734325-81aaf323686c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjb21wYW55JTIwbG9nb3xlbnwwfHx8fDE3NjQwNjc1ODh8MA&ixlib-rb-4.1.0&q=80&w=1080",
-      "imageHint": "company logo"
+      "description": "Abstract geometric logo for a partner company",
+      "imageUrl": "https://images.unsplash.com/photo-1760037028517-e5cc6e3ebd3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxhYnN0cmFjdCUyMGxvZ298ZW58MHx8fHwxNzY0MTE0OTM2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract logo"
     },
     {
       "id": "social-media-content",
@@ -195,7 +195,7 @@
     {
       "id": "free-consultation",
       "description": "An illustration of a person sitting at a desk with a computer, working on a chart.",
-      "imageUrl": "https://images.unsplash.com/photo-1656836476760-77c0d09257ce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZGVzayUyMHdvcmt8ZW58MHx8fHwxNzY0MDAxODQ2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1656836476760-77c0d09257ce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZGVzayUyMHdvcmt8ZW58MHx8fHwxNzY0MDAxODQ2fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "desk work"
     },
     {
@@ -231,13 +231,13 @@
     {
       "id": "partner-shopify",
       "description": "Shopify logo",
-      "imageUrl": "https://images.unsplash.com/photo-1690683789978-3cf73960d650?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzaG9waWZ5JTIwbG9nb3xlbnwwfHx8fDE3NjQxNTA3NTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1613905383527-8994ba2f9896?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzaG9waWZ5JTIwbG9nb3xlbnwwfHx8fDE3NjQxNTA3NTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "shopify logo"
     },
     {
       "id": "partner-woocommerce",
       "description": "WooCommerce logo",
-      "imageUrl": "https://images.unsplash.com/photo-1649180566282-9a7f37782f74?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3b29jb21tZXJjZSUyMGxvZ298ZW58MHx8fHwxNzY0MTUwNzUzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1647551968853-b07c65677cc3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx3b29jb21tZXJjZSUyMGxvZ298ZW58MHx8fHwxNzY0MTUwNzUzfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "woocommerce logo"
     },
     {
@@ -255,25 +255,25 @@
     {
       "id": "partner-square",
       "description": "Square logo",
-      "imageUrl": "https://images.unsplash.com/photo-1547420242-96597f83190f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzcXVhcmUlMjBsb2dvfGVufDB8fHx8MTc2NDA5NjQzOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1734228974414-5ae2fbf4d48e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzcXVhcmUlMjBsb2dvfGVufDB8fHx8MTc2NDA5NjQzOHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "square logo"
     },
     {
       "id": "partner-amazon",
       "description": "Amazon logo",
-      "imageUrl": "https://images.unsplash.com/photo-1649734926695-1b1664e98842?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxhbWF6b24lMjBsb2dvfGVufDB8fHx8MTc2NDA0Nzc4OHww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1602359337719-a8bcbd1f7b51?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhbWF6b24lMjBsb2dvfGVufDB8fHx8MTc2NDA0Nzc4OHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "amazon logo"
     },
     {
       "id": "ecommerce-grow-business",
       "description": "Illustration of people shopping online with a large screen showing a storefront.",
-      "imageUrl": "https://images.unsplash.com/photo-1605902711834-8b11c3e3ef2f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxvbmxpbmUlMjBzaG9wcGluZ3xlbnwwfHx8fDE3NjQxMzk2MjR8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1605902711834-8b11c3e3ef2f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxvbmxpbmUlMjBzaG9wcGluZ3xlbnwwfHx8fDE3NjQxMzk2MjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "online shopping"
     },
     {
       "id": "ecommerce-our-vision",
       "description": "Laptop and tablet displaying business analytics dashboards.",
-      "imageUrl": "https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxidXNpbmVzcyUyMGFuYWx5dGljc3xlbnwwfHx8fDE3NjQxNTA3NTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxidXNpbmVzcyUyMGFuYWx5dGljc3xlbnwwfHx8fDE3NjQxNTA3NTR8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "business analytics"
     },
     {
@@ -285,19 +285,19 @@
     {
       "id": "real-estate-who-we-are",
       "description": "Two hands shaking over a miniature model of a house.",
-      "imageUrl": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxyZWFsJTIwZXN0YXRlJTIwYWdlbnR8ZW58MHx8fHwxNzY0MjI2MDM2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxyZWFsJTIwZXN0YXRlJTIwYWdlbnR8ZW58MHx8fHwxNzY0MjI2MDM2fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "real estate agent"
     },
     {
       "id": "real-estate-why-choose-us",
       "description": "A modern, single-family home with a two-car garage.",
-      "imageUrl": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxob3VzZXxlbnwwfHx8fDE3NjQyMjYwMzZ8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxob3VzZXxlbnwwfHx8fDE3NjQyMjYwMzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "modern house"
     },
     {
       "id": "real-estate-result-1",
       "description": "A tall, modern residential building with a blue sky background.",
-      "imageUrl": "https://images.unsplash.com/photo-1605152276533-559957388338?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhcGFydG1lbnQlMjBidWlsZGluZ3xlbnwwfHx8fDE3NjQyMjYwMzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1605152276533-559957388338?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhcGFydG1lbnQlMjBidWlsZGluZ3xlbnwwfHx8fDE3NjQyMjYwMzZ8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "apartment building"
     },
     {
@@ -321,7 +321,7 @@
     {
       "id": "healthcare-pharma",
       "description": "A collection of colorful pills, capsules, and a vaccine vial.",
-      "imageUrl": "https://images.unsplash.com/photo-1646392206581-2527b1cae5cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwaWxscyUyMG1lZGljYXRpb258ZW58MHx8fHwxNzY0MTExNjc5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1646392206581-2527b1cae5cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwaWxscyUyMG1lZGljYXRpb258ZW58MHx8fHwxNzY0MTExNjc5fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "pills medication"
     },
     {
@@ -333,7 +333,7 @@
     {
       "id": "healthcare-why-choose-us",
       "description": "A doctor pointing at a futuristic transparent screen showing X-ray images.",
-      "imageUrl": "https://images.unsplash.com/photo-1603286656381-6f04fb84435e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxmdXR1cmlzdGljJTIweHJheXxlbnwwfHx8fDE3NjQxNTQ1MDJ8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1603286656381-6f04fb84435e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxmdXR1cmlzdGljJTIweHJheXxlbnwwfHx8fDE3NjQxNTQ1MDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "futuristic xray"
     },
     {
@@ -351,7 +351,7 @@
     {
       "id": "education-strategy",
       "description": "A person using a laptop showing a colorful screen.",
-      "imageUrl": "https://images.unsplash.com/photo-1542744095-291d1f67b221?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx3b3Jrc3BhY2V8ZW58MHx8fHwxNzY0MjM5Mjc1fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1542744095-291d1f67b221?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx3b3Jrc3BhY2V8ZW58MHx8fHwxNzY0MjM5Mjc1fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "workspace laptop"
     },
     {
@@ -363,7 +363,7 @@
     {
       "id": "hospitality-attract",
       "description": "A comfortable hotel lounge area.",
-      "imageUrl": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxob3RlbCUyMHJvb218ZW58MHx8fHwxNzY0MjQxODgyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxob3RlbCUyMHJvb218ZW58MHx8fHwxNzY0MjQxODgyfDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "hotel room"
     }
   ]

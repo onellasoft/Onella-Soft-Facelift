@@ -1,5 +1,6 @@
 
 import Image from 'next/image';
+import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 const partnerLogos = [
   { name: 'Marriott', src: 'https://picsum.photos/seed/marriottlogo/140/40', hint: 'logo text' },
@@ -9,6 +10,7 @@ const partnerLogos = [
   { name: 'Airbnb', src: 'https://picsum.photos/seed/airbnblogo/140/40', hint: 'logo text' },
   { name: 'OpenTable', src: 'https://picsum.photos/seed/opentablelogo/140/40', hint: 'logo text' },
 ];
+
 
 export function HospitalityPartners() {
   return (
