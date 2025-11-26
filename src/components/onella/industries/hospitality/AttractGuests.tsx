@@ -2,7 +2,7 @@
 import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { GlowingCard } from '@/components/ui/glowing-card';
-import { Button } from '@/components/ui/button';
+import { Button as MovingBorderButton } from '@/components/ui/moving-border';
 import { ArrowRight, CheckSquare } from 'lucide-react';
 
 export function AttractGuests() {
@@ -53,9 +53,13 @@ export function AttractGuests() {
                 <span>Proven results for hotels and restaurants to drive more direct bookings</span>
               </li>
             </ul>
-             <Button variant="link" className="text-white mt-6 px-0">
+             <MovingBorderButton
+                containerClassName="h-11 w-auto mt-6"
+                className="bg-transparent text-white px-8"
+                borderRadius="0.5rem"
+              >
                 Explore Solutions <ArrowRight className="ml-2 h-4 w-4" />
-            </Button>
+              </MovingBorderButton>
           </div>
         </div>
       </div>
