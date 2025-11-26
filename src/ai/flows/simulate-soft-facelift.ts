@@ -38,7 +38,7 @@ export async function simulateSoftFacelift(
   return simulateSoftFaceliftFlow(input);
 }
 
-const prompt = ai.definePrompt({
+const simulateSoftFaceliftPrompt = ai.definePrompt({
   name: 'simulateSoftFaceliftPrompt',
   input: {schema: SimulateSoftFaceliftInputSchema},
   output: {schema: SimulateSoftFaceliftOutputSchema},
@@ -49,8 +49,13 @@ const prompt = ai.definePrompt({
 
   Return the enhanced image as a data URI.
 
+  Lift Amount: {{{liftAmount}}}
   Photo: {{media url=photoDataUri}}
 `,
+  model: 'googleai/gemini-2.5-flash-image-preview',
+  config: {
+    responseModalities: ['TEXT', 'IMAGE'],
+  },
 });
 
 const simulateSoftFaceliftFlow = ai.defineFlow(
@@ -60,17 +65,7 @@ const simulateSoftFaceliftFlow = ai.defineFlow(
     outputSchema: SimulateSoftFaceliftOutputSchema,
   },
   async input => {
-    const {media} = await ai.generate({
-      prompt: [
-        {text: prompt.prompt(input).prompt},
-        {media: {url: input.photoDataUri}},
-      ],
-      model: 'googleai/gemini-2.5-flash-image-preview',
-      config: {
-        responseModalities: ['TEXT', 'IMAGE'],
-      },
-    });
-
+    const {media} = await simulateSoftFaceliftPrompt(input);
     return {
       simulatedPhotoDataUri: media.url!,
     };

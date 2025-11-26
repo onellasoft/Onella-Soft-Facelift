@@ -54,18 +54,12 @@ const fineTuneSimulationPrompt = ai.definePrompt({
   name: 'fineTuneSimulationPrompt',
   input: {schema: FineTuneSimulationInputSchema},
   output: {schema: FineTuneSimulationOutputSchema},
-  prompt: [
-    {
-      media: {url: '{{{photoDataUri}}}'},
-    },
-    {
-      text: `You are an AI photo editor specializing in simulating soft facelifts.  You will modify the provided photo based on the slider values.  The slider values range from -1 to 1.
+  prompt: `You are an AI photo editor specializing in simulating soft facelifts. You will modify the provided photo based on the slider values. The slider values range from -1 to 1.
 
 Slider 1 Value: {{{slider1Value}}}
 Slider 2 Value: {{{slider2Value}}}
-Slider 3 Value: {{{slider3Value}}}`,
-    },
-  ],
+Slider 3 Value: {{{slider3Value}}}
+Photo: {{media url=photoDataUri}}`,
   model: 'googleai/gemini-2.5-flash-image-preview',
   config: {
     responseModalities: ['TEXT', 'IMAGE'],
