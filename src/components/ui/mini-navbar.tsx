@@ -27,7 +27,7 @@ const ListItem = React.forwardRef<
           ref={ref}
           href={href}
           className={cn(
-            "block select-none space-y-1 rounded-full p-3 leading-none no-underline outline-none transition-colors hover:bg-neutral-800 hover:text-white focus:bg-neutral-800 focus:text-white whitespace-nowrap",
+            "block select-none space-y-1 rounded-full p-3 leading-none no-underline outline-none transition-colors text-white hover:bg-neutral-800 focus:bg-neutral-800 whitespace-nowrap",
             isActive ? "bg-white/90 text-black hover:bg-white/90 hover:text-black shadow-[0_0_10px_1px_rgba(255,255,255,0.3)]" : "",
             className
           )}
@@ -308,3 +308,5 @@ export function Navbar() {
     </header>
   );
 }
+
+    
