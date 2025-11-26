@@ -18,7 +18,7 @@ export function RealEstateHero() {
       </div>
       <div className="absolute inset-0 bg-black/60"></div>
       <div className="container relative z-10 mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="max-w-3xl mx-auto bg-glass p-8 rounded-lg shadow-2xl">
+        <div className="max-w-3xl mx-auto bg-transparent p-8 rounded-lg">
           <h1 className="text-white text-4xl sm:text-5xl font-bold tracking-tight">
             No 1 digital marketing agency for real estate
           </h1>
