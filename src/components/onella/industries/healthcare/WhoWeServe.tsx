@@ -90,9 +90,6 @@ export function WhoWeServe() {
                                     </li>
                                 ))}
                             </ul>
-                            <Button variant="link" className="text-white px-0">
-                                Read more <ArrowRight className="ml-2 h-4 w-4" />
-                            </Button>
                         </div>
                     </GlowingCard>
                 </motion.div>
