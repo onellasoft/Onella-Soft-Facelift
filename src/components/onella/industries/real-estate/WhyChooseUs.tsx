@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { GlowingCard } from '@/components/ui/glowing-card';
-import { Button } from '@/components/ui/button';
+import { Button as MovingBorderButton } from '@/components/ui/moving-border';
 import { ArrowRight, CheckCircle } from 'lucide-react';
 
 export function WhyChooseUs() {
@@ -35,9 +35,13 @@ export function WhyChooseUs() {
                 <span>Data-driven marketing</span>
               </li>
             </ul>
-             <Button variant="outline" className="mt-6">
+             <MovingBorderButton
+                containerClassName="h-11 w-auto mt-6"
+                className="bg-glass text-white px-8"
+                borderRadius="0.5rem"
+              >
                 Get a Quote
-            </Button>
+              </MovingBorderButton>
           </div>
         </div>
         <div className="flex items-center md:order-2">

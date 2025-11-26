@@ -1,13 +1,13 @@
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 import { Users, FileText, Video } from 'lucide-react';
 import { GlowingCard } from '@/components/ui/glowing-card';
-import { Button } from '@/components/ui/button';
+import { Button as MovingBorderButton } from '@/components/ui/moving-border';
 
 const benefits = [
   {
     icon: <Users className="h-8 w-8 text-white" />,
     title: 'Customized Digital Marketing Campaigns',
-    description: 'We develop custom marketing campaigns based on our clients\' specific requirements to meet their business goals. We are known for our best ROI-driven marketing campaigns.',
+    description: "We develop custom marketing campaigns based on our clients' specific requirements to meet their business goals. We are known for our best ROI-driven marketing campaigns.",
   },
   {
     icon: <FileText className="h-8 w-8 text-white" />,
@@ -50,7 +50,13 @@ export function HowItWorks() {
         ))}
       </div>
        <div className="text-center mt-12">
-        <Button>Get a Quote</Button>
+        <MovingBorderButton
+            containerClassName="h-11 w-auto"
+            className="bg-glass text-white px-8"
+            borderRadius="0.5rem"
+          >
+            Get a Quote
+          </MovingBorderButton>
       </div>
     </section>
   );
