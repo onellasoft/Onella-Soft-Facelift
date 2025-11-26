@@ -14,6 +14,8 @@ import {
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
 import { usePathname } from 'next/navigation';
+import { Button } from './button';
+import { ArrowRight } from 'lucide-react';
 
 const ListItem = React.forwardRef<
   React.ElementRef<"a">,
@@ -96,20 +98,14 @@ export function Navbar() {
   const logoElement = (
     <Link href="/" className="flex items-center gap-2 text-white">
       <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="24"
-        height="24"
+        role="img"
         viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        className="h-6 w-auto"
+        xmlns="http://www.w3.org/2000/svg"
+        className="h-6 w-auto text-white"
+        fill="currentColor"
       >
-        <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
-        <path d="M2 17l10 5 10-5"></path>
-        <path d="M2 12l10 5 10-5"></path>
+        <title>OnellaSoft</title>
+        <path d="M12 0L2.344 6v12L12 24l9.656-6V6L12 0zm-8.312 6.5l8.313-5.25L20.312 6.5l-3.328 2.1-5.031-3.15-4.985 3.15L2.344 6.5zm0 11l8.313 5.25 8.313-5.25v-8.4l-3.328-2.1-4.985 3.15-5.031-3.15-3.281 2.1v8.4zm16.625-9.375L12 13.313l-8.312-5.188L12 3l8.313 5.125z" />
       </svg>
       <span className="font-bold text-lg">OnellaSoft</span>
     </Link>
@@ -182,7 +178,7 @@ export function Navbar() {
 
 
   const desktopNav = (
-    <NavigationMenu onValueChange={(val) => setIsOpen(!!val)}>
+    <NavigationMenu onValueChange={(val) => setIsOpen(!!val)} className="[&>div]:left-auto">
       <NavigationMenuList>
          <NavigationMenuItem>
             <Link href="/" legacyBehavior passHref>
@@ -194,7 +190,7 @@ export function Navbar() {
         <NavigationMenuItem>
           <NavigationMenuTrigger className={cn("bg-transparent text-sm hover:text-white data-[state=open]:text-white rounded-full", isAboutActive ? "bg-white/90 text-black hover:bg-white/90 hover:text-black shadow-[0_0_10px_1px_rgba(255,255,255,0.3)]" : "text-gray-300")}>About</NavigationMenuTrigger>
           <NavigationMenuContent>
-            <ul className="flex flex-col gap-3 p-4">
+            <ul className="flex flex-col gap-3 p-4 bg-black/80 backdrop-blur-md rounded-lg border border-neutral-700">
               {aboutUsComponents.map((component) => (
                 <ListItem
                   key={component.title}
@@ -209,7 +205,7 @@ export function Navbar() {
         <NavigationMenuItem>
           <NavigationMenuTrigger className={cn("bg-transparent text-sm hover:text-white data-[state=open]:text-white rounded-full", isSolutionsActive ? "bg-white/90 text-black hover:bg-white/90 hover:text-black shadow-[0_0_10px_1px_rgba(255,255,255,0.3)]" : "text-gray-300")}>Solutions</NavigationMenuTrigger>
           <NavigationMenuContent>
-            <ul className="flex flex-col gap-3 p-4">
+            <ul className="flex flex-col gap-3 p-4 bg-black/80 backdrop-blur-md rounded-lg border border-neutral-700">
               {solutionsComponents.map((component) => (
                 <ListItem
                   key={component.title}
@@ -224,7 +220,7 @@ export function Navbar() {
         <NavigationMenuItem>
           <NavigationMenuTrigger className={cn("bg-transparent text-sm hover:text-white data-[state=open]:text-white rounded-full", isIndustriesActive ? "bg-white/90 text-black hover:bg-white/90 hover:text-black shadow-[0_0_10px_1px_rgba(255,255,255,0.3)]" : "text-gray-300")}>Industries</NavigationMenuTrigger>
           <NavigationMenuContent>
-            <ul className="flex flex-col gap-3 p-4">
+            <ul className="flex flex-col gap-3 p-4 bg-black/80 backdrop-blur-md rounded-lg border border-neutral-700">
               {industriesComponents.map((component) => (
                 <ListItem
                   key={component.title}
@@ -267,12 +263,12 @@ export function Navbar() {
 
   return (
     <header className={cn(
-      `fixed top-6 left-1/2 -translate-x-1/2 z-50 flex flex-col items-center pl-6 pr-6 py-3 backdrop-blur-sm border border-[#333] bg-[#1f1f1f57] w-[calc(100%-2rem)] sm:w-auto transition-all duration-300 ease-in-out`,
+      `fixed top-6 left-1/2 -translate-x-1/2 z-50 flex flex-col items-center pl-4 pr-2 py-2 backdrop-blur-sm border border-[#333] bg-[#1f1f1f57] w-[calc(100%-2rem)] sm:w-auto transition-all duration-300 ease-in-out`,
       headerShapeClass,
       visible ? 'translate-y-0' : '-translate-y-40'
     )}>
 
-      <div className="flex items-center justify-between w-full gap-x-6 sm:gap-x-8">
+      <div className="flex items-center justify-between w-full gap-x-2 sm:gap-x-4">
         <div className="flex items-center gap-4">
           {logoElement}
         </div>
@@ -280,6 +276,12 @@ export function Navbar() {
         <nav className="hidden sm:flex items-center text-sm">
           {desktopNav}
         </nav>
+
+        <div className="hidden sm:flex items-center">
+            <Button size="sm" className="rounded-full bg-white text-black hover:bg-white/90">
+                Get Started <ArrowRight className="ml-2 h-4 w-4" />
+            </Button>
+        </div>
 
         <button className="sm:hidden flex items-center justify-center w-8 h-8 text-gray-300 focus:outline-none"
                 onClick={toggleMenu}
@@ -303,10 +305,11 @@ export function Navbar() {
               <span className="relative z-10">{link.label}</span>
             </Link>
           ))}
+           <Button size="sm" className="rounded-full bg-white text-black hover:bg-white/90 w-full mt-4">
+                Get Started <ArrowRight className="ml-2 h-4 w-4" />
+            </Button>
         </nav>
       </div>
     </header>
   );
 }
-
-    
