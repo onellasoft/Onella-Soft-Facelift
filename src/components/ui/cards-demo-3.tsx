@@ -1,8 +1,7 @@
 "use client";
-import { animate, motion } from "framer-motion";
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { cn } from "@/lib/utils";
-import { GoCopilot } from "react-icons/go";
+import { motion, AnimatePresence } from "framer-motion";
 
 export default function CardDemo() {
   return (
@@ -10,17 +9,17 @@ export default function CardDemo() {
       <CardSkeletonContainer>
         <Skeleton />
       </CardSkeletonContainer>
-      <CardTitle>Damn good card</CardTitle>
+      <CardTitle>A Standard Card</CardTitle>
       <CardDescription>
-        A card that showcases a set of tools that you use to create your
-        product.
+        This is a standard card component for displaying information.
       </CardDescription>
     </Card>
   );
 }
 
 const Icons = {
-  copilot: (
+  // Placeholder icons
+  icon1: (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="24"
@@ -38,7 +37,7 @@ const Icons = {
       <path d="M12 17.01h.01" />
     </svg>
   ),
-  figma: (
+  icon2: (
     <svg
       width="24"
       height="24"
@@ -141,49 +140,10 @@ const CardSkeletonContainer = ({
   children: React.ReactNode;
   className?: string;
 }) => {
-  const [isHovered, setIsHovered] = useState(false);
-  const iconRef = React.useRef<HTMLDivElement>(null);
-  const containerRef = React.useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    if (!iconRef.current || !containerRef.current) return;
-
-    const icon = iconRef.current;
-    const container = containerRef.current;
-
-    const handleMouseEnter = () => {
-      const { left, top, width, height } =
-        icon.getBoundingClientRect();
-
-      const containerRect = container.getBoundingClientRect();
-
-      const x = left - containerRect.left + width / 2;
-      const y = top - containerRect.top + height / 2;
-      animate(
-        icon,
-        {
-          transform: [
-            "scale(1)",
-            "scale(1.2)",
-            "scale(0.8)",
-            "scale(1.1)",
-            "scale(1)",
-          ],
-        },
-        { duration: 0.5, ease: "easeInOut" }
-      );
-    };
-
-    container.addEventListener("mouseenter", handleMouseEnter);
-
-    return () => {
-      container.removeEventListener("mouseenter", handleMouseEnter);
-    };
-  }, [iconRef, containerRef]);
+  const [isHovered, setIsHovered] = React.useState(false);
 
   return (
     <div
-      ref={containerRef}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
       className={cn(
@@ -191,7 +151,7 @@ const CardSkeletonContainer = ({
         className
       )}
     >
-      <div ref={iconRef}>{children}</div>
+      <div>{children}</div>
       <AnimatePresence>
         {isHovered && <HoveredIcons />}
       </AnimatePresence>
@@ -200,7 +160,7 @@ const CardSkeletonContainer = ({
 };
 
 const HoveredIcons = () => {
-  const icons = [Icons.copilot, Icons.figma];
+  const icons = [Icons.icon1, Icons.icon2];
   return (
     <>
       {icons.map((icon, i) => (
@@ -238,30 +198,4 @@ const HoveredIcons = () => {
       ))}
     </>
   );
-};
-
-const AnimatePresence = ({
-  children,
-}: {
-  children: React.ReactNode;
-}) => {
-  const [present, setPresent] = useState(false);
-  const [show, setShow] = useState(false);
-  let child = React.Children.toArray(children);
-
-  useEffect(() => {
-    if (child.length > 0) {
-      setPresent(true);
-      setTimeout(() => setShow(true), 0);
-    } else {
-      setShow(false);
-      setTimeout(() => setPresent(false), 200);
-    }
-  }, [child.length]);
-
-  return present ? (
-    <div className={cn(show ? "opacity-100" : "opacity-0", "transition-opacity duration-200 flex items-center gap-2")}>
-      {children}
-    </div>
-  ) : null;
 };
