@@ -1,5 +1,5 @@
-# Onella Soft Facelift
+# Firebase Studio
 
-This is a Next.js application that allows users to simulate a soft facelift on their photos using AI.
+This is a NextJS starter in Firebase Studio.
 
-To get started, run `npm run dev` and open http://localhost:9002 in your browser.
+To get started, take a look at src/app/page.tsx.

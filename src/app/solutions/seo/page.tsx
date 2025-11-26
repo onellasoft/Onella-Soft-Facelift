@@ -1,0 +1,27 @@
+import SeoHero from '@/components/ui/seo-hero';
+import { HowItWorks } from '@/components/onella/HowItWorks';
+import { LocalSEO } from '@/components/onella/LocalSEO';
+import { MultilingualSEO } from '@/components/onella/MultilingualSEO';
+import { TechnicalSEO } from '@/components/onella/TechnicalSEO';
+import { SEOReporting } from '@/components/onella/SEOReporting';
+import { GetInTouch } from '@/components/onella/GetInTouch';
+import { Footer } from '@/components/onella/Footer';
+
+export default function SeoPage() {
+  return (
+    <div className="flex flex-col min-h-screen bg-background pt-24">
+      <main className="flex-grow">
+        <SeoHero />
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 space-y-16 md:space-y-24 py-16 md:py-24">
+          <HowItWorks />
+          <LocalSEO />
+          <MultilingualSEO />
+          <TechnicalSEO />
+          <SEOReporting />
+        </div>
+        <GetInTouch />
+      </main>
+      <Footer />
+    </div>
+  );
+}

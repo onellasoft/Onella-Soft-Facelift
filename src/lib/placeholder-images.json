@@ -1,16 +1,226 @@
 {
   "placeholderImages": [
     {
-      "id": "before-placeholder",
-      "description": "A placeholder image for the user's photo before simulation.",
-      "imageUrl": "https://images.unsplash.com/photo-1546961329-78bef0414d7c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2NDA3OTg1Mnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "woman portrait"
+      "id": "what-we-do-seo",
+      "description": "A person holding a lightbulb with SEO concepts floating around it.",
+      "imageUrl": "https://picsum.photos/seed/seo1/600/400",
+      "imageHint": "SEO concept"
     },
     {
-      "id": "after-placeholder",
-      "description": "A placeholder image for the simulated photo.",
-      "imageUrl": "https://images.unsplash.com/photo-1610655507808-a59293f4e332?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2NDA3OTg1Mnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "woman portrait"
+      "id": "what-we-do-performance",
+      "description": "A dashboard showing performance marketing metrics and charts.",
+      "imageUrl": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYXJrZXRpbmclMjBkYXNoYm9hcmR8ZW58MHx8fHwxNzYzOTAwMzk2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "marketing dashboard"
+    },
+    {
+      "id": "what-we-do-social",
+      "description": "A grid of social media icons and engagement metrics.",
+      "imageUrl": "https://images.unsplash.com/photo-1761864293845-90f7ff41739b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MXwxfHNlYXJjaHw4fHxzb2NpYWwlMjBtZWRpYXxlbnwwfHx8fDE3NjM5MDY3NzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "social media"
+    },
+    {
+      "id": "what-we-do-content",
+      "description": "A person writing on a laptop with content ideas flowing out.",
+      "imageUrl": "https://images.unsplash.com/photo-1627244714766-94dab62ed964?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y29udGVudCUyMGNyZWF0aW9ufGVufDB8fHx8MTc2Mzg4ODEyN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "content creation"
+    },
+    {
+      "id": "company-vision",
+      "description": "A colorful brain inside a lightbulb, representing innovation and ideas.",
+      "imageUrl": "https://images.unsplash.com/photo-1589828994474-40c4d27e92c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxpbm5vdmF0aW9uJTIwaWRlYXN8ZW58MHx8fHwxNzYzOTc3NzkwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "innovation ideas"
+    },
+    {
+      "id": "company-mission",
+      "description": "A lightbulb with a glowing brain inside, sitting on a table, representing focus and execution.",
+      "imageUrl": "https://images.unsplash.com/photo-1623077299184-5cc7fd33ea99?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzdHJhdGVnaWMlMjBleGVjdXRpb258ZW58MHx8fHwxNzYzOTc3NzkwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "strategic execution"
+    },
+    {
+      "id": "local-seo-indian-business",
+      "description": "A vibrant Indian market street scene, representing local business.",
+      "imageUrl": "https://images.unsplash.com/flagged/photo-1553617569-8ef7a8da3146?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxJbmRpYW4lMjBtYXJrZXR8ZW58MHx8fHwxNzY0MDY3Nzg2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Indian market"
+    },
+    {
+      "id": "multilingual-seo",
+      "description": "The word WELCOME written in many different languages on a digital screen.",
+      "imageUrl": "https://images.unsplash.com/photo-1706860540919-c41e6532c3b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bXVsdGlsaW5ndWFsJTIwdGV4dHxlbnwwfHx8fDE3NjQwNjc3ODZ8MA&ixlibrb-4.1.0&q=80&w=1080",
+      "imageHint": "multilingual text"
+    },
+    {
+      "id": "technical-seo-audit",
+      "description": "A person holding a magnifying glass over a laptop screen showing an AUDIT icon.",
+      "imageUrl": "https://images.unsplash.com/photo-1686061594183-8c864f508b00?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzZW8lMjBhdWRpdHxlbnwwfHx8fDE3NjQwNjc3ODZ8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "seo audit"
+    },
+    {
+      "id": "seo-reporting-analytics",
+      "description": "A person typing on a laptop with analytics charts and graphs overlaid.",
+      "imageUrl": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxkYXRhJTIwYW5hbHl0aWNzfGVufDB8fHx8MTc2Mzk3Nzk4OHww&ixlibrb-4.1.0&q=80&w=1080",
+      "imageHint": "data analytics"
+    },
+    {
+      "id": "performance-hero",
+      "description": "An abstract 3D ring shape.",
+      "imageUrl": "https://images.unsplash.com/photo-1579548122080-c35fd6820ecb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhYnN0cmFjdCUyMHRlY2h8ZW58MHx8fHwxNzY0MDI0NzM5fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract tech"
+    },
+    {
+      "id": "fb-insta-ads",
+      "description": "A hand holding a smartphone with social media like and heart icons floating out of it.",
+      "imageUrl": "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzb2NpYWwlMjBtZWRpYXxlbnwwfHx8fDE3NjQwMDc1OTl8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "social media"
+    },
+    {
+      "id": "brand-awareness",
+      "description": "A person's hands holding a futuristic transparent phone with glowing orbs coming out of it.",
+      "imageUrl": "https://images.unsplash.com/photo-1720962158937-7ea890052166?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxmdXR1cmlzdGljJTIwdGVjaHxlbnwwfHx8fDE3NjQwNzA2NzF8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "futuristic tech"
+    },
+    {
+      "id": "google-ads",
+      "description": "A person using a laptop with a chart and 'Ads' text hologram floating above it.",
+      "imageUrl": "https://images.unsplash.com/photo-1599658880436-c61792e70672?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZGlnaXRhbCUyMGFkdmVydGlzaW5nfGVufDB8fHx8MTc2NDA3MDY3MXww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "digital advertising"
+    },
+    {
+      "id": "budget-management",
+      "description": "Two people at a desk pointing at a paper with charts and graphs on it.",
+      "imageUrl": "https://images.unsplash.com/photo-1606836591695-4d58a73eba1e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxidXNpbmVzcyUyMG1lZXRpbmd8ZW58MHx8fHwxNzY0MDQwNDI2fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "business meeting"
+    },
+    {
+      "id": "smm-hero",
+      "description": "Abstract network connections with a person in the background.",
+      "imageUrl": "https://images.unsplash.com/photo-1738082956257-06cde4444b1c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxhYnN0cmFjdCUyMG5ldHdvcmt8ZW58MHx8fHwxNzY0MDMxMDY5fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract network"
+    },
+    {
+      "id": "manage-smm",
+      "description": "A hand holding a phone with social media icons floating out of it.",
+      "imageUrl": "https://images.unsplash.com/photo-1579869847557-1f67382cc158?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzb2NpYWwlMjBtZWRpYXxlbnwwfHx8fDE3NjQwMDc1OTl8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "social media"
+    },
+    {
+      "id": "strengthen-brand",
+      "description": "A woman shouting into a megaphone.",
+      "imageUrl": "https://images.unsplash.com/photo-1583593711082-aaa381feb2f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YnJhbmQlMjB2b2ljZXxlbnwwfHx8fDE3NjQwNzM2NjR8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "brand voice"
+    },
+    {
+      "id": "integrated-favorites",
+      "description": "An illustration of a person gardening and growing social media icons.",
+      "imageUrl": "https://images.unsplash.com/photo-1730324947873-058adc7da968?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzb2NpYWwlMjBncm93dGh8ZW58MHx8fHwxNzY0MDczNjY0fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "social growth"
+    },
+    {
+      "id": "content-hero",
+      "description": "An abstract image of a brain inside a lightbulb, representing ideas.",
+      "imageUrl": "https://images.unsplash.com/photo-1621772304863-a65c644cd226?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhYnN0cmFjdCUyMGlkZWFzfGVufDB8fHx8MTc2Mzk3MzYzNHww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract ideas"
+    },
+    {
+      "id": "partner-logo-1",
+      "description": "Placeholder for partner logo 1",
+      "imageUrl": "https://images.unsplash.com/photo-1620288627223-53302f4e8c74?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjb21wYW55JTIwbG9nb3xlbnwwfHx8fDE3NjQwNjc1ODh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "company logo"
+    },
+    {
+      "id": "partner-logo-2",
+      "description": "Placeholder for partner logo 2",
+      "imageUrl": "https://images.unsplash.com/photo-1619551734325-81aaf323686c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjb21wYW55JTIwbG9nb3xlbnwwfHx8fDE3NjQwNjc1ODh8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "company logo"
+    },
+    {
+      "id": "partner-logo-3",
+      "description": "Placeholder for partner logo 3",
+      "imageUrl": "https://images.unsplash.com/photo-1622465911368-72162f8da3e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjb21wYW55JTIwbG9nb3xlbnwwfHx8fDE3NjQwNjc1ODh8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "company logo"
+    },
+    {
+      "id": "partner-logo-4",
+      "description": "Placeholder for partner logo 4",
+      "imageUrl": "https://images.unsplash.com/photo-1549924231-f129b911e442?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjb21wYW55JTIwbG9nb3xlbnwwfHx8fDE3NjQwNjc1ODh8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "company logo"
+    },
+    {
+      "id": "partner-logo-5",
+      "description": "Placeholder for partner logo 5",
+      "imageUrl": "https://images.unsplash.com/photo-1496200186974-4293800e2c20?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjb21wYW55JTIwbG9nb3xlbnwwfHx8fDE3NjQwNjc1ODh8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "company logo"
+    },
+    {
+      "id": "partner-logo-6",
+      "description": "Placeholder for partner logo 6",
+      "imageUrl": "https://images.unsplash.com/photo-1619551734325-81aaf323686c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjb21wYW55JTIwbG9nb3xlbnwwfHx8fDE3NjQwNjc1ODh8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "company logo"
+    },
+    {
+      "id": "social-media-content",
+      "description": "Abstract grid of glowing screens, representing social media content.",
+      "imageUrl": "https://images.unsplash.com/photo-1601200190687-4fec4d91c388?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxkaWdpdGFsJTIwY29udGVudHxlbnwwfHx8fDE3NjQwNzUwNTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "digital content"
+    },
+    {
+      "id": "blog-writing",
+      "description": "A person typing on a laptop, with a focus on writing.",
+      "imageUrl": "https://images.unsplash.com/photo-1762330467151-7f009206db90?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx3cml0aW5nJTIwY29udGVudHxlbnwwfHx8fDE3NjQwNzUwNjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "writing content"
+    },
+    {
+      "id": "seo-content",
+      "description": "A laptop screen showing SEO-related keywords and a graph.",
+      "imageUrl": "https://images.unsplash.com/photo-1686061593213-98dad7c599b9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzZW8lMjBhbmFseXRpY3N8ZW58MHx8fHwxNzY0MDc1MDYwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "seo analytics"
+    },
+    {
+      "id": "website-content",
+      "description": "A person interacting with a futuristic interface showing website code.",
+      "imageUrl": "https://images.unsplash.com/photo-1593720213428-28a5b9e94613?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3ZWIlMjBkZXZlbG9wbWVudHxlbnwwfHx8fDE3NjM5OTkzMTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "web development"
+    },
+    {
+      "id": "web-dev-hero",
+      "description": "An illustration showing a person interacting with a large mobile phone screen, representing digital experiences.",
+      "imageUrl": "https://images.unsplash.com/photo-1483478550801-ceba5fe50e8e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkaWdpdGFsJTIwZXhwZXJpZW5jZXxlbnwwfHx8fDE3NjQwNzUzNTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "digital experience"
+    },
+    {
+      "id": "get-notified",
+      "description": "A dashboard interface showing analytics and charts.",
+      "imageUrl": "https://images.unsplash.com/photo-1748609160056-7b95f30041f0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhbmFseXRpY3MlMjBkYXNoYm9hcmR8ZW58MHx8fHwxNzY0MDU5MDI5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "analytics dashboard"
+    },
+    {
+      "id": "free-consultation",
+      "description": "An illustration of a person sitting at a desk with a computer, working on a chart.",
+      "imageUrl": "https://images.unsplash.com/photo-1656836476760-77c0d09257ce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZGVzayUyMHdvcmt8ZW58MHx8fHwxNzY0MDAxODQ2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "desk work"
+    },
+    {
+      "id": "custom-web-dev",
+      "description": "An illustration of a person at a desk, focused on web development.",
+      "imageUrl": "https://images.unsplash.com/photo-1625035271800-76258e23aaa0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxkZXNrJTIwd29ya3xlbnwwfHx8fDE3NjQwMDE4NDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "desk work"
+    },
+    {
+      "id": "ecom-web-dev",
+      "description": "An illustration of a person at a desk, working on e-commerce solutions.",
+      "imageUrl": "https://images.unsplash.com/photo-1542435503-956c469947f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxkZXNrJTIwd29ya3xlbnwwfHx8fDE3NjQwMDE4NDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "desk work"
+    },
+    {
+      "id": "web-redesign",
+      "description": "An illustration of a person at a desk, redesigning a website.",
+      "imageUrl": "https://images.unsplash.com/photo-1625035271800-76258e23aaa0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxkZXNrJTIwd29ya3xlbnwwfHx8fDE3NjQwMDE4NDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "desk work"
+    },
+    {
+      "id": "post-launch-support",
+      "description": "An illustration of a person at a desk providing support.",
+      "imageUrl": "https://images.unsplash.com/photo-1527689368864-3a821dbccc34?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxkZXNrJTIwd29ya3xlbnwwfHx8fDE3NjQwMDE4NDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "desk work"
     }
   ]
 }

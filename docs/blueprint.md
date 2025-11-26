@@ -1,19 +1,20 @@
-# **App Name**: Onella Soft Facelift
+# **App Name**: OnellaSoft Reimagined
 
 ## Core Features:
 
-- Photo Upload: Allow users to upload a photo of their face.
-- Facelift Simulation: Use AI to simulate the effects of a soft facelift on the uploaded photo.
-- Before/After Display: Display the original and simulated photos side-by-side for comparison.
-- Fine-tuning Controls: Allow users to fine-tune the AI results with simple sliders. The AI will use this input as a tool for later simulations.
-- Download Image: Offer the ability to download the simulated facelift image.
+- Hero Section: Display a full-width hero banner with title, subtitle, and breadcrumb in a glassmorphism container.
+- "Who We Are?" Section: Present a two-column layout with an AI-generated futuristic illustration and descriptive text content.
+- Work Process Section: Showcase the work process with clean, spaced cards and glowing icons, including 'Discover & Understand,' 'Strategize & Plan,' and 'Monitor & Optimize' steps with descriptions. Subtle, short animation for cards.
+- Smooth Section Animations: Apply appear-on-scroll animations to sections using Angular and Tailwind transitions.
+- Responsive Layout: Ensure the layout is fully responsive with a mobile-first approach, utilizing Tailwind utility classes.
 
 ## Style Guidelines:
 
-- Primary color: Soft Lavender (#E6E6FA) for a calming and elegant feel, suggestive of skincare and subtle enhancement.
-- Background color: Light Grey (#F0F0F0), nearly desaturated lavender, to provide a clean backdrop.
-- Accent color: Pale Violet-Red (#D87093), a muted but still relatively saturated and vibrant analogous color for highlighting important UI elements without overwhelming the user.
-- Body and headline font: 'Alegreya', a humanist serif with an elegant, intellectual, contemporary feel.
-- Use simple, minimalist icons to represent controls and actions.
-- Keep the layout clean and uncluttered, focusing on the before/after images.
-- Subtle, smooth transitions for a polished user experience.
+- Primary color: Vibrant purple (#9D4EDD) to evoke a futuristic and modern feel.
+- Background color: Dark gray (#212529) with a hint of purple to complement the primary color.
+- Accent color: Teal (#29ABE2) for CTAs and highlights to provide contrast and visual interest.
+- Headline font: 'Space Grotesk' (sans-serif) for a modern, techy look.
+- Body font: 'Inter' (sans-serif) for readability and a clean feel.
+- Use modern, outlined icons with subtle glowing effects.
+- Implement a clean, minimal layout with ample spacing and visual hierarchy.
+- Add subtle animations on scroll and hover for a futuristic and interactive experience.
