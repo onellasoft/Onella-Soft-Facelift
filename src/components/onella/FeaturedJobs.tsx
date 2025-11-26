@@ -63,7 +63,7 @@ export function FeaturedJobs() {
       </div>
 
       <div className="relative text-center mt-4 flex justify-center items-center py-20">
-        <div className="absolute inset-0 flex items-center justify-center overflow-hidden">
+        {/* <div className="absolute inset-0 flex items-center justify-center overflow-hidden">
           <PulseBeams
             beams={beams}
             gradientColors={gradientColors}
@@ -73,7 +73,7 @@ export function FeaturedJobs() {
             height={200}
             className="pointer-events-none"
           />
-        </div>
+        </div> */}
         <MovingBorderButton
           as="a"
           href="mailto:hr@onellasoft.com"
