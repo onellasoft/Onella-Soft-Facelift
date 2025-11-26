@@ -14,7 +14,7 @@ export function WhoWeAre() {
       <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
         <div className="flex items-center">
           {image && (
-            <GlowingCard className="w-full h-full bg-transparent border-0">
+            <GlowingCard className="w-full h-full bg-transparent">
               <Image
                 src={image.imageUrl}
                 alt={image.description}
