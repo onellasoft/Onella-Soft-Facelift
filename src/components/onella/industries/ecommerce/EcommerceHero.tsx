@@ -30,13 +30,6 @@ export function EcommerceHero() {
             particleColor="#FFFFFF"
             className="w-full h-full"
           />
-          {heroImage && (
-              <div 
-              className="absolute inset-0 bg-cover bg-center opacity-30" 
-              style={{backgroundImage: `url('${heroImage.imageUrl}')`}}
-              data-ai-hint={heroImage.imageHint}
-              ></div>
-          )}
         </div>
 
         <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/60 to-black/90"></div>
