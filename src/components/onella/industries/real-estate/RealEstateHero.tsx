@@ -11,7 +11,7 @@ export function RealEstateHero() {
           background="transparent"
           minSize={0.6}
           maxSize={1.4}
-          particleDensity={100}
+          particleDensity={250}
           particleColor="#FFFFFF"
           className="w-full h-full"
         />
