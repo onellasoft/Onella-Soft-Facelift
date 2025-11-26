@@ -28,15 +28,19 @@ export function RealEstateHero() {
           </p>
           <div className="mt-8 flex items-center justify-center gap-4">
             <MovingBorderButton
-              containerClassName="h-11"
+              containerClassName="h-11 w-auto"
               className="bg-transparent text-white px-8"
               borderRadius="0.5rem"
             >
               Get a Free Proposal
             </MovingBorderButton>
-            <Button variant="outline" className="bg-transparent text-white border-white">
+            <MovingBorderButton
+              containerClassName="h-11 w-auto"
+              className="bg-transparent text-white px-8"
+              borderRadius="0.5rem"
+            >
               Our Process
-            </Button>
+            </MovingBorderButton>
           </div>
         </div>
       </div>
