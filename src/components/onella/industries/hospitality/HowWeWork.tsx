@@ -39,7 +39,7 @@ export function HowWeWork() {
 
       <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
         {steps.map((step, index) => (
-          <GlowingCard key={index} className="bg-transparent border-0 shadow-none h-full transition-all duration-300 flex flex-col text-center">
+          <GlowingCard key={index} className="bg-transparent shadow-none h-full transition-all duration-300 flex flex-col text-center">
               <div className='p-6 flex flex-col items-center'>
                  <div className="h-20 w-20 rounded-lg bg-primary flex items-center justify-center border-4 border-primary/50 mb-4">
                     {step.icon}
