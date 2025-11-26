@@ -50,11 +50,6 @@ export function HowWeWork() {
           </GlowingCard>
         ))}
       </div>
-      <div className="text-center mt-8">
-          <Button variant="link" className="text-white text-lg">
-                Start Your Free Consultation <ArrowRight className="ml-2 h-4 w-4" />
-            </Button>
-      </div>
     </section>
   );
 }
