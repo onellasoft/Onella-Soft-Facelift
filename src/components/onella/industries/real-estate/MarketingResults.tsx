@@ -54,15 +54,6 @@ export function MarketingResults() {
                     <div className='p-6'>
                         <h3 className="font-headline text-xl text-white mt-4">{result.title}</h3>
                         <p className="text-white/80 mt-2 text-sm">{result.description}</p>
-                        <MovingBorderButton
-                            as="a"
-                            href="#"
-                            containerClassName="h-11 w-auto mt-4"
-                            className="bg-transparent text-white px-0"
-                            borderRadius="0.5rem"
-                        >
-                            Explore work <ArrowRight className="ml-2 h-4 w-4" />
-                        </MovingBorderButton>
                     </div>
                 </GlowingCard>
             )
