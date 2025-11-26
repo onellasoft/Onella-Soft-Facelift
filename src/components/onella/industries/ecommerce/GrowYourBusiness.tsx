@@ -33,9 +33,6 @@ export function GrowYourBusiness() {
             <p className="mt-4 text-white">
               At Onella Soft we are more than just a digital marketing agency, we are architects of e-commerce growth. In today's dynamic online marketplace, simply having a product isn't enough. You need to be seen, heard, and desired. We specialize in crafting bespoke digital strategies.
             </p>
-            <Button className="mt-6">
-                Let&apos;s Grow Your Business
-            </Button>
           </div>
         </div>
       </div>

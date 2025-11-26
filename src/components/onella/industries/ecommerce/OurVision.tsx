@@ -20,9 +20,6 @@ export function OurVision() {
             <p className="mt-4 text-white">
               We have deep understanding of the challenges and opportunities within the e-commerce landscape. We witnessed firsthand the struggles businesses faced in cutting through the digital noise and recognized the critical need for a holistic, results-driven approach to online marketing. Our vision is simple yet profound: to be the trusted partner that empowers e-commerce businesses of all sizes - from budding startups to established enterprises.
             </p>
-            <Button variant="outline" className="mt-6">
-                Start Your Journey With Us <ArrowRight className="ml-2 h-4 w-4" />
-            </Button>
           </div>
         </div>
         <div className="flex items-center md:order-2">
