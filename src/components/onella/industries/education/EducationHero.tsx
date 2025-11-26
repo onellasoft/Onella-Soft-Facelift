@@ -1,12 +1,8 @@
-import { Button } from "@/components/ui/button";
+
 import { Button as MovingBorderButton } from "@/components/ui/moving-border";
 import { SparklesCore } from "@/components/ui/sparkles";
-import Image from 'next/image';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 export function EducationHero() {
-  const heroImage = PlaceHolderImages.find(img => img.id === 'education-hero-bg');
-
   return (
     <section className="relative w-full min-h-[70vh] flex items-center justify-center text-center overflow-hidden">
         <div className="absolute inset-0 z-0">
@@ -30,11 +26,13 @@ export function EducationHero() {
             We're a digital marketing agency dedicated to empowering the education sector. We help institutes reach their full potential and connect with the right students.
           </p>
           <div className="mt-8 flex items-center justify-center gap-4">
-             <Button
-              className="bg-white text-black hover:bg-white/90 px-8 h-11"
+             <MovingBorderButton
+              containerClassName="h-11 w-auto"
+              className="bg-primary text-primary-foreground px-8"
+              borderRadius="0.5rem"
             >
               Get Started
-            </Button>
+            </MovingBorderButton>
             <MovingBorderButton
               containerClassName="h-11 w-auto"
               className="bg-transparent text-white px-8"
