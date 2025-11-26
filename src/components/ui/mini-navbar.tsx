@@ -182,7 +182,7 @@ export function Navbar() {
 
 
   const desktopNav = (
-    <NavigationMenu onValueChange={() => setIsOpen(false)}>
+    <NavigationMenu onValueChange={(val) => setIsOpen(!!val)}>
       <NavigationMenuList>
          <NavigationMenuItem>
             <Link href="/" legacyBehavior passHref>
@@ -192,7 +192,7 @@ export function Navbar() {
             </Link>
           </NavigationMenuItem>
         <NavigationMenuItem>
-          <NavigationMenuTrigger onPointerEnter={() => setIsOpen(true)} onPointerLeave={() => setIsOpen(false)} className={cn("bg-transparent text-sm hover:text-white data-[state=open]:text-white rounded-full", isAboutActive ? "bg-white/90 text-black hover:bg-white/90 hover:text-black shadow-[0_0_10px_1px_rgba(255,255,255,0.3)]" : "text-gray-300")}>About</NavigationMenuTrigger>
+          <NavigationMenuTrigger className={cn("bg-transparent text-sm hover:text-white data-[state=open]:text-white rounded-full", isAboutActive ? "bg-white/90 text-black hover:bg-white/90 hover:text-black shadow-[0_0_10px_1px_rgba(255,255,255,0.3)]" : "text-gray-300")}>About</NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="flex flex-col gap-3 p-4">
               {aboutUsComponents.map((component) => (
@@ -207,7 +207,7 @@ export function Navbar() {
           </NavigationMenuContent>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <NavigationMenuTrigger onPointerEnter={() => setIsOpen(true)} onPointerLeave={() => setIsOpen(false)} className={cn("bg-transparent text-sm hover:text-white data-[state=open]:text-white rounded-full", isSolutionsActive ? "bg-white/90 text-black hover:bg-white/90 hover:text-black shadow-[0_0_10px_1px_rgba(255,255,255,0.3)]" : "text-gray-300")}>Solutions</NavigationMenuTrigger>
+          <NavigationMenuTrigger className={cn("bg-transparent text-sm hover:text-white data-[state=open]:text-white rounded-full", isSolutionsActive ? "bg-white/90 text-black hover:bg-white/90 hover:text-black shadow-[0_0_10px_1px_rgba(255,255,255,0.3)]" : "text-gray-300")}>Solutions</NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="flex flex-col gap-3 p-4">
               {solutionsComponents.map((component) => (
@@ -222,7 +222,7 @@ export function Navbar() {
           </NavigationMenuContent>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <NavigationMenuTrigger onPointerEnter={() => setIsOpen(true)} onPointerLeave={() => setIsOpen(false)} className={cn("bg-transparent text-sm hover:text-white data-[state=open]:text-white rounded-full", isIndustriesActive ? "bg-white/90 text-black hover:bg-white/90 hover:text-black shadow-[0_0_10px_1px_rgba(255,255,255,0.3)]" : "text-gray-300")}>Industries</NavigationMenuTrigger>
+          <NavigationMenuTrigger className={cn("bg-transparent text-sm hover:text-white data-[state=open]:text-white rounded-full", isIndustriesActive ? "bg-white/90 text-black hover:bg-white/90 hover:text-black shadow-[0_0_10px_1px_rgba(255,255,255,0.3)]" : "text-gray-300")}>Industries</NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="flex flex-col gap-3 p-4">
               {industriesComponents.map((component) => (
