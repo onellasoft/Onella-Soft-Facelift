@@ -51,7 +51,7 @@
     {
       "id": "technical-seo-audit",
       "description": "A person holding a magnifying glass over a laptop screen showing an AUDIT icon.",
-      "imageUrl": "https://images.unsplash.com/photo-1686061594183-8c864f508b00?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzZW8lMjBhdWRpdHxlbnwwfHx8fDE3NjQwNjc3ODZ8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1686061594183-8c864f508b00?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzZW8lMjBhdWRpdHxlbnwwfHx8fDE3NjQwNjc3ODZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "seo audit"
     },
     {
@@ -63,7 +63,7 @@
     {
       "id": "performance-hero",
       "description": "An abstract 3D ring shape.",
-      "imageUrl": "https://images.unsplash.com/photo-1579548122080-c35fd6820ecb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhYnN0cmFjdCUyMHRlY2h8ZW58MHx8fHwxNzY0MDI0NzM5fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1579548122080-c35fd6820ecb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhYnN0cmFjdCUyMHRlY2h8ZW58MHx8fHwxNzY0MDI0NzM5fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "abstract tech"
     },
     {
@@ -75,7 +75,7 @@
     {
       "id": "brand-awareness",
       "description": "A person's hands holding a futuristic transparent phone with glowing orbs coming out of it.",
-      "imageUrl": "https://images.unsplash.com/photo-1720962158937-7ea890052166?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxmdXR1cmlzdGljJTIwdGVjaHxlbnwwfHx8fDE3NjQwNzA2NzF8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1720962158937-7ea890052166?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxmdXR1cmlzdGljJTIwdGVjaHxlbnwwfHx8fDE3NjQwNzA2NzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "futuristic tech"
     },
     {
@@ -87,7 +87,7 @@
     {
       "id": "budget-management",
       "description": "Two people at a desk pointing at a paper with charts and graphs on it.",
-      "imageUrl": "https://images.unsplash.com/photo-1606836591695-4d58a73eba1e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxidXNpbmVzcyUyMG1lZXRpbmd8ZW58MHx8fHwxNzY0MDQwNDI2fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1606836591695-4d58a73eba1e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxidXNpbmVzcyUyMG1lZXRpbmd8ZW58MHx8fHwxNzY0MDQwNDI2fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "business meeting"
     },
     {
@@ -111,7 +111,7 @@
     {
       "id": "integrated-favorites",
       "description": "An illustration of a person gardening and growing social media icons.",
-      "imageUrl": "https://images.unsplash.com/photo-1730324947873-058adc7da968?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzb2NpYWwlMjBncm93dGh8ZW58MHx8fHwxNzY0MDczNjY0fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1730324947873-058adc7da968?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzb2NpYWwlMjBncm93dGh8ZW58MHx8fHwxNzY0MDczNjY0fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "social growth"
     },
     {
@@ -311,6 +311,30 @@
       "description": "A multi-level apartment building at sunset.",
       "imageUrl": "https://images.unsplash.com/photo-1568474291077-5c4d6f6a7c3b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhcGFydG1lbnQlMjBidWlsZGluZ3xlbnwwfHx8fDE3NjQyMjYwMzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "apartment building"
+    },
+    {
+      "id": "healthcare-hospitals",
+      "description": "A stethoscope and pen on a clipboard with a medical chart.",
+      "imageUrl": "https://images.unsplash.com/photo-1655313719493-16ebe4906441?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtZWRpY2FsJTIwZXF1aXBtZW50fGVufDB8fHx8MTc2NDE1NDUwMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "medical equipment"
+    },
+    {
+      "id": "healthcare-pharma",
+      "description": "A collection of colorful pills, capsules, and a vaccine vial.",
+      "imageUrl": "https://images.unsplash.com/photo-1646392206581-2527b1cae5cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwaWxscyUyMG1lZGljYXRpb258ZW58MHx8fHwxNzY0MTExNjc5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pills medication"
+    },
+    {
+      "id": "healthcare-startups",
+      "description": "A female doctor in a mask and lab coat using a tablet.",
+      "imageUrl": "https://images.unsplash.com/photo-1646392206581-2527b1cae5cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxkb2N0b3IlMjB0YWJsZXR8ZW58MHx8fHwxNzY0MDg4OTU1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "doctor tablet"
+    },
+    {
+      "id": "healthcare-why-choose-us",
+      "description": "A doctor pointing at a futuristic transparent screen showing X-ray images.",
+      "imageUrl": "https://images.unsplash.com/photo-1603286656381-6f04fb84435e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxmdXR1cmlzdGljJTIweHJheXxlbnwwfHx8fDE3NjQxNTQ1MDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "futuristic xray"
     }
   ]
 }
