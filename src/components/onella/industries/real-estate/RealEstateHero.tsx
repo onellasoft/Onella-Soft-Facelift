@@ -1,26 +1,22 @@
 
 import { Button } from "@/components/ui/button";
 import { Button as MovingBorderButton } from "@/components/ui/moving-border";
-import { PlaceHolderImages } from "@/lib/placeholder-images";
-import Image from "next/image";
+import { SparklesCore } from "@/components/ui/sparkles";
 
 export function RealEstateHero() {
-  const heroImage = PlaceHolderImages.find(
-    (img) => img.id === "real-estate-hero"
-  );
-
   return (
     <section className="relative w-full min-h-[80vh] flex items-center justify-start text-left overflow-hidden">
-      {heroImage && (
-        <Image
-          src={heroImage.imageUrl}
-          alt={heroImage.description}
-          fill
-          className="object-cover"
-          data-ai-hint={heroImage.imageHint}
+      <div className="absolute inset-0">
+        <SparklesCore
+          background="transparent"
+          minSize={0.6}
+          maxSize={1.4}
+          particleDensity={100}
+          particleColor="#FFFFFF"
+          className="w-full h-full"
         />
-      )}
-      <div className="absolute inset-0 bg-black/50"></div>
+      </div>
+      <div className="absolute inset-0 bg-black/60"></div>
       <div className="container relative z-10 mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-xl bg-glass p-8 rounded-lg shadow-2xl">
           <h1 className="text-white text-4xl sm:text-5xl font-bold tracking-tight">
