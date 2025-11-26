@@ -49,9 +49,6 @@ export function HowItWorks() {
           </GlowingCard>
         ))}
       </div>
-       <div className="text-center mt-12">
-        <Button size="lg">Ready to Grow Your E-commerce Brand?</Button>
-      </div>
     </section>
   );
 }
