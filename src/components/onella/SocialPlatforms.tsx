@@ -1,3 +1,4 @@
+
 // src/components/onella/SocialPlatforms.tsx
 "use client";
 import { FaGoogle, FaInstagram, FaFacebookF, FaWhatsapp, FaTwitter, FaDribbble } from 'react-icons/fa';
@@ -52,7 +53,7 @@ export function SocialPlatforms() {
             variants={itemVariants}
           >
             {platform.icon}
-          </motion.doc>
+          </motion.div>
         ))}
       </motion.div>
     </section>
