@@ -24,7 +24,7 @@ export function EducationHero() {
 
       <div className="absolute inset-0 bg-black/60"></div>
       <div className="container relative z-10 mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="max-w-3xl mx-auto bg-black/30 backdrop-blur-sm border border-white/20 p-8 rounded-lg">
+        <div className="max-w-3xl mx-auto bg-black/30 backdrop-blur-sm p-8 rounded-lg">
           <h1 className="text-white text-4xl sm:text-5xl font-bold tracking-tight">
             Best Digital Marketing Agency for Educational Institutes
           </h1>
