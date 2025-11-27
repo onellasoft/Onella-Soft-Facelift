@@ -15,6 +15,7 @@ const blogPosts = [
   {
     id: 'blog-healthcare-social-media',
     title: '4 Best Practices to Elevate Your Healthcare Marketing with Social Media',
+    href: '/blogs/healthcare-social-media',
   },
   {
     id: 'blog-gpt4o',
