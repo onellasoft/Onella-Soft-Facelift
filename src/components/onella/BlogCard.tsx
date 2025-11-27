@@ -1,3 +1,4 @@
+
 'use client';
 
 import Image from 'next/image';
@@ -48,9 +49,8 @@ export function BlogCard({
               className="mt-4"
             >
               <MovingBorderButton
-                  containerClassName="h-10 w-auto"
-                  className="bg-transparent text-white px-4 text-sm"
-                  borderRadius="0.5rem"
+                  borderRadius="1.75rem"
+                  className="bg-transparent dark:bg-transparent text-white dark:text-white border-neutral-200 dark:border-slate-800 text-sm h-10 w-36"
                 >
                   Read More <ArrowRight className="ml-2 h-4 w-4" />
                 </MovingBorderButton>
