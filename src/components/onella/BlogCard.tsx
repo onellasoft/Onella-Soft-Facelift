@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { CardContainer, CardBody, CardItem } from '@/components/ui/3d-card';
 import { ArrowRight } from 'lucide-react';
 import Link from 'next/link';
+import { Button as MovingBorderButton } from '@/components/ui/moving-border';
 
 interface BlogCardProps {
   title: string;
@@ -44,9 +45,15 @@ export function BlogCard({
             </CardItem>
             <CardItem
               translateZ="40"
-              className="mt-4 text-sm font-normal text-neutral-400 flex items-center group-hover/card:text-accent transition-colors"
+              className="mt-4"
             >
-              Read More <ArrowRight className="ml-2 h-4 w-4" />
+              <MovingBorderButton
+                  containerClassName="h-10 w-auto"
+                  className="bg-transparent text-white px-4 text-sm"
+                  borderRadius="0.5rem"
+                >
+                  Read More <ArrowRight className="ml-2 h-4 w-4" />
+                </MovingBorderButton>
             </CardItem>
           </div>
         </Link>
