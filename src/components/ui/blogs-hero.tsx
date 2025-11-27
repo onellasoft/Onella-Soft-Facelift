@@ -22,7 +22,7 @@ export function BlogsHero() {
                 <ChevronRight className="h-4 w-4 text-white" />
                 <span className="text-white">BLOGS</span>
             </div>
-            <h1 className="mt-4 font-headline text-4xl font-bold tracking-tight text-white sm:text-6xl">
+            <h1 className="text-white text-4xl sm:text-5xl font-bold tracking-tight">
                 From the OnellaSoft Blog
             </h1>
             <p className="mt-6 text-lg leading-8 text-white">
