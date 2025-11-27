@@ -3,7 +3,7 @@
 import { zodResolver } from '@hookform/resolvers/zod';
 import { useForm } from 'react-hook-form';
 import { z } from 'zod';
-import { Button } from '@/components/ui/button';
+import { Button as MovingBorderButton } from '@/components/ui/moving-border';
 import {
   Form,
   FormControl,
@@ -66,6 +66,7 @@ const contactDetails = [
 ];
 
 export default function SupportPage() {
+  const { toast } = useToast();
   const form = useForm<z.infer<typeof FormSchema>>({
     resolver: zodResolver(FormSchema),
     defaultValues: {
@@ -195,9 +196,16 @@ export default function SupportPage() {
                                 </FormItem>
                             )}
                             />
-                            <Button type="submit" className="w-full bg-primary text-primary-foreground text-lg py-6 mt-4 hover:bg-primary/90">
-                            Send Message
-                            </Button>
+                            <MovingBorderButton
+                              type="submit"
+                              as="button"
+                              containerClassName="w-full h-14"
+                              borderRadius="0.5rem"
+                              borderClassName="bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]"
+                              className="w-full bg-primary text-primary-foreground text-lg"
+                            >
+                              Send Message
+                            </MovingBorderButton>
                         </form>
                         </Form>
                     </div>
