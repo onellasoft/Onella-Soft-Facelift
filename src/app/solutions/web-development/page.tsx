@@ -6,7 +6,7 @@ import { CustomWebDev } from '@/components/onella/CustomWebDev';
 import { EcommerceWebDev } from '@/components/onella/EcommerceWebDev';
 import { WebsiteRedesign } from '@/components/onella/WebsiteRedesign';
 import { PostLaunchSupport } from '@/components/onella/PostLaunchSupport';
-import { WebTechnologies } from '@/components/onella/WebTechnologies';
+import OrbitingSkills from '@/components/ui/orbiting-skills';
 import { Footer } from '@/components/onella/Footer';
 import { GetInTouch } from '@/components/onella/GetInTouch';
 
@@ -23,7 +23,7 @@ export default function WebDevelopmentPage() {
           <EcommerceWebDev />
           <WebsiteRedesign />
           <PostLaunchSupport />
-          <WebTechnologies />
+          <OrbitingSkills />
         </div>
         <GetInTouch />
       </main>
