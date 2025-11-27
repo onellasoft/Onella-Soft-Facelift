@@ -29,7 +29,7 @@ const ListItem = React.forwardRef<
           ref={ref}
           href={href}
           className={cn(
-            "block select-none space-y-1 rounded-full p-3 leading-none no-underline outline-none transition-colors text-white hover:bg-neutral-800 focus:bg-neutral-800 whitespace-nowrap",
+            "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors text-white hover:bg-neutral-800 focus:bg-neutral-800 whitespace-nowrap",
             isActive ? "bg-white/90 text-black hover:bg-white/90 hover:text-black shadow-[0_0_10px_1px_rgba(255,255,255,0.3)]" : "",
             className
           )}
@@ -190,7 +190,7 @@ export function Navbar() {
         <NavigationMenuItem>
           <NavigationMenuTrigger className={cn("bg-transparent text-sm hover:text-white data-[state=open]:text-white rounded-full", isAboutActive ? "bg-white/90 text-black hover:bg-white/90 hover:text-black shadow-[0_0_10px_1px_rgba(255,255,255,0.3)]" : "text-gray-300")}>About</NavigationMenuTrigger>
           <NavigationMenuContent>
-            <ul className="flex flex-col gap-3 p-4 bg-black/80 backdrop-blur-md rounded-lg border border-neutral-700">
+            <ul className="flex flex-col gap-3 p-4 bg-neutral-950/90 backdrop-blur-md rounded-lg border border-neutral-700">
               {aboutUsComponents.map((component) => (
                 <ListItem
                   key={component.title}
@@ -205,7 +205,7 @@ export function Navbar() {
         <NavigationMenuItem>
           <NavigationMenuTrigger className={cn("bg-transparent text-sm hover:text-white data-[state=open]:text-white rounded-full", isSolutionsActive ? "bg-white/90 text-black hover:bg-white/90 hover:text-black shadow-[0_0_10px_1px_rgba(255,255,255,0.3)]" : "text-gray-300")}>Solutions</NavigationMenuTrigger>
           <NavigationMenuContent>
-            <ul className="flex flex-col gap-3 p-4 bg-black/80 backdrop-blur-md rounded-lg border border-neutral-700">
+            <ul className="flex flex-col gap-3 p-4 bg-neutral-950/90 backdrop-blur-md rounded-lg border border-neutral-700">
               {solutionsComponents.map((component) => (
                 <ListItem
                   key={component.title}
@@ -220,7 +220,7 @@ export function Navbar() {
         <NavigationMenuItem>
           <NavigationMenuTrigger className={cn("bg-transparent text-sm hover:text-white data-[state=open]:text-white rounded-full", isIndustriesActive ? "bg-white/90 text-black hover:bg-white/90 hover:text-black shadow-[0_0_10px_1px_rgba(255,255,255,0.3)]" : "text-gray-300")}>Industries</NavigationMenuTrigger>
           <NavigationMenuContent>
-            <ul className="flex flex-col gap-3 p-4 bg-black/80 backdrop-blur-md rounded-lg border border-neutral-700">
+            <ul className="flex flex-col gap-3 p-4 bg-neutral-950/90 backdrop-blur-md rounded-lg border border-neutral-700">
               {industriesComponents.map((component) => (
                 <ListItem
                   key={component.title}
@@ -277,12 +277,6 @@ export function Navbar() {
           {desktopNav}
         </nav>
 
-        <div className="hidden sm:flex items-center">
-            <Button size="sm" className="rounded-full bg-white text-black hover:bg-white/90">
-                Get Started <ArrowRight className="ml-2 h-4 w-4" />
-            </Button>
-        </div>
-
         <button className="sm:hidden flex items-center justify-center w-8 h-8 text-gray-300 focus:outline-none"
                 onClick={toggleMenu}
                 aria-label={isOpen ? 'Close Menu' : 'Open Menu'}>
@@ -305,9 +299,6 @@ export function Navbar() {
               <span className="relative z-10">{link.label}</span>
             </Link>
           ))}
-           <Button size="sm" className="rounded-full bg-white text-black hover:bg-white/90 w-full mt-4">
-                Get Started <ArrowRight className="ml-2 h-4 w-4" />
-            </Button>
         </nav>
       </div>
     </header>
