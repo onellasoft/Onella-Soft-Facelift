@@ -49,9 +49,6 @@ export function SocialMediaContent() {
                 <span>We provide a well-defined content strategy, ensuring consistency, not just to post.</span>
               </li>
             </ul>
-             <Button variant="link" className="text-white mt-4 px-0">
-                Get Started <ArrowRight className="ml-2 h-4 w-4" />
-            </Button>
           </div>
         </div>
       </div>

@@ -49,9 +49,6 @@ export function SeoContentWriting() {
                 <span>Well-written SEO content can attract leads and convert them into customers.</span>
               </li>
             </ul>
-             <Button variant="link" className="text-white mt-4 px-0">
-                Get Started <ArrowRight className="ml-2 h-4 w-4" />
-            </Button>
           </div>
         </div>
       </div>

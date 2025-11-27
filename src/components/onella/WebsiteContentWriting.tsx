@@ -49,9 +49,6 @@ export function WebsiteContentWriting() {
                 <span>We provide professional content writing services, SEO content, and translation services for effective communication, maximum reach.</span>
               </li>
             </ul>
-            <Button variant="link" className="text-white mt-4 px-0">
-                Get Started <ArrowRight className="ml-2 h-4 w-4" />
-            </Button>
           </div>
         </div>
       </div>
