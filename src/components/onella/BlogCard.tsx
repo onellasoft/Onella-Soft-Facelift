@@ -4,8 +4,8 @@
 import Image from 'next/image';
 import { ArrowRight } from 'lucide-react';
 import Link from 'next/link';
-import { Button as MovingBorderButton } from '@/components/ui/moving-border';
-import { Card, CardContent } from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
+import { Card } from '@/components/ui/card';
 
 interface BlogCardProps {
   title: string;
@@ -42,14 +42,9 @@ export function BlogCard({
               <div
               className="mt-4"
             >
-              <MovingBorderButton
-                containerClassName="h-11 w-auto"
-                className="bg-white text-black px-8"
-                borderClassName="bg-[conic-gradient(from_90deg_at_50%_50%,#fff_0%,#fff_50%,#fff_100%)]"
-                borderRadius="0.5rem"
-              >
+              <Button variant="outline" className="text-white">
                   Read More <ArrowRight className="ml-2 h-4 w-4" />
-              </MovingBorderButton>
+              </Button>
             </div>
           </div>
         </Link>
