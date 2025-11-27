@@ -206,6 +206,7 @@ export default function SupportPage() {
                             allowFullScreen={false}
                             loading="lazy"
                             referrerPolicy="no-referrer-when-downgrade"
+                            className="map-dark-theme"
                         ></iframe>
                     </div>
                 </div>
