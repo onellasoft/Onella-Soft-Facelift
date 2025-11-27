@@ -190,7 +190,7 @@ export default function SupportPage() {
                               containerClassName="w-full h-14"
                               borderRadius="0.5rem"
                               borderClassName="bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]"
-                              className="w-full bg-primary text-primary-foreground text-lg"
+                              className="w-full bg-primary text-primary-foreground text-lg px-8"
                             >
                               Send Message
                             </MovingBorderButton>
