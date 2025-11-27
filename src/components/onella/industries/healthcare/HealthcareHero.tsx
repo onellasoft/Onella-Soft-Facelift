@@ -1,6 +1,7 @@
 
 import { Button as MovingBorderButton } from "@/components/ui/moving-border";
 import { SparklesCore } from "@/components/ui/sparkles";
+import { ChevronRight } from "lucide-react";
 
 export function HealthcareHero() {
   return (
@@ -18,6 +19,13 @@ export function HealthcareHero() {
       <div className="absolute inset-0 bg-black/60"></div>
       <div className="container relative z-10 mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto p-8 rounded-lg">
+           <div className="flex items-center justify-center gap-1 text-sm font-medium text-white mb-4">
+            <span>HOME</span>
+            <ChevronRight className="h-4 w-4 text-white" />
+            <span>INDUSTRIES</span>
+            <ChevronRight className="h-4 w-4 text-white" />
+            <span className="text-white">HEALTHCARE</span>
+          </div>
           <h1 className="text-white text-4xl sm:text-5xl font-bold tracking-tight">
             Empowering Healthcare Through Strategic Digital Marketing
           </h1>

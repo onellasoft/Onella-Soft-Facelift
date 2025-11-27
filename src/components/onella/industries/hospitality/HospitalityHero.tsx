@@ -4,6 +4,7 @@ import { Button as MovingBorderButton } from "@/components/ui/moving-border";
 import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { SparklesCore } from "@/components/ui/sparkles";
+import { ChevronRight } from "lucide-react";
 
 export function HospitalityHero() {
   const heroImage = PlaceHolderImages.find(img => img.id === 'hospitality-hero');
@@ -22,6 +23,13 @@ export function HospitalityHero() {
       <div className="absolute inset-0 bg-black/60"></div>
       <div className="container relative z-10 mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto p-8 rounded-lg">
+          <div className="flex items-center justify-center gap-1 text-sm font-medium text-white mb-4">
+            <span>HOME</span>
+            <ChevronRight className="h-4 w-4 text-white" />
+            <span>INDUSTRIES</span>
+            <ChevronRight className="h-4 w-4 text-white" />
+            <span className="text-white">HOSPITALITY</span>
+          </div>
           <h1 className="text-white text-4xl sm:text-5xl font-bold tracking-tight">
             Expert Digital Marketing Solutions for Hotels, Travel, and Hospitality
           </h1>

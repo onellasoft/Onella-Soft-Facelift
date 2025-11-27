@@ -35,6 +35,13 @@ export function EcommerceHero() {
         <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/60 to-black/90"></div>
 
         <div className="relative z-20 max-w-3xl mx-auto px-6">
+          <div className="flex items-center justify-center gap-1 text-sm font-medium text-white mb-4">
+            <span>HOME</span>
+            <ChevronRight className="h-4 w-4 text-white" />
+            <span>INDUSTRIES</span>
+            <ChevronRight className="h-4 w-4 text-white" />
+            <span className="text-white">E-COMMERCE</span>
+          </div>
           <h1 className="text-white text-4xl sm:text-5xl font-bold tracking-tight">
             Premium Digital Marketing Solutions for E-commerce Businesses
           </h1>

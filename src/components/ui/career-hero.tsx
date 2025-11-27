@@ -15,6 +15,8 @@ export default function CareerHero() {
         />
       </div>
 
+      <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/50 to-black/90"></div>
+
       <div className="relative z-20 max-w-3xl mx-auto px-6">
         <div className="flex items-center justify-center gap-1 text-sm font-medium text-white mb-4">
           <span>HOME</span>
