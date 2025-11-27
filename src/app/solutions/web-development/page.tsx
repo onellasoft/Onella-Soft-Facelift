@@ -23,6 +23,8 @@ export default function WebDevelopmentPage() {
           <EcommerceWebDev />
           <WebsiteRedesign />
           <PostLaunchSupport />
+        </div>
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 mb-16 md:mb-24">
           <OrbitingSkills />
         </div>
         <GetInTouch />
