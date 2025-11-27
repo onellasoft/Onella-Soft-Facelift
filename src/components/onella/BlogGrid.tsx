@@ -30,6 +30,7 @@ const blogPosts = [
   {
     id: 'blog-ecommerce-seo',
     title: 'How Digital Marketing Fuels Your E-commerce Business',
+    href: '/blogs/ecommerce-seo',
   },
   {
     id: 'blog-seo-ux',
