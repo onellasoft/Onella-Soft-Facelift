@@ -35,6 +35,7 @@ const blogPosts = [
   {
     id: 'blog-seo-ux',
     title: "Why SEO & UX Are Your Website's Dream Team",
+    href: '/blogs/seo-ux',
   },
   {
     id: 'blog-product-photography',
