@@ -20,6 +20,7 @@ const blogPosts = [
   {
     id: 'blog-gpt4o',
     title: "Chat GPT-4o: OpenAI's Next-Generation AI",
+    href: '/blogs/gpt-4o',
   },
   {
     id: 'blog-healthcare-revolution',
