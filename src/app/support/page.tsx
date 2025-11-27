@@ -123,7 +123,7 @@ export default function SupportPage() {
                                 </FormLabel>
                                 <FormControl>
                                     <Input placeholder="Email :" {...field} className="bg-background/50 border-white/20"/>
-                               - </FormControl>
+                                </FormControl>
                                 <FormMessage />
                                 </FormItem>
                             )}
