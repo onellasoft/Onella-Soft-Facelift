@@ -119,19 +119,7 @@ export default function SupportPage() {
 
         <section className="py-16 md:py-24">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="grid md:grid-cols-3 gap-8 text-center mb-16">
-                    {contactDetails.map((detail, index) => (
-                        <div key={index} className="bg-card/30 p-8 rounded-2xl flex flex-col items-center">
-                            <div className="h-16 w-16 bg-primary/20 rounded-full flex items-center justify-center border border-primary/50 mb-4">
-                                {detail.icon}
-                            </div>
-                            <h3 className="font-headline text-xl font-bold text-white mb-2">{detail.title}</h3>
-                            <p className="text-white/70 text-sm mb-4 flex-grow">{detail.description}</p>
-                            <a href={detail.href} className="text-accent font-semibold hover:underline" target="_blank" rel="noopener noreferrer">{detail.value}</a>
-                        </div>
-                    ))}
-                </div>
-                <div className="grid md:grid-cols-2 gap-12 items-start">
+                <div className="grid md:grid-cols-2 gap-12 items-start mb-16">
                     <div className="bg-card/30 p-8 rounded-2xl">
                         <h2 className="font-headline text-3xl font-bold text-white mb-8">Get In Touch !</h2>
                         <Form {...form}>
@@ -220,6 +208,18 @@ export default function SupportPage() {
                             referrerPolicy="no-referrer-when-downgrade"
                         ></iframe>
                     </div>
+                </div>
+                <div className="grid md:grid-cols-3 gap-8 text-center mt-16">
+                    {contactDetails.map((detail, index) => (
+                        <div key={index} className="bg-card/30 p-8 rounded-2xl flex flex-col items-center">
+                            <div className="h-16 w-16 bg-primary/20 rounded-full flex items-center justify-center border border-primary/50 mb-4">
+                                {detail.icon}
+                            </div>
+                            <h3 className="font-headline text-xl font-bold text-white mb-2">{detail.title}</h3>
+                            <p className="text-white/70 text-sm mb-4 flex-grow">{detail.description}</p>
+                            <a href={detail.href} className="text-accent font-semibold hover:underline" target="_blank" rel="noopener noreferrer">{detail.value}</a>
+                        </div>
+                    ))}
                 </div>
             </div>
         </section>
