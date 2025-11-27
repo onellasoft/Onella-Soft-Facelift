@@ -49,11 +49,12 @@ export function BlogCard({
               className="mt-4"
             >
               <MovingBorderButton
-                  borderRadius="1.75rem"
-                  className="bg-transparent dark:bg-transparent text-white dark:text-white border-neutral-200 dark:border-slate-800 text-sm h-10 w-36"
-                >
+                containerClassName="h-11 w-36"
+                className="bg-transparent text-white text-sm"
+                borderRadius="0.5rem"
+              >
                   Read More <ArrowRight className="ml-2 h-4 w-4" />
-                </MovingBorderButton>
+              </MovingBorderButton>
             </CardItem>
           </div>
         </Link>
