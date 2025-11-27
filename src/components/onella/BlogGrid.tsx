@@ -25,6 +25,7 @@ const blogPosts = [
   {
     id: 'blog-healthcare-revolution',
     title: 'How Digital Marketing is Revolutionizing the Healthcare Industry',
+    href: '/blogs/healthcare-revolution',
   },
   {
     id: 'blog-ecommerce-seo',
