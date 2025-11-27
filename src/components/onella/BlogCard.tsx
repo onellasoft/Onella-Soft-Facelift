@@ -49,8 +49,8 @@ export function BlogCard({
               className="mt-4"
             >
               <MovingBorderButton
-                containerClassName="h-11 w-36"
-                className="bg-transparent text-white text-sm"
+                containerClassName="h-11 w-auto"
+                className="bg-transparent text-white px-8"
                 borderRadius="0.5rem"
               >
                   Read More <ArrowRight className="ml-2 h-4 w-4" />
