@@ -2,10 +2,10 @@
 'use client';
 
 import Image from 'next/image';
-import { CardContainer, CardBody, CardItem } from '@/components/ui/3d-card';
 import { ArrowRight } from 'lucide-react';
 import Link from 'next/link';
 import { Button as MovingBorderButton } from '@/components/ui/moving-border';
+import { Card, CardContent } from '@/components/ui/card';
 
 interface BlogCardProps {
   title: string;
@@ -23,10 +23,8 @@ export function BlogCard({
   href = '#',
 }: BlogCardProps) {
   return (
-    <CardContainer containerClassName="p-0">
-      <CardBody className="bg-transparent w-full h-auto group/card rounded-xl">
+    <Card className="bg-transparent w-full h-auto group/card rounded-xl border-0 p-0">
         <Link href={href} className="block">
-          <CardItem translateZ="50" className="w-full">
             <Image
               src={imageUrl}
               height="400"
@@ -35,17 +33,13 @@ export function BlogCard({
               className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
               alt={imageAlt}
             />
-          </CardItem>
           <div className="p-4">
-            <CardItem
-              as="h3"
-              translateZ="60"
+              <h3
               className="text-lg font-semibold tracking-wide text-white mt-2"
             >
               {title}
-            </CardItem>
-            <CardItem
-              translateZ="40"
+            </h3>
+              <div
               className="mt-4"
             >
               <MovingBorderButton
@@ -56,10 +50,9 @@ export function BlogCard({
               >
                   Read More <ArrowRight className="ml-2 h-4 w-4" />
               </MovingBorderButton>
-            </CardItem>
+            </div>
           </div>
         </Link>
-      </CardBody>
-    </CardContainer>
+    </Card>
   );
 }
