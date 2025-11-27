@@ -50,7 +50,8 @@ export function BlogCard({
             >
               <MovingBorderButton
                 containerClassName="h-11 w-auto"
-                className="bg-transparent text-white px-8"
+                className="bg-white text-black"
+                borderClassName="bg-[conic-gradient(from_90deg_at_50%_50%,#fff_0%,#fff_50%,#fff_100%)]"
                 borderRadius="0.5rem"
               >
                   Read More <ArrowRight className="ml-2 h-4 w-4" />
