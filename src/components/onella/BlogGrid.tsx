@@ -1,3 +1,4 @@
+
 import { BlogCard } from './BlogCard';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 
@@ -40,6 +41,7 @@ const blogPosts = [
   {
     id: 'blog-product-photography',
     title: 'The Power of Professional Product Photography: Sell More, Look Better!',
+    href: '/blogs/product-photography',
   },
 ];
 
