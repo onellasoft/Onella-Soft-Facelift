@@ -10,6 +10,7 @@ const blogPosts = [
   {
     id: 'blog-ai-tools',
     title: 'Unleashing the Power of AI: The Best AI Tools for Digital Marketing in 2025',
+    href: '/blogs/ai-tools-for-digital-marketing',
   },
   {
     id: 'blog-healthcare-social-media',
