@@ -5,6 +5,7 @@ const blogPosts = [
   {
     id: 'blog-industrial-marketing',
     title: '4 Reasons Why Digital Marketing For Industrial Products Is So Powerful',
+    href: '/blogs/industrial-marketing',
   },
   {
     id: 'blog-ai-tools',
@@ -51,6 +52,7 @@ export function BlogGrid() {
           imageUrl={post.image.imageUrl}
           imageAlt={post.image.description}
           imageHint={post.image.imageHint}
+          href={post.href}
         />
       ))}
     </div>
