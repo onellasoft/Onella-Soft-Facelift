@@ -182,8 +182,8 @@ export function Navbar() {
       <NavigationMenuList>
          <NavigationMenuItem>
             <Link href="/" legacyBehavior passHref>
-              <NavigationMenuLink asChild>
-                <a className={cn(navigationMenuTriggerStyle(), "bg-transparent text-sm hover:text-white rounded-full", pathname === "/" ? "bg-white/90 text-black hover:bg-white/90 hover:text-black shadow-[0_0_10px_1px_rgba(255,255,255,0.3)]" : "text-gray-300")}>Home</a>
+              <NavigationMenuLink className={cn(navigationMenuTriggerStyle(), "bg-transparent text-sm hover:text-white rounded-full", pathname === "/" ? "bg-white/90 text-black hover:bg-white/90 hover:text-black shadow-[0_0_10px_1px_rgba(255,255,255,0.3)]" : "text-gray-300")}>
+                Home
               </NavigationMenuLink>
             </Link>
           </NavigationMenuItem>
@@ -234,15 +234,15 @@ export function Navbar() {
         </NavigationMenuItem>
         <NavigationMenuItem>
             <Link href="/blogs" legacyBehavior passHref>
-              <NavigationMenuLink asChild>
-                <a className={cn(navigationMenuTriggerStyle(), "bg-transparent text-sm hover:text-white rounded-full", pathname === "/blogs" ? "bg-white/90 text-black hover:bg-white/90 hover:text-black shadow-[0_0_10px_1px_rgba(255,255,255,0.3)]" : "text-gray-300")}>Blogs</a>
+              <NavigationMenuLink className={cn(navigationMenuTriggerStyle(), "bg-transparent text-sm hover:text-white rounded-full", pathname === "/blogs" ? "bg-white/90 text-black hover:bg-white/90 hover:text-black shadow-[0_0_10px_1px_rgba(255,255,255,0.3)]" : "text-gray-300")}>
+                Blogs
               </NavigationMenuLink>
             </Link>
         </NavigationMenuItem>
          <NavigationMenuItem>
             <Link href="/support" legacyBehavior passHref>
-              <NavigationMenuLink asChild>
-                <a className={cn(navigationMenuTriggerStyle(), "bg-transparent text-sm hover:text-white rounded-full", pathname === "/support" ? "bg-white/90 text-black hover:bg-white/90 hover:text-black shadow-[0_0_10px_1px_rgba(255,255,255,0.3)]" : "text-gray-300")}>Support</a>
+              <NavigationMenuLink className={cn(navigationMenuTriggerStyle(), "bg-transparent text-sm hover:text-white rounded-full", pathname === "/support" ? "bg-white/90 text-black hover:bg-white/90 hover:text-black shadow-[0_0_10px_1px_rgba(255,255,255,0.3)]" : "text-gray-300")}>
+                Support
               </NavigationMenuLink>
             </Link>
         </NavigationMenuItem>
@@ -304,5 +304,7 @@ export function Navbar() {
     </header>
   );
 }
+
+    
 
     
