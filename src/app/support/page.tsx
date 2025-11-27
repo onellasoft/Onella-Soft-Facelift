@@ -61,7 +61,7 @@ const contactDetails = [
         title: 'Location',
         description: 'Office No - 401, sanskruti enclave, Chilekar Nagar, Vishnu Dev Nagar, Wakad, pune, Pimpri-Chinchwad, Maharashtra 411057',
         value: 'View on Google map',
-        href: 'https://goo.gl/maps/example',
+        href: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3781.4988903683534!2d73.77210537386145!3d18.596617366849493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8a16d41ba8ebfc67%3A0xc944b0e5befaf10d!2sOnella%20Soft!5e0!3m2!1sen!2sin!4v1764238732465!5m2!1sen!2sin',
     },
 ];
 
@@ -199,7 +199,7 @@ export default function SupportPage() {
                     </div>
                     <div className="w-full h-[400px] md:h-full rounded-2xl overflow-hidden">
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.1691942044813!2d73.78498877527663!3d18.58810218253724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b91873115457%3A0x13c72f3e83de3551!2sOnella%20Soft!5e0!3m2!1sen!2sin!4v1722421379103!5m2!1sen!2sin"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3781.4988903683534!2d73.77210537386145!3d18.596617366849493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8a16d41ba8ebfc67%3A0xc944b0e5befaf10d!2sOnella%20Soft!5e0!3m2!1sen!2sin!4v1764238732465!5m2!1sen!2sin"
                             width="100%"
                             height="100%"
                             style={{ border: 0 }}
