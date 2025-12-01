@@ -16,18 +16,20 @@ export function ServicesTimeline() {
 
           <div className="grid grid-cols-2 gap-4">
             <Image
-              src="https://images.unsplash.com/photo-1562577309-2592ab84b1bc"
+              src="https://picsum.photos/seed/seostrategy/500/500"
               alt="SEO strategy"
               width={500}
               height={500}
               className="rounded-lg object-cover h-32 md:h-44 w-full shadow"
+              data-ai-hint="SEO strategy"
             />
             <Image
-              src="https://images.unsplash.com/photo-1556761175-4b46a572b786"
+              src="https://picsum.photos/seed/seoanalytics/500/500"
               alt="SEO analytics"
               width={500}
               height={500}
               className="rounded-lg object-cover h-32 md:h-44 w-full shadow"
+              data-ai-hint="SEO analytics"
             />
           </div>
         </div>
@@ -44,18 +46,20 @@ export function ServicesTimeline() {
 
           <div className="grid grid-cols-2 gap-4">
             <Image
-              src="https://images.unsplash.com/photo-1556767576-cf2cdeb4f1fd"
+              src="https://picsum.photos/seed/performancedashboard/500/500"
               alt="Performance marketing dashboard"
               width={500}
               height={500}
               className="rounded-lg object-cover h-32 md:h-44 w-full shadow"
+              data-ai-hint="marketing dashboard"
             />
             <Image
-              src="https://images.unsplash.com/photo-1460925895917-afdab827c52f"
+              src="https://picsum.photos/seed/digitalads/500/500"
               alt="Digital ads"
               width={500}
               height={500}
               className="rounded-lg object-cover h-32 md:h-44 w-full shadow"
+              data-ai-hint="digital ads"
             />
           </div>
         </div>
@@ -72,18 +76,20 @@ export function ServicesTimeline() {
 
           <div className="grid grid-cols-2 gap-4">
             <Image
-              src="https://images.unsplash.com/photo-1474631245212-32dc3c8310c6"
+              src="https://picsum.photos/seed/socialplanning/500/500"
               alt="Social media planning"
               width={500}
               height={500}
               className="rounded-lg object-cover h-32 md:h-44 w-full shadow"
+              data-ai-hint="social media"
             />
             <Image
-              src="https://images.unsplash.com/photo-1557838923-2985c318be48"
+              src="https://picsum.photos/seed/socialmarketing/500/500"
               alt="Social media marketing"
               width={500}
               height={500}
               className="rounded-lg object-cover h-32 md:h-44 w-full shadow"
+              data-ai-hint="social media"
             />
           </div>
         </div>
@@ -100,18 +106,20 @@ export function ServicesTimeline() {
 
           <div className="grid grid-cols-2 gap-4">
             <Image
-              src="https://images.unsplash.com/photo-1522199710521-72d69614c702"
+              src="https://picsum.photos/seed/contentcreation/500/500"
               alt="Content creation"
               width={500}
               height={500}
               className="rounded-lg object-cover h-32 md:h-44 w-full shadow"
+              data-ai-hint="content creation"
             />
             <Image
-              src="https://images.unsplash.com/photo-1581276879432-15a19d654956"
+              src="https://picsum.photos/seed/copywriting/500/500"
               alt="Copywriting"
               width={500}
               height={500}
               className="rounded-lg object-cover h-32 md:h-44 w-full shadow"
+              data-ai-hint="copywriting"
             />
           </div>
         </div>
@@ -120,7 +128,7 @@ export function ServicesTimeline() {
   ];
 
   return (
-    <div className="min-h-screen w-full">
+    <div className="w-full">
       <Timeline data={data} />
     </div>
   );

@@ -16,7 +16,7 @@ export function HealthcareTimeline() {
 
           <div className="grid grid-cols-2 gap-4">
             <Image
-              src="https://images.unsplash.com/photo-1620021392901-a47e27042217?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoZWFsdGhjYXJlJTIwc29jaWFsJTIwbWVkaWF8ZW58MHx8fHwxNzIxODE4NDU1fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              src="https://picsum.photos/seed/healthcaresocial/500/500"
               alt="Healthcare Social Media"
               width={500}
               height={500}
@@ -24,7 +24,7 @@ export function HealthcareTimeline() {
               data-ai-hint="healthcare socialmedia"
             />
             <Image
-              src="https://images.unsplash.com/photo-1557838923-2985c318be48?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxoZWFsdGhjYXJlJTIwc29jaWFsJTIwbWVkaWF8ZW58MHx8fHwxNzIxODE4NDU1fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              src="https://picsum.photos/seed/patientengagement/500/500"
               alt="Patient engagement on social media"
               width={500}
               height={500}
@@ -46,7 +46,7 @@ export function HealthcareTimeline() {
 
           <div className="grid grid-cols-2 gap-4">
             <Image
-              src="https://images.unsplash.com/photo-1599658880436-c61792e70672?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZGlnaXRhbCUyMGFkdmVydGlzaW5nfGVufDB8fHx8MTc2NDA3MDY3MXww&ixlib=rb-4.1.0&q=80&w=1080"
+              src="https://picsum.photos/seed/digitalad/500/500"
               alt="Google Ads for Healthcare"
               width={500}
               height={500}
@@ -54,7 +54,7 @@ export function HealthcareTimeline() {
               data-ai-hint="digital advertising"
             />
             <Image
-              src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxkYXRhJTIwYW5hbHl0aWNzfGVufDB8fHx8MTc2Mzk3Nzk4OHww&ixlib=rb-4.1.0&q=80&w=1080"
+              src="https://picsum.photos/seed/dataanalytic/500/500"
               alt="Healthcare ad analytics"
               width={500}
               height={500}
@@ -76,7 +76,7 @@ export function HealthcareTimeline() {
 
           <div className="grid grid-cols-2 gap-4">
             <Image
-              src="https://images.unsplash.com/photo-1646392206581-2527b1cae5cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxkb2N0b3IlMjB0YWJsZXR8ZW58MHx8fHwxNzY0MDg4OTU1fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              src="https://picsum.photos/seed/doctortablet/500/500"
               alt="Doctor using a tablet"
               width={500}
               height={500}
@@ -84,7 +84,7 @@ export function HealthcareTimeline() {
               data-ai-hint="doctor tablet"
             />
             <Image
-              src="https://images.unsplash.com/photo-1593720213428-28a5b9e94613?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3ZWIlMjBkZXZlbG9wbWVudHxlbnwwfHx8fDE3NjM5OTkzMTZ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+              src="https://picsum.photos/seed/webdevelopment/500/500"
               alt="Healthcare software development"
               width={500}
               height={500}
@@ -106,7 +106,7 @@ export function HealthcareTimeline() {
 
           <div className="grid grid-cols-2 gap-4">
             <Image
-              src="https://images.unsplash.com/photo-1528823793053-625124b89913?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx2aWRlbyUyMHByb2R1Y3Rpb258ZW58MHx8fHwxNzY0MDY3Nzg2fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              src="https://picsum.photos/seed/videoproduction/500/500"
               alt="Video production setup"
               width={500}
               height={500}
@@ -114,7 +114,7 @@ export function HealthcareTimeline() {
               data-ai-hint="video production"
             />
             <Image
-              src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxoZWFsdGhjYXJlJTIwdGVjaG5vbG9neXxlbnwwfHx8fDE3MjE4MTg0NTV8MA&ixlib=rb-4.1.0&q=80&w=1080"
+              src="https://picsum.photos/seed/healthtech/500/500"
               alt="Doctor explaining on video"
               width={500}
               height={500}
@@ -136,7 +136,7 @@ export function HealthcareTimeline() {
 
           <div className="grid grid-cols-2 gap-4">
             <Image
-              src="https://images.unsplash.com/photo-1581093450029-14831599a349?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoZWFsdGhjYXJlJTIwd2Vic2l0ZXxlbnwwfHx8fDE3MjI0MTM4MTl8MA&ixlib=rb-4.1.0&q=80&w=1080"
+              src="https://picsum.photos/seed/healthcarewebsite/500/500"
               alt="Healthcare website on a laptop"
               width={500}
               height={500}
@@ -144,7 +144,7 @@ export function HealthcareTimeline() {
               data-ai-hint="healthcare website"
             />
             <Image
-              src="https://images.unsplash.com/photo-1522199710521-72d69614c702?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8d2ViJTIwZGVzaWdufGVufDB8fHx8MTc2Mzk3NjQyNXww&ixlib=rb-4.1.0&q=80&w=1080"
+              src="https://picsum.photos/seed/webdesignsketch/500/500"
               alt="Website design sketch"
               width={500}
               height={500}
