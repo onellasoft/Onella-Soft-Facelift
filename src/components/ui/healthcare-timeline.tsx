@@ -16,7 +16,7 @@ export function HealthcareTimeline() {
 
           <div className="grid grid-cols-2 gap-4">
             <Image
-              src="https://picsum.photos/seed/healthcaresocial/500/500"
+              src="https://picsum.photos/seed/health-social-media/500/500"
               alt="Healthcare Social Media"
               width={500}
               height={500}
@@ -24,7 +24,7 @@ export function HealthcareTimeline() {
               data-ai-hint="healthcare socialmedia"
             />
             <Image
-              src="https://picsum.photos/seed/patientengagement/500/500"
+              src="https://picsum.photos/seed/doctor-patient-engagement/500/500"
               alt="Patient engagement on social media"
               width={500}
               height={500}
@@ -46,7 +46,7 @@ export function HealthcareTimeline() {
 
           <div className="grid grid-cols-2 gap-4">
             <Image
-              src="https://picsum.photos/seed/digitalad/500/500"
+              src="https://picsum.photos/seed/healthcare-ads/500/500"
               alt="Google Ads for Healthcare"
               width={500}
               height={500}
@@ -54,7 +54,7 @@ export function HealthcareTimeline() {
               data-ai-hint="digital advertising"
             />
             <Image
-              src="https://picsum.photos/seed/dataanalytic/500/500"
+              src="https://picsum.photos/seed/healthcare-analytics/500/500"
               alt="Healthcare ad analytics"
               width={500}
               height={500}
@@ -76,7 +76,7 @@ export function HealthcareTimeline() {
 
           <div className="grid grid-cols-2 gap-4">
             <Image
-              src="https://picsum.photos/seed/doctortablet/500/500"
+              src="https://picsum.photos/seed/doctor-using-tablet/500/500"
               alt="Doctor using a tablet"
               width={500}
               height={500}
@@ -84,12 +84,12 @@ export function HealthcareTimeline() {
               data-ai-hint="doctor tablet"
             />
             <Image
-              src="https://picsum.photos/seed/webdevelopment/500/500"
+              src="https://picsum.photos/seed/medical-software-dev/500/500"
               alt="Healthcare software development"
               width={500}
               height={500}
               className="rounded-lg object-cover h-32 md:h-44 w-full shadow"
-              data-ai-hint="web development"
+              data-ai-hint="software development"
             />
           </div>
         </div>
@@ -106,7 +106,7 @@ export function HealthcareTimeline() {
 
           <div className="grid grid-cols-2 gap-4">
             <Image
-              src="https://picsum.photos/seed/videoproduction/500/500"
+              src="https://picsum.photos/seed/medical-video-shoot/500/500"
               alt="Video production setup"
               width={500}
               height={500}
@@ -114,12 +114,12 @@ export function HealthcareTimeline() {
               data-ai-hint="video production"
             />
             <Image
-              src="https://picsum.photos/seed/healthtech/500/500"
+              src="https://picsum.photos/seed/doctor-on-camera/500/500"
               alt="Doctor explaining on video"
               width={500}
               height={500}
               className="rounded-lg object-cover h-32 md:h-44 w-full shadow"
-              data-ai-hint="healthcare technology"
+              data-ai-hint="doctor video"
             />
           </div>
         </div>
@@ -136,7 +136,7 @@ export function HealthcareTimeline() {
 
           <div className="grid grid-cols-2 gap-4">
             <Image
-              src="https://picsum.photos/seed/healthcarewebsite/500/500"
+              src="https://picsum.photos/seed/healthcare-website-mockup/500/500"
               alt="Healthcare website on a laptop"
               width={500}
               height={500}
@@ -144,7 +144,7 @@ export function HealthcareTimeline() {
               data-ai-hint="healthcare website"
             />
             <Image
-              src="https://picsum.photos/seed/webdesignsketch/500/500"
+              src="https://picsum.photos/seed/medical-web-design/500/500"
               alt="Website design sketch"
               width={500}
               height={500}
