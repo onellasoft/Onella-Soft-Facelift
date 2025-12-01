@@ -12,8 +12,6 @@ import { GlowingCard } from '../ui/glowing-card';
 
 export function WhatWeDo() {
   const [activeTab, setActiveTab] = useState(content.whatWeDo.services[0].id);
-  const serviceData = content.whatWeDo.services.find(s => s.id === activeTab);
-  const imageData = PlaceHolderImages.find(img => img.id === serviceData?.imageId);
 
   return (
     <section>
@@ -40,7 +38,10 @@ export function WhatWeDo() {
           </TabsList>
 
           <div className="md:col-span-2">
-              {content.whatWeDo.services.map(service => (
+              {content.whatWeDo.services.map(service => {
+                const serviceData = content.whatWeDo.services.find(s => s.id === service.id);
+                const imageData = PlaceHolderImages.find(img => img.id === serviceData?.imageId);
+                return (
                 <TabsContent key={service.id} value={service.id}>
                     <GlowingCard className="bg-card/50">
                         <CardContent className="p-8 text-center">
@@ -65,7 +66,7 @@ export function WhatWeDo() {
                         </CardContent>
                     </GlowingCard>
                 </TabsContent>
-              ))}
+              )})}
           </div>
         </Tabs>
       </div>
