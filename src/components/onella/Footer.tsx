@@ -1,7 +1,6 @@
 
 import Link from 'next/link';
-import { Github, Twitter, Linkedin, Facebook, Mail, Phone } from 'lucide-react';
-import { Button } from '../ui/button';
+import { Mail, Phone } from 'lucide-react';
 import { BackgroundBeamsWithCollision } from '../ui/background-beams-with-collision';
 
 export function Footer() {
@@ -152,7 +151,7 @@ export function Footer() {
           ))}
         </div>
 
-        <div className="flex flex-col md:flex-row items-center gap-4 md:gap-8 mt-3 text-base">
+        <div className="flex flex-col md:flex-row items-center gap-4 md:gap-8 mt-8 text-base">
           <a href="mailto:info@onellasoft.com" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
             <Mail className="h-5 w-5" />
             <span>info@onellasoft.com</span>
@@ -163,7 +162,7 @@ export function Footer() {
           </a>
         </div>
 
-        <div className="flex items-center gap-4 mt-3 text-indigo-500">
+        <div className="flex items-center gap-4 mt-8 text-indigo-500">
           {socialLinks.map((social) => (
             <a
               key={social.label}
@@ -175,7 +174,7 @@ export function Footer() {
             </a>
           ))}
         </div>
-        <p className="mt-3 text-center text-base">
+        <p className="mt-8 text-center text-base">
           Copyright © {new Date().getFullYear()}{' '}
           <a href="https://onellasoft.com" className="hover:underline">
             OnellaSoft
