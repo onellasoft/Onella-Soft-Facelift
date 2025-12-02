@@ -1,4 +1,3 @@
-
 "use client";
 
 import { Ref, forwardRef, useState, useEffect } from "react";
@@ -69,7 +68,7 @@ export const PhotoGallery = ({
 
   const photos = [
     {
-      id: "hospitality-gallery-1",
+      id: "hospitality-img-1",
       order: 0,
       x: "-320px",
       y: "15px",
@@ -77,7 +76,7 @@ export const PhotoGallery = ({
       direction: "left" as Direction,
     },
     {
-      id: "hospitality-gallery-2",
+      id: "hospitality-img-2",
       order: 1,
       x: "-160px",
       y: "32px",
@@ -85,7 +84,7 @@ export const PhotoGallery = ({
       direction: "left" as Direction,
     },
     {
-      id: "hospitality-gallery-3",
+      id: "hospitality-img-3",
       order: 2,
       x: "0px",
       y: "8px",
@@ -93,7 +92,7 @@ export const PhotoGallery = ({
       direction: "right" as Direction,
     },
     {
-      id: "hospitality-gallery-4",
+      id: "hospitality-img-4",
       order: 3,
       x: "160px",
       y: "22px",
@@ -116,12 +115,6 @@ export const PhotoGallery = ({
   return (
     <div className="mt-20 relative">
        <div className="absolute inset-0 max-md:hidden top-[200px] -z-10 h-[300px] w-full bg-transparent bg-[linear-gradient(to_right,#57534e_1px,transparent_1px),linear-gradient(to_bottom,#57534e_1px,transparent_1px)] bg-[size:3rem_3rem] opacity-20 [mask-image:radial-gradient(ellipse_80%_50%_at_50%_0%,#000_70%,transparent_110%)] dark:bg-[linear-gradient(to_right,#a8a29e_1px,transparent_1px),linear-gradient(to_bottom,#a8a29e_1px,transparent_1px)]"></div>
-      <p className="lg:text-md my-2 text-center text-xs font-light uppercase tracking-widest text-slate-600 dark:text-slate-400">
-        A Journey Through Visual Stories
-      </p>
-      <h3 className="z-20 mx-auto max-w-2xl justify-center bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900 bg-clip-text py-3 text-center text-4xl text-transparent dark:bg-gradient-to-r dark:from-slate-100 dark:via-slate-200 dark:to-slate-100 dark:bg-clip-text md:text-7xl">
-        Immersive <span className="text-rose-500">Hospitality</span>
-      </h3>
       <div className="relative mb-8 h-[350px] w-full items-center justify-center lg:flex">
         <motion.div
           className="relative mx-auto flex w-full max-w-7xl justify-center"
