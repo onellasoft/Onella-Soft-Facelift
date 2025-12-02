@@ -132,11 +132,13 @@ export function Footer() {
     { href: '/solutions/seo', label: 'Services' },
     { href: '/support', label: 'Contact' },
     { href: '/support', label: 'Help' },
+    { href: '/privacy-policy', label: 'Privacy Policy' },
+    { href: '/terms-and-conditions', label: 'Terms & Conditions' },
   ];
 
   return (
     <footer className="flex flex-col bg-slate-50/5 items-center justify-around w-full py-16 text-sm text-gray-800/70 dark:text-gray-400">
-      <div className="flex items-center gap-8">
+      <div className="flex items-center gap-8 flex-wrap justify-center px-4">
         {footerLinks.map((link) => (
           <Link
             key={link.label}
