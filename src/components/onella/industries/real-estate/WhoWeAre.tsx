@@ -35,9 +35,6 @@ export function WhoWeAre() {
             <p className="mt-4 text-white">
               We are a team of expert digital marketing specialists helping real estate brands to meet their business goals with an extensive range of digital marketing services. We are dedicated to providing the best digital marketing services for the real estate industry, from planning to execution.
             </p>
-            <Button variant="link" className="text-white mt-4 px-0">
-                Read More <ArrowRight className="ml-2 h-4 w-4" />
-            </Button>
           </div>
         </div>
       </div>
