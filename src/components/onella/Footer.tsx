@@ -1,6 +1,6 @@
 
 import Link from 'next/link';
-import { Github, Twitter, Linkedin, Facebook } from 'lucide-react';
+import { Github, Twitter, Linkedin, Facebook, Mail, Phone } from 'lucide-react';
 import { Button } from '../ui/button';
 
 export function Footer() {
@@ -149,6 +149,18 @@ export function Footer() {
           </Link>
         ))}
       </div>
+
+      <div className="flex flex-col md:flex-row items-center gap-4 md:gap-8 mt-8 text-base">
+        <a href="mailto:onellasoftinfo@gmail.com" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
+          <Mail className="h-5 w-5" />
+          <span>onellasoftinfo@gmail.com</span>
+        </a>
+        <a href="tel:+919834410388" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
+          <Phone className="h-5 w-5" />
+          <span>+919834410388</span>
+        </a>
+      </div>
+
       <div className="flex items-center gap-4 mt-8 text-indigo-500">
         {socialLinks.map((social) => (
           <a
