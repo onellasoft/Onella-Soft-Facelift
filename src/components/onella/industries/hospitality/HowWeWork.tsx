@@ -8,17 +8,17 @@ import { ArrowRight } from 'lucide-react';
 
 const steps = [
   {
-    icon: <ConciergeBell className="h-10 w-10 text-white" />,
+    icon: <ConciergeBell className="h-8 w-8 text-white" />,
     title: 'Free Consultation',
     description: 'We listen, we learn, and we ask questions during our free consultation.',
   },
   {
-    icon: <ClipboardList className="h-10 w-10 text-white" />,
+    icon: <ClipboardList className="h-8 w-8 text-white" />,
     title: 'Define Goals',
     description: 'We spend considerable time understanding your restaurant and then based objectives.',
   },
   {
-    icon: <Megaphone className="h-10 w-10 text-white" />,
+    icon: <Megaphone className="h-8 w-8 text-white" />,
     title: 'Content Creation',
     description: 'Advanced digital marketing strategy to promote restaurants. We are a reliable partner.',
   },
@@ -41,7 +41,7 @@ export function HowWeWork() {
         {steps.map((step, index) => (
           <GlowingCard key={index} className="bg-transparent shadow-none h-full transition-all duration-300 flex flex-col text-center">
               <div className='p-6 flex flex-col items-center'>
-                 <div className="h-20 w-20 rounded-lg bg-accent flex items-center justify-center border-4 border-accent/50 mb-4">
+                 <div className="h-16 w-16 rounded-lg bg-accent/10 flex items-center justify-center border border-white/20 mb-4">
                     {step.icon}
                 </div>
                 <h3 className="font-headline text-xl text-white">{step.title}</h3>
