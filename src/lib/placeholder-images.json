@@ -440,12 +440,6 @@
     },
     {
       "id": "hospitality-gallery-5",
-      "description": "A bellboy carrying luggage in a hotel.",
-      "imageUrl": "https://images.unsplash.com/photo-1582719508461-905c673771fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiZWxsYm95fGVufDB8fHx8MTcyMjUzODQzN3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "bellboy luggage"
-    },
-    {
-      "id": "hospitality-bell",
       "description": "A hotel service bell on a wooden counter.",
       "imageUrl": "https://images.unsplash.com/photo-1559526323-cb2f2fe2591b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxob3RlbCUyMGJlbGx8ZW58MHx8fHwxNzIyNTAyNzIyfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "hotel bell"
