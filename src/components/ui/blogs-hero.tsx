@@ -1,5 +1,6 @@
 import { ChevronRight } from 'lucide-react';
 import { SparklesCore } from './sparkles';
+import Link from 'next/link';
 
 export function BlogsHero() {
   return (
@@ -18,7 +19,7 @@ export function BlogsHero() {
       <div className="container relative z-10 mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
             <div className="flex items-center justify-center gap-1 text-sm font-medium text-white mb-4">
-                <span>HOME</span>
+                <Link href="/" className="hover:text-white/80 transition-colors">HOME</Link>
                 <ChevronRight className="h-4 w-4 text-white" />
                 <span className="text-white">BLOGS</span>
             </div>

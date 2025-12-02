@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Button as MovingBorderButton } from "@/components/ui/moving-border";
 import { SparklesCore } from '@/components/ui/sparkles';
+import Link from 'next/link';
 
 const partnerIds = [
   'partner-shopify',
@@ -36,7 +37,7 @@ export function EcommerceHero() {
 
         <div className="relative z-20 max-w-3xl mx-auto px-6">
           <div className="flex items-center justify-center gap-1 text-sm font-medium text-white mb-4">
-            <span>HOME</span>
+            <Link href="/" className="hover:text-white/80 transition-colors">HOME</Link>
             <ChevronRight className="h-4 w-4 text-white" />
             <span>INDUSTRIES</span>
             <ChevronRight className="h-4 w-4 text-white" />

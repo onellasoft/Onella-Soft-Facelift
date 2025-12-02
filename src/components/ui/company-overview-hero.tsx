@@ -1,5 +1,6 @@
 import { ChevronRight } from 'lucide-react';
 import { SparklesCore } from './sparkles';
+import Link from 'next/link';
 
 export default function CompanyOverviewHero() {
   return (
@@ -19,7 +20,7 @@ export default function CompanyOverviewHero() {
 
       <div className="relative z-20 max-w-3xl mx-auto px-6">
         <div className="flex items-center justify-center gap-1 text-sm font-medium text-white mb-4">
-          <span>HOME</span>
+          <Link href="/" className="hover:text-white/80 transition-colors">HOME</Link>
           <ChevronRight className="h-4 w-4 text-white" />
           <span className="text-white">COMPANY OVERVIEW</span>
         </div>

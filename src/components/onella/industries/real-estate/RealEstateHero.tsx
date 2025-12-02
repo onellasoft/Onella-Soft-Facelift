@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Button as MovingBorderButton } from "@/components/ui/moving-border";
 import { SparklesCore } from "@/components/ui/sparkles";
 import { ChevronRight } from "lucide-react";
+import Link from 'next/link';
 
 export function RealEstateHero() {
   return (
@@ -21,7 +22,7 @@ export function RealEstateHero() {
       <div className="container relative z-10 mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto bg-transparent p-8 rounded-lg">
           <div className="flex items-center justify-center gap-1 text-sm font-medium text-white mb-4">
-            <span>HOME</span>
+            <Link href="/" className="hover:text-white/80 transition-colors">HOME</Link>
             <ChevronRight className="h-4 w-4 text-white" />
             <span>INDUSTRIES</span>
             <ChevronRight className="h-4 w-4 text-white" />

@@ -6,6 +6,7 @@ import { Button as MovingBorderButton } from '@/components/ui/moving-border';
 import { ArrowRight } from 'lucide-react';
 import { GlowingCard } from './glowing-card';
 import { SparklesCore } from './sparkles';
+import Link from 'next/link';
 
 export function WebDevelopmentHero() {
   const heroImage = PlaceHolderImages.find(img => img.id === 'web-dev-hero');
@@ -27,7 +28,7 @@ export function WebDevelopmentHero() {
         <div className="grid md:grid-cols-1 gap-12 items-center">
             <div className="text-center">
                  <div className="flex items-center justify-center gap-1 text-sm font-medium text-white mb-4">
-                    <span>HOME</span>
+                    <Link href="/" className="hover:text-white/80 transition-colors">HOME</Link>
                     <ChevronRight className="h-4 w-4 text-white" />
                     <span>SOLUTIONS</span>
                     <ChevronRight className="h-4 w-4 text-white" />
