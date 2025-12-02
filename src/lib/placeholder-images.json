@@ -63,7 +63,7 @@
     {
       "id": "performance-hero",
       "description": "An abstract 3D ring shape.",
-      "imageUrl": "https://images.unsplash.com/photo-1579548122080-c35fd6820ecb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhYnN0cmFjdCUyMHRlY2h8ZW58MHx8fHwxNzY0MDI0NzM5fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1579548122080-c35fd6820ecb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhYnN0cmFjdCUyMHRlY2h8ZW58MHx8fHwxNzY0MDI0NzM5fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "abstract tech"
     },
     {
@@ -271,12 +271,6 @@
       "imageHint": "business analytics"
     },
     {
-      "id": "real-estate-hero",
-      "description": "An aerial view of a suburban neighborhood with many houses.",
-      "imageUrl": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxob3VzZXxlbnwwfHx8fDE3NjQyMjYwMzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "suburban houses"
-    },
-    {
       "id": "real-estate-who-we-are",
       "description": "Two hands shaking over a miniature model of a house.",
       "imageUrl": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxyZWFsJTIwZXN0YXRlJTIwYWdlbnR8ZW58MHx8fHwxNzY0MjI2MDM2fDA&ixlib=rb-4.1.0&q=80&w=1080",
@@ -289,21 +283,9 @@
       "imageHint": "modern house"
     },
     {
-      "id": "real-estate-result-1",
+      "id": "real-estate-hero",
       "description": "A tall, modern residential building with a blue sky background.",
       "imageUrl": "https://images.unsplash.com/photo-1605152276533-559957388338?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhcGFydG1lbnQlMjBidWlsZGluZ3xlbnwwfHx8fDE3NjQyMjYwMzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "apartment building"
-    },
-    {
-      "id": "real-estate-result-2",
-      "description": "A cityscape with modern skyscrapers.",
-      "imageUrl": "https://images.unsplash.com/photo-1590642916589-59b60b08e7a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjb21tZXJjaWFsJTIwYnVpbGRpbmd8ZW58MHx8fHwxNzY0MjI2MDM2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "commercial building"
-    },
-    {
-      "id": "real-estate-result-3",
-      "description": "A multi-level apartment building at sunset.",
-      "imageUrl": "https://images.unsplash.com/photo-1568474291077-5c4d6f6a7c3b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhcGFydG1lbnQlMjBidWlsZGluZ3xlbnwwfHx8fDE3NjQyMjYwMzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "apartment building"
     },
     {
@@ -407,6 +389,42 @@
       "description": "A professional camera on a tripod with dollar signs floating around it.",
       "imageUrl": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwcm9kdWN0JTIwcGhvdG9ncmFwaHl8ZW58MHx8fHwxNzIxODE4NDU1fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "product photography"
+    },
+    {
+      "id": "partner-marriott",
+      "description": "Marriott logo",
+      "imageUrl": "https://images.unsplash.com/photo-1747862712508-e1290330085f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxsb2dvJTIwdGV4dHxlbnwwfHx8fDE3NjQ2MzIyMzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "logo text"
+    },
+    {
+      "id": "partner-hilton",
+      "description": "Hilton logo",
+      "imageUrl": "https://images.unsplash.com/photo-1616943229189-bc60570b4364?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxsb2dvJTIwdGV4dHxlbnwwfHx8fDE3NjQ2MzIyMzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "logo text"
+    },
+    {
+      "id": "partner-hyatt",
+      "description": "Hyatt logo",
+      "imageUrl": "https://images.unsplash.com/photo-1684977269247-5d79a7a3f245?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxsb2dvJTIwdGV4dHxlbnwwfHx8fDE3NjQ2MzIyMzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "logo text"
+    },
+    {
+      "id": "partner-fourseasons",
+      "description": "Four Seasons logo",
+      "imageUrl": "https://images.unsplash.com/photo-1723357646143-68b17c10ee0a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsb2dvJTIwdGV4dHxlbnwwfHx8fDE3NjQ2MzIyMzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "logo text"
+    },
+    {
+      "id": "partner-airbnb",
+      "description": "Airbnb logo",
+      "imageUrl": "https://images.unsplash.com/photo-1616943229189-bc60570b4364?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxsb2dvJTIwdGV4dHxlbnwwfHx8fDE3NjQ2MzIyMzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "logo text"
+    },
+    {
+      "id": "partner-opentable",
+      "description": "OpenTable logo",
+      "imageUrl": "https://images.unsplash.com/photo-1608241611705-fa1853e69b91?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxsb2dvJTIwdGV4dHxlbnwwfHx8fDE3NjQ2MzIyMzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "logo text"
     }
   ]
 }
