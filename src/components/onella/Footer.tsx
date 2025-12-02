@@ -138,7 +138,7 @@ export function Footer() {
   ];
 
   return (
-    <BackgroundBeamsWithCollision className="h-auto py-3">
+    <BackgroundBeamsWithCollision className="h-auto py-12">
       <div className="flex flex-col items-center justify-around w-full text-gray-800/70 dark:text-gray-400">
         <div className="flex items-center gap-8 flex-wrap justify-center px-4">
           {footerLinks.map((link) => (
