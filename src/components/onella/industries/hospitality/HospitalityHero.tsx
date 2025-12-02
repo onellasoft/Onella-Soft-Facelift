@@ -40,7 +40,7 @@ export function HospitalityHero() {
           <div className="mt-8 flex items-center justify-center gap-4">
              <MovingBorderButton
               containerClassName="h-11 w-auto"
-              className="bg-primary text-primary-foreground px-8"
+              className="bg-transparent text-white px-8"
               borderRadius="0.5rem"
             >
               Get Started
