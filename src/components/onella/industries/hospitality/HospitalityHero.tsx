@@ -45,13 +45,6 @@ export function HospitalityHero() {
             >
               Get Started
             </MovingBorderButton>
-            <MovingBorderButton
-              containerClassName="h-11 w-auto"
-              className="bg-transparent text-white px-8"
-              borderRadius="0.5rem"
-            >
-              Our Process
-            </MovingBorderButton>
           </div>
         </div>
       </div>
