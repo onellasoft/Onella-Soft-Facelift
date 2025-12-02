@@ -27,7 +27,7 @@ export function SocialFeatures() {
   return (
     <section>
       <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center min-h-[30rem]">
             <CardStackDemo />
         </div>
         <div className="flex items-center p-6">

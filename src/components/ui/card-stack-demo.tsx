@@ -3,7 +3,7 @@ import { CardStack } from "@/components/ui/card-stack";
 import { cn } from "@/lib/utils";
 export default function CardStackDemo() {
   return (
-    <div className="h-[40rem] flex items-center justify-center w-full">
+    <div className="h-96 flex items-center justify-center w-full">
       <CardStack items={CARDS} />
     </div>
   );
@@ -32,39 +32,41 @@ export const Highlight = ({
 const CARDS = [
   {
     id: 0,
-    name: "Manu Arora",
-    designation: "Senior Software Engineer",
+    name: "Social Media Strategy Development",
+    designation: "Custom-tailored strategy",
     content: (
       <p>
-        These cards are amazing, <Highlight>I want to use them</Highlight> in my
-        project. Framer motion is a godsend ngl tbh fam 🙏
+        We'll work directly with you to understand your objectives and create a custom-tailored <Highlight>social media strategy</Highlight>.
       </p>
     ),
   },
   {
     id: 1,
-    name: "Elon Musk",
-    designation: "Senior Shitposter",
+    name: "Paid Social Media Advertising",
+    designation: "Maximize your reach",
     content: (
       <p>
-        I dont like this Twitter thing,{" "}
-        <Highlight>deleting it right away</Highlight> because yolo. Instead, I
-        would like to call it <Highlight>X.com</Highlight> so that it can easily
-        be confused with adult sites.
+       Maximize your reach and target specific customers with highly effective <Highlight>paid ad campaigns</Highlight>.
       </p>
     ),
   },
   {
     id: 2,
-    name: "Tyler Durden",
-    designation: "Manager Project Mayhem",
+    name: "Content Creation",
+    designation: "High-quality, shareable content",
     content: (
       <p>
-        The first rule of
-        <Highlight>Fight Club</Highlight> is that you do not talk about fight
-        club. The second rule of
-        <Highlight>Fight club</Highlight> is that you DO NOT TALK about fight
-        club.
+        From engaging graphics and compelling videos to captivating captions, we craft <Highlight>high-quality, shareable content</Highlight> that resonates with your audience.
+      </p>
+    ),
+  },
+    {
+    id: 3,
+    name: "Social Media Consultation",
+    designation: "Expert consultation",
+    content: (
+      <p>
+       Onella Soft provides <Highlight>expert consultation</Highlight> and ongoing support to help you optimize your social media performance.
       </p>
     ),
   },
