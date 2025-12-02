@@ -3,6 +3,7 @@
 "use client";
 import { FaGoogle, FaInstagram, FaFacebookF, FaWhatsapp, FaTwitter, FaDribbble } from 'react-icons/fa';
 import { motion } from 'framer-motion';
+import { cn } from '@/lib/utils';
 
 const platforms = [
   { icon: <FaGoogle className="h-8 w-8 text-white" /> },
@@ -13,49 +14,32 @@ const platforms = [
   { icon: <FaDribbble className="h-8 w-8 text-white" /> },
 ];
 
-const containerVariants = {
-  hidden: { opacity: 0 },
-  visible: {
-    opacity: 1,
-    transition: {
-      staggerChildren: 0.2,
-      delayChildren: 0.1,
-    },
-  },
-};
-
-const itemVariants = {
-  hidden: { y: 20, opacity: 0 },
-  visible: {
-    y: 0,
-    opacity: 1,
-    transition: {
-      type: 'spring',
-      stiffness: 100,
-    }
-  },
-};
-
 export function SocialPlatforms() {
+  const duplicatedPlatforms = [...platforms, ...platforms];
   return (
-    <section>
-      <motion.div 
-        className="flex justify-center items-center gap-4 md:gap-8 flex-wrap"
-        variants={containerVariants}
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, amount: 0.5 }}
+    <section className="w-full">
+      <div
+        className="w-full inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)]"
       >
-        {platforms.map((platform, index) => (
-          <motion.div 
-            key={index} 
-            className="p-4 bg-glass rounded-full border border-primary/20"
-            variants={itemVariants}
-          >
-            {platform.icon}
-          </motion.div>
-        ))}
-      </motion.div>
+        <ul className="flex items-center justify-center md:justify-start [&_li]:mx-4 [&_img]:max-w-none animate-infinite-scroll">
+            {duplicatedPlatforms.map((platform, index) => (
+              <li key={index} 
+                className="p-4 bg-glass rounded-full border border-primary/20"
+              >
+                {platform.icon}
+              </li>
+            ))}
+        </ul>
+         <ul className="flex items-center justify-center md:justify-start [&_li]:mx-4 [&_img]:max-w-none animate-infinite-scroll" aria-hidden="true">
+            {duplicatedPlatforms.map((platform, index) => (
+              <li key={index} 
+                className="p-4 bg-glass rounded-full border border-primary/20"
+              >
+                {platform.icon}
+              </li>
+            ))}
+        </ul>
+      </div>
     </section>
   );
 }
