@@ -413,6 +413,36 @@
       "description": "A smiling concierge welcoming guests in a hotel lobby.",
       "imageUrl": "https://images.unsplash.com/photo-1563911302283-d2bc129e7570?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxob3RlbCUyMGNvbmNpZXJnZXxlbnwwfHx8fDE3NjQ2NDIxMzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "hotel concierge"
+    },
+    {
+      "id": "hospitality-gallery-1",
+      "description": "A romantic wedding setup in ancient ruins.",
+      "imageUrl": "https://images.unsplash.com/photo-1587790382894-3574163b5113?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3ZWRkaW5nJTIwYWx0YXJ8ZW58MHx8fHwxNzIyNDk5NTUxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wedding altar"
+    },
+    {
+      "id": "hospitality-gallery-2",
+      "description": "A winter scene with a lake view in Van, Turkiye.",
+      "imageUrl": "https://images.unsplash.com/photo-1610416523998-13a8a3038b36?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3aW50ZXIlMjBsYWtlfGVufDB8fHx8MTcyMjQ5OTU1MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "winter lake"
+    },
+    {
+      "id": "hospitality-gallery-3",
+      "description": "A moody portrait with a heart-shaped light.",
+      "imageUrl": "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtb29keSUyMGxpZ2h0fGVufDB8fHx8MTcyMjQ5OTU1MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "moody light"
+    },
+    {
+      "id": "hospitality-gallery-4",
+      "description": "Women sitting on a hilltop with clouds below.",
+      "imageUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwZW9wbGUlMjBoaWxsdG9wfGVufDB8fHx8MTcyMjQ5OTU1MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "people hilltop"
+    },
+    {
+      "id": "hospitality-gallery-5",
+      "description": "The head of a peacock.",
+      "imageUrl": "https://images.unsplash.com/photo-1508652789907-f654b5a452a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwZWFjb2NrJTIwaGVhZHxlbnwwfHx8fDE3MjI0OTk1NTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "peacock head"
     }
   ]
 }
