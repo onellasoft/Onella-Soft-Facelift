@@ -3,6 +3,7 @@ import { Button as MovingBorderButton } from '@/components/ui/moving-border';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { ArrowRight, Send } from 'lucide-react';
 import { GlowingCard } from '../ui/glowing-card';
+import Link from 'next/link';
 
 export function OurMission() {
   const missionImage = PlaceHolderImages.find(
@@ -44,13 +45,16 @@ export function OurMission() {
               based on trust, measurable outcomes, and shared success.
             </p>
             <div className="mt-6">
-              <MovingBorderButton
-                containerClassName="h-14 w-auto"
-                className="bg-transparent text-white px-8"
-                borderRadius="1rem"
-              >
-                Work With Us <ArrowRight className="ml-2 h-4 w-4" />
-              </MovingBorderButton>
+              <Link href="/support">
+                <MovingBorderButton
+                  containerClassName="h-14 w-auto"
+                  className="bg-transparent text-white px-8"
+                  borderRadius="1rem"
+                  as="button"
+                >
+                  Work With Us <ArrowRight className="ml-2 h-4 w-4" />
+                </MovingBorderButton>
+              </Link>
             </div>
           </div>
         </div>
