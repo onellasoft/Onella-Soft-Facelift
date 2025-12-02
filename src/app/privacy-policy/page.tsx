@@ -1,5 +1,6 @@
 
 import { Footer } from '@/components/onella/Footer';
+import { ChevronRight } from 'lucide-react';
 
 export default function PrivacyPolicyPage() {
   const lastUpdatedDate = new Date().toLocaleDateString('en-US', {
@@ -11,6 +12,11 @@ export default function PrivacyPolicyPage() {
     <div className="flex flex-col min-h-screen bg-background pt-24">
       <main className="flex-grow container mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
         <div className="max-w-4xl mx-auto">
+            <div className="flex items-center justify-start gap-1 text-sm font-medium text-white mb-4">
+                <span>HOME</span>
+                <ChevronRight className="h-4 w-4 text-white" />
+                <span className="text-white">PRIVACY POLICY</span>
+            </div>
           <h1 className="font-headline text-3xl md:text-5xl font-bold text-white leading-tight mb-4">
             Privacy Policy
           </h1>
