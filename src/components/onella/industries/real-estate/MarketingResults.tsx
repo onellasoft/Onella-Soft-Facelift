@@ -7,17 +7,17 @@ import { ArrowRight } from 'lucide-react';
 
 const results = [
     {
-        id: 'real-estate-result-1',
+        id: 'real-estate-hero',
         title: 'Residential Development',
         description: 'A stunning high-rise apartment complex in a prime urban location.',
     },
     {
-        id: 'real-estate-result-2',
+        id: 'real-estate-who-we-are',
         title: 'Commercial Real Estate',
         description: 'A modern office building with a sleek glass facade and cityscape views.',
     },
     {
-        id: 'real-estate-result-3',
+        id: 'real-estate-why-choose-us',
         title: 'Multi-use Complex',
         description: 'A contemporary architectural design with striking color contrasts and sunset lighting.',
     }
