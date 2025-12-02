@@ -22,6 +22,8 @@ export default function CompanyOverviewHero() {
         <div className="flex items-center justify-center gap-1 text-sm font-medium text-white mb-4">
           <Link href="/" className="hover:text-white/80 transition-colors">HOME</Link>
           <ChevronRight className="h-4 w-4 text-white" />
+          <span>ABOUT</span>
+          <ChevronRight className="h-4 w-4 text-white" />
           <span className="text-white">COMPANY OVERVIEW</span>
         </div>
         <h1 className="text-white text-5xl font-bold tracking-tight">
