@@ -272,19 +272,19 @@
     },
     {
       "id": "real-estate-who-we-are",
-      "description": "Two hands shaking over a miniature model of a house.",
-      "imageUrl": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxyZWFsJTIwZXN0YXRlJTIwYWdlbnR8ZW58MHx8fHwxNzY0MjI2MDM2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "A modern office building with a sleek glass facade and cityscape views.",
+      "imageUrl": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxyZWFsJTIwZXN0YXRlJTIwYWdlbnR8ZW58MHx8fHwxNzY0MjI2MDM2fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "real estate agent"
     },
     {
       "id": "real-estate-why-choose-us",
-      "description": "A modern, single-family home with a two-car garage.",
+      "description": "A contemporary architectural design with striking color contrasts and sunset lighting.",
       "imageUrl": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxob3VzZXxlbnwwfHx8fDE3NjQyMjYwMzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "modern house"
     },
     {
       "id": "real-estate-hero",
-      "description": "A tall, modern residential building with a blue sky background.",
+      "description": "A stunning high-rise apartment complex in a prime urban location.",
       "imageUrl": "https://images.unsplash.com/photo-1605152276533-559957388338?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhcGFydG1lbnQlMjBidWlsZGluZ3xlbnwwfHx8fDE3NjQyMjYwMzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "apartment building"
     },
@@ -391,40 +391,28 @@
       "imageHint": "product photography"
     },
     {
-      "id": "partner-marriott",
-      "description": "Marriott logo",
-      "imageUrl": "https://images.unsplash.com/photo-1747862712508-e1290330085f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxsb2dvJTIwdGV4dHxlbnwwfHx8fDE3NjQ2MzIyMzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "logo text"
+      "id": "hospitality-img-1",
+      "description": "A luxurious hotel room with a view of the city.",
+      "imageUrl": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxob3RlbCUyMHJvb218ZW58MHx8fHwxNzY0MjQxODgyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hotel room"
     },
     {
-      "id": "partner-hilton",
-      "description": "Hilton logo",
-      "imageUrl": "https://images.unsplash.com/photo-1616943229189-bc60570b4364?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxsb2dvJTIwdGV4dHxlbnwwfHx8fDE3NjQ2MzIyMzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "logo text"
+      "id": "hospitality-img-2",
+      "description": "A beautifully plated gourmet dish in a fine dining restaurant.",
+      "imageUrl": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmb29kJTIwZGluaW5nfGVufDB8fHx8MTc2NDY0MTk3OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "food dining"
     },
     {
-      "id": "partner-hyatt",
-      "description": "Hyatt logo",
-      "imageUrl": "https://images.unsplash.com/photo-1684977269247-5d79a7a3f245?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxsb2dvJTIwdGV4dHxlbnwwfHx8fDE3NjQ2MzIyMzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "logo text"
+      "id": "hospitality-img-3",
+      "description": "A relaxing poolside view at a tropical resort.",
+      "imageUrl": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyZXNvcnQlMjBwb29sfGVufDB8fHx8MTc2NDY0MTk3OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "resort pool"
     },
     {
-      "id": "partner-fourseasons",
-      "description": "Four Seasons logo",
-      "imageUrl": "https://images.unsplash.com/photo-1723357646143-68b17c10ee0a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsb2dvJTIwdGV4dHxlbnwwfHx8fDE3NjQ2MzIyMzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "logo text"
-    },
-    {
-      "id": "partner-airbnb",
-      "description": "Airbnb logo",
-      "imageUrl": "https://images.unsplash.com/photo-1616943229189-bc60570b4364?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxsb2dvJTIwdGV4dHxlbnwwfHx8fDE3NjQ2MzIyMzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "logo text"
-    },
-    {
-      "id": "partner-opentable",
-      "description": "OpenTable logo",
-      "imageUrl": "https://images.unsplash.com/photo-1608241611705-fa1853e69b91?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxsb2dvJTIwdGV4dHxlbnwwfHx8fDE3NjQ2MzIyMzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "logo text"
+      "id": "hospitality-img-4",
+      "description": "A smiling concierge welcoming guests in a hotel lobby.",
+      "imageUrl": "https://images.unsplash.com/photo-1563911302283-d2bc129e7570?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxob3RlbCUyMGNvbmNpZXJnZXxlbnwwfHx8fDE3NjQ2NDIxMzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hotel concierge"
     }
   ]
 }
