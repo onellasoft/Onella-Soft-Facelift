@@ -53,8 +53,8 @@ const contactDetails = [
         icon: <Mail className="h-6 w-6 text-white" />,
         title: 'Email',
         description: 'Start working with Onella Soft that can provide everything',
-        value: 'onellasoftinfo@gmail.com',
-        href: 'mailto:onellasoftinfo@gmail.com',
+        value: 'info@onellasoft.com',
+        href: 'mailto:info@onellasoft.com',
     },
     {
         icon: <MapPin className="h-6 w-6 text-white" />,

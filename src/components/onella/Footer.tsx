@@ -151,9 +151,9 @@ export function Footer() {
       </div>
 
       <div className="flex flex-col md:flex-row items-center gap-4 md:gap-8 mt-8 text-base">
-        <a href="mailto:onellasoftinfo@gmail.com" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
+        <a href="mailto:info@onellasoft.com" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
           <Mail className="h-5 w-5" />
-          <span>onellasoftinfo@gmail.com</span>
+          <span>info@onellasoft.com</span>
         </a>
         <a href="tel:+919834410388" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
           <Phone className="h-5 w-5" />

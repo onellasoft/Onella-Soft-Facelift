@@ -87,7 +87,7 @@ export default function PrivacyPolicyPage() {
             <p>As required by Indian law:</p>
             <ul className="list-none !pl-0">
                 <li><strong>Name:</strong> Onella Soft</li>
-                <li><strong>Email:</strong> onellasoftinfo@gmail.com</li>
+                <li><strong>Email:</strong> info@onellasoft.com</li>
                 <li><strong>Phone:</strong> +919834410388</li>
                 <li><strong>Address:</strong> Office No - 401, sanskruti enclave, Chilekar Nagar, Vishnu Dev Nagar, Wakad, pune, Pimpri-Chinchwad, Maharashtra 411057</li>
             </ul>
@@ -100,7 +100,7 @@ export default function PrivacyPolicyPage() {
             <h2 className="text-white font-headline !mt-12 !mb-4">Contact Us</h2>
             <p>For privacy-related queries:</p>
              <ul className="list-none !pl-0">
-                <li><strong>Email:</strong> onellasoftinfo@gmail.com</li>
+                <li><strong>Email:</strong> info@onellasoft.com</li>
                 <li><strong>Phone:</strong> +919834410388</li>
             </ul>
           </div>
