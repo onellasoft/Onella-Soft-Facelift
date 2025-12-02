@@ -1,9 +1,11 @@
+
 'use client';
 import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { GlowingCard } from '@/components/ui/glowing-card';
 import { Button as MovingBorderButton } from '@/components/ui/moving-border';
 import { ArrowRight } from 'lucide-react';
+import Link from 'next/link';
 
 const results = [
     {
@@ -60,13 +62,15 @@ export function MarketingResults() {
         })}
       </div>
       <div className="text-center mt-12">
-        <MovingBorderButton
-            containerClassName="h-11 w-auto"
-            className="bg-glass text-white px-8"
-            borderRadius="0.5rem"
-          >
-            View All Projects
-          </MovingBorderButton>
+        <Link href="/support">
+          <MovingBorderButton
+              containerClassName="h-11 w-auto"
+              className="bg-glass text-white px-8"
+              borderRadius="0.5rem"
+            >
+              View All Projects
+            </MovingBorderButton>
+        </Link>
       </div>
     </section>
   );
