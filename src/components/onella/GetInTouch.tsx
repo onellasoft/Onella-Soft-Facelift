@@ -1,9 +1,10 @@
 import { Button as MovingBorderButton } from "@/components/ui/moving-border";
 import { ArrowRight } from "lucide-react";
+import { BackgroundBeamsWithCollision } from "../ui/background-beams-with-collision";
 
 export function GetInTouch() {
   return (
-    <section className="bg-background py-16 md:py-24">
+    <BackgroundBeamsWithCollision>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 className="font-headline text-3xl font-bold text-white sm:text-4xl">
           Have Question? Get in touch!
@@ -21,6 +22,6 @@ export function GetInTouch() {
           </MovingBorderButton>
         </div>
       </div>
-    </section>
+    </BackgroundBeamsWithCollision>
   );
 }
