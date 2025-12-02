@@ -1,24 +1,24 @@
 
 'use client';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
-import { MessageSquare, Play, Pencil } from 'lucide-react';
+import { ConciergeBell, ClipboardList, Megaphone } from 'lucide-react';
 import { GlowingCard } from '@/components/ui/glowing-card';
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
 
 const steps = [
   {
-    icon: <MessageSquare className="h-10 w-10 text-white" />,
+    icon: <ConciergeBell className="h-10 w-10 text-white" />,
     title: 'Free Consultation',
     description: 'We listen, we learn, and we ask questions during our free consultation.',
   },
   {
-    icon: <Play className="h-10 w-10 text-white" />,
+    icon: <ClipboardList className="h-10 w-10 text-white" />,
     title: 'Define Goals',
     description: 'We spend considerable time understanding your restaurant and then based objectives.',
   },
   {
-    icon: <Pencil className="h-10 w-10 text-white" />,
+    icon: <Megaphone className="h-10 w-10 text-white" />,
     title: 'Content Creation',
     description: 'Advanced digital marketing strategy to promote restaurants. We are a reliable partner.',
   },
