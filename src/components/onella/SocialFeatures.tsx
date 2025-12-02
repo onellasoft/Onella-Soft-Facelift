@@ -2,6 +2,7 @@ import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 import { GlowingCard } from '../ui/glowing-card';
 import { Button as MovingBorderButton } from "@/components/ui/moving-border";
 import { ArrowRight } from 'lucide-react';
+import CardStackDemo from '../ui/card-stack-demo';
 
 const features = [
   {
@@ -26,16 +27,8 @@ export function SocialFeatures() {
   return (
     <section>
       <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
-            {features.map((feature, index) => (
-              <GlowingCard key={index} className="bg-glass h-full transition-all duration-300 flex flex-col text-left p-6">
-                  <div className="h-16 w-16 rounded-full bg-accent/10 flex items-center justify-center border border-white/20 mb-4">
-                    <div className="h-8 w-8 rounded-full bg-background" />
-                  </div>
-                  <h3 className="font-headline text-xl text-white mb-2">{feature.title}</h3>
-                  <p className="text-white/80 text-sm flex-grow">{feature.description}</p>
-              </GlowingCard>
-            ))}
+        <div className="flex items-center justify-center">
+            <CardStackDemo />
         </div>
         <div className="flex items-center p-6">
           <div>
