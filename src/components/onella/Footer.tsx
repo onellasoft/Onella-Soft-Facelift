@@ -137,13 +137,13 @@ export function Footer() {
   ];
 
   return (
-    <footer className="flex flex-col bg-slate-50/5 items-center justify-around w-full py-16 text-sm text-gray-800/70 dark:text-gray-400">
+    <footer className="flex flex-col bg-slate-50/5 items-center justify-around w-full py-16 text-gray-800/70 dark:text-gray-400">
       <div className="flex items-center gap-8 flex-wrap justify-center px-4">
         {footerLinks.map((link) => (
           <Link
             key={link.label}
             href={link.href}
-            className="font-medium text-gray-500 hover:text-white transition-all"
+            className="font-medium text-gray-400 hover:text-white transition-all text-base"
           >
             {link.label}
           </Link>
@@ -161,7 +161,7 @@ export function Footer() {
           </a>
         ))}
       </div>
-      <p className="mt-8 text-center">
+      <p className="mt-8 text-center text-base">
         Copyright © {new Date().getFullYear()}{' '}
         <a href="https://onellasoft.com" className="hover:underline">
           OnellaSoft
