@@ -138,8 +138,8 @@ export function Footer() {
   ];
 
   return (
-    <>
-      <footer className="flex flex-col bg-slate-50/5 items-center justify-around w-full py-16 text-gray-800/70 dark:text-gray-400">
+    <BackgroundBeamsWithCollision className="h-auto py-16">
+      <div className="flex flex-col items-center justify-around w-full text-gray-800/70 dark:text-gray-400">
         <div className="flex items-center gap-8 flex-wrap justify-center px-4">
           {footerLinks.map((link) => (
             <Link
@@ -182,8 +182,7 @@ export function Footer() {
           </a>
           . All rights reserved.
         </p>
-      </footer>
-      <BackgroundBeamsWithCollision className="h-48 md:h-64" />
-    </>
+      </div>
+    </BackgroundBeamsWithCollision>
   );
 }
