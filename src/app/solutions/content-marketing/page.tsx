@@ -13,7 +13,7 @@ export default function ContentMarketingPage() {
       <main className="flex-grow">
         <ContentMarketingHero />
         <Partners />
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 space-y-16 md:space-y-24 py-16 md:py-24">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 space-y-16 md:space-y-24 pt-8 md:pt-12 pb-16 md:pb-24">
           <SocialMediaContent />
           <BlogWritingServices />
           <SeoContentWriting />
