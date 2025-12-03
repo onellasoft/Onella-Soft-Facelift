@@ -76,7 +76,7 @@ export function SeoHoverSlider() {
                     <TextStaggerHover 
                       index={index} 
                       text={item.title} 
-                      viewport={{ once: false, amount: 0.5 }}
+                      viewport={{ once: false, margin: "-40% 0px -40% 0px" }}
                     />
                     <motion.p
                       initial={{ opacity: 0 }}
