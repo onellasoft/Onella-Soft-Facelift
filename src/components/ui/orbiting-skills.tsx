@@ -53,6 +53,20 @@ interface GlowingOrbitPathProps {
   animationDelay?: number;
 }
 
+const OpenAiIcon = ({ size, color }: { size: number, color: string }) => (
+    <svg 
+        role="img" 
+        viewBox="0 0 24 24" 
+        xmlns="http://www.w3.org/2000/svg" 
+        fill="currentColor"
+        style={{ width: `${size * 0.5}px`, height: `${size * 0.5}px`, color: color }}
+    >
+        <title>OpenAI</title>
+        <path d="M22.2819 9.8211a5.9847 5.9847 0 0 0-.5157-2.933a6.0028 6.0028 0 0 0-4.4816-3.3246c-1.638-.3446-3.3245-.2052-4.9083.3835a5.9847 5.9847 0 0 0-4.8732 4.8732c-.5887 1.5838-.7281 3.2703-.3835 4.9083a6.0028 6.0028 0 0 0 3.3246 4.4816c1.638.3446 3.3245.2052 4.9083-.3835a5.9847 5.9847 0 0 0 4.8732-4.8732c.5887-1.5838.7281-3.2703.3835-4.9083Zm-1.5838 4.2835a4.2835 4.2835 0 0 1-3.0489 3.0489c-1.293.28-2.618.15-3.8349-.3835a4.2835 4.2835 0 0 1-3.0489-3.0489c-.5335-1.217-.6535-2.542-.3835-3.8349a4.2835 4.2835 0 0 1 3.0489-3.0489c1.293-.28 2.618-.15 3.8349.3835a4.2835 4.2835 0 0 1 3.0489 3.0489c.5335 1.217.6535 2.542.3835 3.8349ZM8.2281 15.7719a2.9847 2.9847 0 0 1-.2052-1.4484c0-1.127.6087-2.19.6087-2.19s-.6087-.9783-.6087-2.19c0-.5287.087-1.0427.2478-1.5326l-1.4174.8183a4.2835 4.2835 0 0 0-.3446 3.7924a4.2835 4.2835 0 0 0 3.0489 3.0489c1.293.28 2.618.15 3.8349-.3835a4.2835 4.2835 0 0 0 2.2295-2.2295l-.8183 1.4174c-.4899.1608-1.0039.2478-1.5326.2478a2.9847 2.9847 0 0 1-1.4484-.2052c-1.127-.4035-2.19-.6087-2.19-.6087s-.9783.2052-2.19.6087ZM11.9992 6.0008a.87.87 0 0 1 .87.87v3.4782a.87.87 0 1 1-1.74 0V6.8708a.87.87 0 0 1 .87-.87Zm-.0426 8.913a.87.87 0 0 0-.87.87v1.74a.87.87 0 0 0 1.74 0v-1.74a.87.87 0 0 0-.87-.87Zm-2.3913-2.826a.87.87 0 0 0-.87.87v1.74a.87.87 0 0 0 1.74 0v-1.74a.87.87 0 0 0-.87-.87Zm5.6521 0a.87.87 0 0 0-.87.87v1.74a.87.87 0 0 0 1.74 0v-1.74a.87.87 0 0 0-.87-.87Zm2.087-3.6956a.87.87 0 0 0-1.2304.5217l-1.74 3.4783a.87.87 0 1 0 1.5326.7652l1.74-3.4783a.87.87 0 0 0-.3022-1.2869Zm-8.4782 0a.87.87 0 0 0-.9278-1.2869.87.87 0 0 0-.3022.7652l1.74 3.4783a.87.87 0 1 0 1.5326-.7652l-1.74-3.4783Z"/>
+    </svg>
+);
+
+
 // --- Improved Icon Components ---
 const iconComponents: Record<IconType, { component: React.ElementType; color: string }> = {
   photoshop: { component: SiAdobephotoshop, color: '#31A8FF' },
@@ -60,7 +74,7 @@ const iconComponents: Record<IconType, { component: React.ElementType; color: st
   'google-analytics': { component: FaGoogle, color: '#f9ab00' },
   'davinci-resolve': { component: SiDavinciresolve, color: '#FFFFFF' },
   figma: { component: FaFigma, color: '#F24E1E' },
-  chatgpt: { component: Bot, color: '#74AA9C' },
+  chatgpt: { component: OpenAiIcon, color: '#FFFFFF' },
   firebase: { component: SiFirebase, color: '#FFCA28' },
   php: { component: FaPhp, color: '#777BB4' },
   nodejs: { component: FaNodeJs, color: '#339933' },
@@ -76,7 +90,7 @@ const iconComponents: Record<IconType, { component: React.ElementType; color: st
 // --- Memoized Icon Component ---
 const SkillIcon = memo(({ type, size, color }: SkillIconProps) => {
   const IconComponent = iconComponents[type]?.component;
-  return IconComponent ? <IconComponent style={{ fontSize: `${size * 0.5}px`, color: color }} /> : null;
+  return IconComponent ? <IconComponent size={size} color={color} /> : null;
 });
 SkillIcon.displayName = 'SkillIcon';
 
