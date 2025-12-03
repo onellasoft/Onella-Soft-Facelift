@@ -41,7 +41,7 @@ export default function Home() {
             }
           }}
         />
-        <div className="bg-background">
+        <div className="bg-background mt-[-10vh]">
           <Partners />
           <GrowBusiness />
           <DigitalSolutions />
