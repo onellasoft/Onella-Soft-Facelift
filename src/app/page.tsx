@@ -2,6 +2,10 @@
 'use client';
 import Hero from "@/components/ui/animated-shader-hero";
 import { Footer } from '@/components/onella/Footer';
+import { Partners } from '@/components/onella/Partners';
+import { GrowBusiness } from '@/components/onella/home/GrowBusiness';
+import { DigitalSolutions } from '@/components/onella/home/DigitalSolutions';
+import { GetInTouchHome } from '@/components/onella/home/GetInTouchHome';
 
 export default function Home() {
   const handlePrimaryClick = () => {
@@ -38,8 +42,13 @@ export default function Home() {
             }
           }}
         />
+        <Partners />
+        <GrowBusiness />
+        <DigitalSolutions />
+        <GetInTouchHome />
       </main>
       <Footer />
     </div>
   );
 }
+
