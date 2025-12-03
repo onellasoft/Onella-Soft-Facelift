@@ -5,20 +5,9 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Button as MovingBorderButton } from "@/components/ui/moving-border";
 import { SparklesCore } from '@/components/ui/sparkles';
 import Link from 'next/link';
-
-const partnerIds = [
-  'partner-shopify',
-  'partner-woocommerce',
-  'partner-magento',
-  'partner-bigcommerce',
-  'partner-stripe',
-  'partner-paypal'
-];
+import { PhotoGallery } from '@/components/ui/photo-gallery';
 
 export function EcommerceHero() {
-  const heroImage = PlaceHolderImages.find(img => img.id === 'ecommerce-hero-bg');
-  const partnerImages = partnerIds.map(id => PlaceHolderImages.find(img => img.id === id)).filter(Boolean);
-
   return (
     <>
       <section className="relative w-full min-h-[70vh] flex items-center justify-center text-center overflow-hidden py-24 sm:py-32">
@@ -58,24 +47,9 @@ export function EcommerceHero() {
           </MovingBorderButton>
         </div>
       </section>
-      <section className="bg-background border-y border-white/10">
+      <section className="bg-background py-0 md:py-8">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-center items-center gap-8 md:gap-12 flex-wrap py-8">
-            {partnerImages.map((image, index) => (
-              image && (
-                <div key={index} className="grayscale hover:grayscale-0 transition-all duration-300">
-                  <Image
-                    src={image.imageUrl}
-                    alt={image.description}
-                    width={120}
-                    height={40}
-                    data-ai-hint={image.imageHint}
-                    className="object-contain"
-                  />
-                </div>
-              )
-            ))}
-          </div>
+            <PhotoGallery />
         </div>
       </section>
     </>

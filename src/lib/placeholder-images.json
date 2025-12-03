@@ -121,36 +121,6 @@
       "imageHint": "abstract ideas"
     },
     {
-      "id": "partner-adobe",
-      "description": "Adobe logo",
-      "imageUrl": "https://images.unsplash.com/photo-1659535914845-6a5833d72b22?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "imageHint": "adobe logo"
-    },
-    {
-      "id": "partner-premiere",
-      "description": "Adobe Premiere Pro logo",
-      "imageUrl": "https://images.unsplash.com/photo-1691223939694-850ef3b43a99?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "imageHint": "premiere logo"
-    },
-    {
-      "id": "partner-figma",
-      "description": "Figma logo",
-      "imageUrl": "https://images.unsplash.com/photo-1636232185280-b2862a9b3506?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "imageHint": "figma logo"
-    },
-    {
-      "id": "partner-google-analytics",
-      "description": "Google Analytics logo",
-      "imageUrl": "https://images.unsplash.com/photo-1659535901349-8a3c842f1f51?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "imageHint": "analytics logo"
-    },
-    {
-      "id": "partner-davinci",
-      "description": "DaVinci Resolve logo",
-      "imageUrl": "https://images.unsplash.com/photo-1698241942034-7dc13c49890a?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "imageHint": "davinci logo"
-    },
-    {
       "id": "social-media-content",
       "description": "Abstract grid of glowing screens, representing social media content.",
       "imageUrl": "https://images.unsplash.com/photo-1601200190687-4fec4d91c388?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxkaWdpdGFsJTIwY29udGVudHxlbnwwfHx8fDE3NjQwNzUwNTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
@@ -221,42 +191,6 @@
       "description": "A person holding a credit card in front of a laptop displaying an e-commerce website.",
       "imageUrl": "https://images.unsplash.com/photo-1544816155-12df9643f363?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxlY29tbWVyY2UlMjBzaG9wcGluZ3xlbnwwfHx8fDE3NjQwNjUxODZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "ecommerce shopping"
-    },
-    {
-      "id": "partner-shopify",
-      "description": "Shopify logo",
-      "imageUrl": "https://images.unsplash.com/photo-1613905383527-8994ba2f9896?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzaG9waWZ5JTIwbG9nb3xlbnwwfHx8fDE3NjQxNTA3NTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "shopify logo"
-    },
-    {
-      "id": "partner-woocommerce",
-      "description": "WooCommerce logo",
-      "imageUrl": "https://images.unsplash.com/photo-1647551968853-b07c65677cc3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx3b29jb21tZXJjZSUyMGxvZ298ZW58MHx8fHwxNzY0MTUwNzUzfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "woocommerce logo"
-    },
-    {
-      "id": "partner-magento",
-      "description": "Magento logo",
-      "imageUrl": "https://images.unsplash.com/photo-1678235282464-37c227f71b94?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYWdlbnRvJTIwbG9nb3xlbnwwfHx8fDE3MjM5NDM1MjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "magento logo"
-    },
-    {
-      "id": "partner-bigcommerce",
-      "description": "BigCommerce logo",
-      "imageUrl": "https://images.unsplash.com/photo-1678235282381-42cb44975d84?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiaWdjb21tZXJjZSUyMGxvZ298ZW58MHx8fHwxNzIzOTQzNTI1fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "bigcommerce logo"
-    },
-    {
-      "id": "partner-stripe",
-      "description": "Stripe logo",
-      "imageUrl": "https://images.unsplash.com/photo-1678235282381-42cb44975d84?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiaWdjb21tZXJjZSUyMGxvZ298ZW58MHx8fHwxNzIzOTQzNTI1fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "stripe logo"
-    },
-    {
-      "id": "partner-paypal",
-      "description": "PayPal logo",
-      "imageUrl": "https://images.unsplash.com/photo-1616469692029-5b72e1fb5b58?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxQYXlQYWwlMjBsb2dvfGVufDB8fHx8MTcyMzk0MzM5N3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "paypal logo"
     },
     {
       "id": "real-estate-who-we-are",
@@ -401,30 +335,6 @@
       "description": "A smiling concierge welcoming guests in a hotel lobby.",
       "imageUrl": "https://images.unsplash.com/photo-1563911302283-d2bc129e7570?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxob3RlbCUyMGNvbmNpZXJnZXxlbnwwfHx8fDE3NjQ2NDIxMzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "hotel concierge"
-    },
-    {
-      "id": "hospitality-gallery-1",
-      "description": "A romantic wedding setup in ancient ruins.",
-      "imageUrl": "https://images.unsplash.com/photo-1587790382894-3574163b5113?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3ZWRkaW5nJTIwYWx0YXJ8ZW58MHx8fHwxNzIyNDk5NTUxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "wedding altar"
-    },
-    {
-      "id": "hospitality-gallery-2",
-      "description": "A winter scene with a lake view in Van, Turkiye.",
-      "imageUrl": "https://images.unsplash.com/photo-1610416523998-13a8a3038b36?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3aW50ZXIlMjBsYWtlfGVufDB8fHx8MTcyMjQ5OTU1MXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "winter lake"
-    },
-    {
-      "id": "hospitality-gallery-3",
-      "description": "A moody portrait with a heart-shaped light.",
-      "imageUrl": "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtb29keSUyMGxpZ2h0fGVufDB8fHx8MTcyMjQ5OTU1MXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "moody light"
-    },
-    {
-      "id": "hospitality-gallery-4",
-      "description": "Women sitting on a hilltop with clouds below.",
-      "imageUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwZW9wbGUlMjBoaWxsdG9wfGVufDB8fHx8MTcyMjQ5OTU1MXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "people hilltop"
     },
     {
       "id": "hospitality-gallery-5",
