@@ -1,4 +1,3 @@
-
 'use client';
 import Hero from "@/components/ui/animated-shader-hero";
 import { Footer } from '@/components/onella/Footer';
@@ -42,7 +41,7 @@ export default function Home() {
             }
           }}
         />
-        <div className="relative z-20 bg-background">
+        <div className="bg-background">
           <Partners />
           <GrowBusiness />
           <DigitalSolutions />
