@@ -1,6 +1,9 @@
-import { WebsiteRedesignSlider } from './WebsiteRedesignSlider';
+import Image from 'next/image';
+import { PlaceHolderImages } from '@/lib/placeholder-images';
+import { GlowingCard } from '../ui/glowing-card';
 
 export function WebsiteRedesign() {
+  const image = PlaceHolderImages.find((i) => i.id === 'web-redesign-after');
 
   return (
     <section>
@@ -16,7 +19,19 @@ export function WebsiteRedesign() {
           </div>
         </div>
         <div className="flex items-center">
-            <WebsiteRedesignSlider />
+          {image && (
+            <GlowingCard>
+              <Image
+                src={image.imageUrl}
+                alt={image.description}
+                data-ai-hint={image.imageHint}
+                width={1920}
+                height={1080}
+                priority
+                className="w-full h-full aspect-video rounded-2xl select-none"
+              />
+            </GlowingCard>
+          )}
         </div>
       </div>
     </section>
