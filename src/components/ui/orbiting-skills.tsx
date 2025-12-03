@@ -17,7 +17,7 @@ import {
   SiDavinciresolve,
   SiFirebase,
 } from 'react-icons/si';
-import { BsChatGpt } from "react-icons/bs";
+import { BsChat } from "react-icons/bs";
 
 // --- Type Definitions ---
 type IconType = 'photoshop' | 'after-effects' | 'google-analytics' | 'davinci-resolve' | 'figma' | 'chatgpt' | 'firebase' | 'php' | 'nodejs' | 'java' | 'angular' | 'python' | 'javascript';
@@ -59,7 +59,7 @@ const iconComponents: Record<IconType, { component: React.ElementType; color: st
   'google-analytics': { component: FaGoogle, color: '#f9ab00' },
   'davinci-resolve': { component: SiDavinciresolve, color: '#FFFFFF' },
   figma: { component: FaFigma, color: '#F24E1E' },
-  chatgpt: { component: BsChatGpt, color: '#74AA9C' },
+  chatgpt: { component: BsChat, color: '#74AA9C' },
   firebase: { component: SiFirebase, color: '#FFCA28' },
   php: { component: FaPhp, color: '#777BB4' },
   nodejs: { component: FaNodeJs, color: '#339933' },
