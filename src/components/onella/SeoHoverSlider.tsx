@@ -68,26 +68,30 @@ export function SeoHoverSlider() {
 
       <div className="relative container mx-auto px-4 sm:px-6 lg:px-8 mt-16">
         <HoverSlider>
-          <div className="grid grid-cols-1 items-start gap-10 md:grid-cols-2">
-            <div className="sticky top-28 flex flex-col gap-10 lg:gap-24">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
+            <div className="w-full">
               {sliderData.map((item, index) => (
-                <div key={item.id} className="flex flex-col gap-2">
-                  <TextStaggerHover index={index} text={item.title} viewport={{ once: false, amount: 'all' }} />
-                  <AnimatePresence>
-                     <motion.p
-                        initial={{ opacity: 0 }}
-                        animate={{ opacity: 1 }}
-                        exit={{ opacity: 0 }}
-                        transition={{ duration: 0.3 }}
-                        className="max-w-md text-muted-foreground"
-                      >
-                        {item.description}
-                      </motion.p>
-                  </AnimatePresence>
+                <div key={item.id} className="min-h-[50vh] flex flex-col justify-center">
+                  <div className="flex flex-col gap-4">
+                    <TextStaggerHover 
+                      index={index} 
+                      text={item.title} 
+                      viewport={{ once: false, amount: 0.5 }}
+                    />
+                    <motion.p
+                      initial={{ opacity: 0 }}
+                      whileInView={{ opacity: 1 }}
+                      viewport={{ once: false, amount: 0.5 }}
+                      transition={{ duration: 0.3, delay: 0.2 }}
+                      className="max-w-md text-muted-foreground"
+                    >
+                      {item.description}
+                    </motion.p>
+                  </div>
                 </div>
               ))}
             </div>
-            <div className="h-[calc(4*16rem)]">
+            <div className="h-full">
                <div className="sticky top-28">
                 <HoverSliderImageWrap className="aspect-video h-auto w-full overflow-hidden rounded-2xl md:aspect-[4/3] lg:aspect-video">
                   {images.map(
