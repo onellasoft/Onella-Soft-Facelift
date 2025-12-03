@@ -41,6 +41,7 @@ export function WebDevelopmentHero() {
                     As a premier web design and development company, we create captivating, high-performance websites that engage your audience and drive business growth. Our expert team combines creative design with robust functionality to deliver seamless digital experiences.
                 </p>
                 <div className="mt-8 flex justify-center">
+                  <Link href="/support">
                     <MovingBorderButton
                         containerClassName="h-11"
                         className="bg-transparent text-white px-8"
@@ -48,6 +49,7 @@ export function WebDevelopmentHero() {
                     >
                         Get a Quote
                     </MovingBorderButton>
+                  </Link>
                 </div>
             </div>
         </div>
