@@ -17,10 +17,11 @@ import {
   SiFirebase,
   SiAdobephotoshop,
   SiDotnet,
+  SiMeta,
 } from 'react-icons/si';
 
 // --- Type Definitions ---
-type IconType = 'photoshop' | 'after-effects' | 'google-analytics' | 'davinci-resolve' | 'figma' | 'chatgpt' | 'firebase' | 'php' | 'nodejs' | 'java' | 'angular' | 'python' | 'javascript' | 'react' | 'dotnet';
+type IconType = 'photoshop' | 'after-effects' | 'google-analytics' | 'davinci-resolve' | 'figma' | 'chatgpt' | 'firebase' | 'php' | 'nodejs' | 'java' | 'angular' | 'python' | 'javascript' | 'react' | 'dotnet' | 'meta';
 
 type GlowColor = 'cyan' | 'purple' | 'orange';
 
@@ -83,6 +84,7 @@ const iconComponents: Record<IconType, { component: React.ElementType; color: st
   javascript: { component: FaJs, color: '#F7DF1E' },
   react: { component: FaReact, color: '#61DAFB' },
   dotnet: { component: SiDotnet, color: '#512BD4' },
+  meta: { component: SiMeta, color: '#0083FF' },
 };
 
 
@@ -186,9 +188,29 @@ const skillsConfig: SkillConfig[] = [
     size: 50,
     speed: 0.4,
     iconType: 'chatgpt',
-    phaseShift: 0,
+    phaseShift: (0 * Math.PI) / 4,
     glowColor: 'orange',
     label: 'ChatGPT'
+  },
+    {
+    id: 'meta',
+    orbitRadius: 220,
+    size: 50,
+    speed: 0.4,
+    iconType: 'meta',
+    phaseShift: (0.5 * Math.PI) / 4,
+    glowColor: 'orange',
+    label: 'Meta'
+  },
+  {
+    id: 'dotnet',
+    orbitRadius: 220,
+    size: 50,
+    speed: 0.4,
+    iconType: 'dotnet',
+    phaseShift: (1 * Math.PI) / 4,
+    glowColor: 'orange',
+    label: '.NET'
   },
   {
     id: 'firebase',
@@ -196,7 +218,7 @@ const skillsConfig: SkillConfig[] = [
     size: 50,
     speed: 0.4,
     iconType: 'firebase',
-    phaseShift: (Math.PI) / 4,
+    phaseShift: (2 * Math.PI) / 4,
     glowColor: 'orange',
     label: 'Firebase'
   },
@@ -206,7 +228,7 @@ const skillsConfig: SkillConfig[] = [
     size: 50,
     speed: 0.4,
     iconType: 'php',
-    phaseShift: (2 * Math.PI) / 4,
+    phaseShift: (3 * Math.PI) / 4,
     glowColor: 'orange',
     label: 'PHP'
   },
@@ -216,7 +238,7 @@ const skillsConfig: SkillConfig[] = [
     size: 50,
     speed: 0.4,
     iconType: 'nodejs',
-    phaseShift: (3 * Math.PI) / 4,
+    phaseShift: (4 * Math.PI) / 4,
     glowColor: 'orange',
     label: 'Node.js'
   },
@@ -226,7 +248,7 @@ const skillsConfig: SkillConfig[] = [
     size: 50,
     speed: 0.4,
     iconType: 'angular',
-    phaseShift: (4 * Math.PI) / 4,
+    phaseShift: (5 * Math.PI) / 4,
     glowColor: 'orange',
     label: 'Angular'
   },
@@ -236,19 +258,9 @@ const skillsConfig: SkillConfig[] = [
     size: 50,
     speed: 0.4,
     iconType: 'react',
-    phaseShift: (5 * Math.PI) / 4,
-    glowColor: 'orange',
-    label: 'React'
-  },
-  {
-    id: 'dotnet',
-    orbitRadius: 220,
-    size: 50,
-    speed: 0.4,
-    iconType: 'dotnet',
     phaseShift: (6 * Math.PI) / 4,
     glowColor: 'orange',
-    label: '.NET'
+    label: 'React'
   },
 ];
 
