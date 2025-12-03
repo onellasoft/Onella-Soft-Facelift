@@ -69,14 +69,20 @@ export function SeoHoverSlider() {
       <div className="relative container mx-auto px-4 sm:px-6 lg:px-8 mt-16">
         <HoverSlider>
           <div className="grid grid-cols-1 items-start gap-10 md:grid-cols-2">
-            <div className="sticky top-28 flex flex-col gap-10 lg:gap-16">
+            <div className="sticky top-28 flex flex-col gap-10 lg:gap-24">
               {sliderData.map((item, index) => (
                 <div key={item.id} className="flex flex-col gap-2">
-                  <TextStaggerHover index={index} text={item.title} viewport={{ once: false, amount: 1 }} />
+                  <TextStaggerHover index={index} text={item.title} viewport={{ once: false, amount: 'all' }} />
                   <AnimatePresence>
-                     <p className="max-w-md text-muted-foreground">
+                     <motion.p
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        exit={{ opacity: 0 }}
+                        transition={{ duration: 0.3 }}
+                        className="max-w-md text-muted-foreground"
+                      >
                         {item.description}
-                      </p>
+                      </motion.p>
                   </AnimatePresence>
                 </div>
               ))}

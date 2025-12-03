@@ -8,6 +8,7 @@ import { cn } from "@/lib/utils"
 interface TextStaggerHoverProps {
   text: string
   index: number
+  viewport?: any;
 }
 interface HoverSliderImageProps {
   index: number;
@@ -62,7 +63,7 @@ export const TextStaggerHover = React.forwardRef<
   return (
     <motion.h3
       className={cn(
-        "relative inline-block origin-bottom text-2xl font-semibold text-muted-foreground",
+        "relative inline-block origin-bottom text-2xl font-semibold",
         className,
       )}
       animate={{
@@ -76,7 +77,7 @@ export const TextStaggerHover = React.forwardRef<
       ref={ref}
       onMouseEnter={handleMouse}
       onViewportEnter={handleViewportEnter}
-      viewport={{ once: false, amount: 0.5 }}
+      viewport={props.viewport}
     >
       {text}
     </motion.h3>
