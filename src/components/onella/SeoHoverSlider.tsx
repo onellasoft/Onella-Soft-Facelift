@@ -9,25 +9,25 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 const sliderData = [
   {
-    id: 'seo-slider-1',
-    title: 'Grow your traffic',
+    id: 'local-seo',
+    title: 'Local SEO for Indian Businesses',
     description:
-      'Higher rankings on search engines mean more visibility for your products or services. This brings in highly qualified traffic from users actively searching for solutions.',
-    imageId: 'seo-slider-traffic',
+      'For businesses targeting local customers in a surrounding area, we optimize your Google My Business profile and implement local SEO strategies to help you appear in local search results and maps.',
+    imageId: 'local-seo-indian-business',
   },
   {
-    id: 'seo-slider-2',
-    title: 'Get quality leads',
+    id: 'multilingual-seo',
+    title: 'Multi Lingual SEO Strategies',
     description:
-      'Appearing at the top of search results establishes your brand as an authority and builds trust with potential customers. It also generates quality leads who are more likely to convert.',
-    imageId: 'seo-slider-leads',
+      'Multilingual SEO is the process of optimizing websites for multiple languages, enabling businesses to reach wider audiences. We handle technical aspects like site speed, crawlability, and structured data.',
+    imageId: 'multilingual-seo',
   },
   {
-    id: 'seo-slider-3',
-    title: 'Drive more sales',
+    id: 'seo-reporting',
+    title: 'SEO Reporting and Analytics',
     description:
-      'Ultimately, good advertising translates into increased sales. By reaching the right people, driving more website traffic, and establishing your brand, you will drive more sales for your product or service.',
-    imageId: 'seo-slider-sales',
+      'SEO reporting and analytics are crucial for understanding and improving a website\'s performance. We track and document KPIs like keyword rankings, organic traffic, and back-links.',
+    imageId: 'seo-reporting-analytics',
   },
 ];
 
@@ -38,6 +38,7 @@ export function SeoHoverSlider() {
       ...item,
       imageUrl: imageData?.imageUrl,
       imageAlt: imageData?.description,
+      imageHint: imageData?.imageHint,
     };
   });
 
@@ -45,10 +46,10 @@ export function SeoHoverSlider() {
     <section>
       <div className="text-center">
         <span className="text-sm font-bold tracking-wider uppercase text-primary">
-          Work Process
+          Our Services
         </span>
         <h2 className="font-headline text-3xl font-bold text-white sm:text-4xl mt-2">
-          How it works?
+          Tailored SEO Solutions
         </h2>
         <p className="mt-4 max-w-2xl mx-auto text-white">
           We offer a tailored approach to SEO, developing strategies that align
@@ -81,6 +82,7 @@ export function SeoHoverSlider() {
                         key={item.id}
                         src={item.imageUrl}
                         alt={item.imageAlt || ''}
+                        data-ai-hint={item.imageHint}
                         className="object-cover"
                       />
                     )
