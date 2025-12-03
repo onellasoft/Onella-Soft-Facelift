@@ -42,10 +42,12 @@ export default function Home() {
             }
           }}
         />
-        <Partners />
-        <GrowBusiness />
-        <DigitalSolutions />
-        <GetInTouchHome />
+        <div className="relative z-20 bg-background">
+          <Partners />
+          <GrowBusiness />
+          <DigitalSolutions />
+          <GetInTouchHome />
+        </div>
       </main>
       <Footer />
     </div>
