@@ -10,11 +10,11 @@ import {
   FaPython,
   FaJs
 } from 'react-icons/fa';
-import { FaPhotoshop } from 'react-icons/fa6';
 import {
   SiAdobeaftereffects,
   SiDavinciresolve,
   SiFirebase,
+  SiAdobephotoshop,
 } from 'react-icons/si';
 import { BsChat } from "react-icons/bs";
 
@@ -53,7 +53,7 @@ interface GlowingOrbitPathProps {
 
 // --- Improved Icon Components ---
 const iconComponents: Record<IconType, { component: React.ElementType; color: string }> = {
-  photoshop: { component: FaPhotoshop, color: '#31A8FF' },
+  photoshop: { component: SiAdobephotoshop, color: '#31A8FF' },
   'after-effects': { component: SiAdobeaftereffects, color: '#d887ff' },
   'google-analytics': { component: FaGoogle, color: '#f9ab00' },
   'davinci-resolve': { component: SiDavinciresolve, color: '#FFFFFF' },
