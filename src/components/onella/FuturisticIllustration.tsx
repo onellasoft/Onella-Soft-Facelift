@@ -6,6 +6,7 @@ import { getFuturisticIllustration } from '@/app/actions';
 import { Skeleton } from '@/components/ui/skeleton';
 import { AlertTriangle, ServerCrash } from 'lucide-react';
 import { Card, CardContent } from '../ui/card';
+import { Component as LumaSpin } from '@/components/ui/luma-spin';
 
 export function FuturisticIllustration() {
   const [imageUrl, setImageUrl] = useState<string | null>(null);
@@ -32,7 +33,11 @@ export function FuturisticIllustration() {
   }, []);
 
   if (loading) {
-    return <Skeleton className="aspect-square w-full rounded-lg" />;
+    return (
+      <div className="flex aspect-square w-full items-center justify-center rounded-lg">
+        <LumaSpin />
+      </div>
+    );
   }
 
   if (error) {
