@@ -198,7 +198,7 @@ const skillsConfig: SkillConfig[] = [
     size: 50,
     speed: 0.4,
     iconType: 'meta',
-    phaseShift: (0.5 * Math.PI) / 4,
+    phaseShift: (1 * Math.PI) / 4,
     glowColor: 'orange',
     label: 'Meta'
   },
@@ -208,7 +208,7 @@ const skillsConfig: SkillConfig[] = [
     size: 50,
     speed: 0.4,
     iconType: 'dotnet',
-    phaseShift: (1 * Math.PI) / 4,
+    phaseShift: (2 * Math.PI) / 4,
     glowColor: 'orange',
     label: '.NET'
   },
@@ -218,7 +218,7 @@ const skillsConfig: SkillConfig[] = [
     size: 50,
     speed: 0.4,
     iconType: 'firebase',
-    phaseShift: (2 * Math.PI) / 4,
+    phaseShift: (3 * Math.PI) / 4,
     glowColor: 'orange',
     label: 'Firebase'
   },
@@ -228,7 +228,7 @@ const skillsConfig: SkillConfig[] = [
     size: 50,
     speed: 0.4,
     iconType: 'php',
-    phaseShift: (3 * Math.PI) / 4,
+    phaseShift: (4 * Math.PI) / 4,
     glowColor: 'orange',
     label: 'PHP'
   },
@@ -238,7 +238,7 @@ const skillsConfig: SkillConfig[] = [
     size: 50,
     speed: 0.4,
     iconType: 'nodejs',
-    phaseShift: (4 * Math.PI) / 4,
+    phaseShift: (5 * Math.PI) / 4,
     glowColor: 'orange',
     label: 'Node.js'
   },
@@ -248,7 +248,7 @@ const skillsConfig: SkillConfig[] = [
     size: 50,
     speed: 0.4,
     iconType: 'angular',
-    phaseShift: (5 * Math.PI) / 4,
+    phaseShift: (6 * Math.PI) / 4,
     glowColor: 'orange',
     label: 'Angular'
   },
@@ -258,7 +258,7 @@ const skillsConfig: SkillConfig[] = [
     size: 50,
     speed: 0.4,
     iconType: 'react',
-    phaseShift: (6 * Math.PI) / 4,
+    phaseShift: (7 * Math.PI) / 4,
     glowColor: 'orange',
     label: 'React'
   },
