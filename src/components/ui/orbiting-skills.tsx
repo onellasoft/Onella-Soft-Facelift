@@ -8,18 +8,20 @@ import {
   FaJava,
   FaAngular,
   FaPython,
-  FaJs
+  FaJs,
+  FaReact
 } from 'react-icons/fa';
 import {
   SiAdobeaftereffects,
   SiDavinciresolve,
   SiFirebase,
   SiAdobephotoshop,
+  SiDotnet,
 } from 'react-icons/si';
 import { BsChat } from "react-icons/bs";
 
 // --- Type Definitions ---
-type IconType = 'photoshop' | 'after-effects' | 'google-analytics' | 'davinci-resolve' | 'figma' | 'chatgpt' | 'firebase' | 'php' | 'nodejs' | 'java' | 'angular' | 'python' | 'javascript';
+type IconType = 'photoshop' | 'after-effects' | 'google-analytics' | 'davinci-resolve' | 'figma' | 'chatgpt' | 'firebase' | 'php' | 'nodejs' | 'java' | 'angular' | 'python' | 'javascript' | 'react' | 'dotnet';
 
 type GlowColor = 'cyan' | 'purple' | 'orange';
 
@@ -66,6 +68,8 @@ const iconComponents: Record<IconType, { component: React.ElementType; color: st
   angular: { component: FaAngular, color: '#DD0031' },
   python: { component: FaPython, color: '#3776AB' },
   javascript: { component: FaJs, color: '#F7DF1E' },
+  react: { component: FaReact, color: '#61DAFB' },
+  dotnet: { component: SiDotnet, color: '#512BD4' },
 };
 
 
@@ -179,7 +183,7 @@ const skillsConfig: SkillConfig[] = [
     size: 50,
     speed: 0.4,
     iconType: 'firebase',
-    phaseShift: (Math.PI) / 3,
+    phaseShift: (Math.PI) / 4,
     glowColor: 'orange',
     label: 'Firebase'
   },
@@ -189,7 +193,7 @@ const skillsConfig: SkillConfig[] = [
     size: 50,
     speed: 0.4,
     iconType: 'php',
-    phaseShift: (2 * Math.PI) / 3,
+    phaseShift: (2 * Math.PI) / 4,
     glowColor: 'orange',
     label: 'PHP'
   },
@@ -199,7 +203,7 @@ const skillsConfig: SkillConfig[] = [
     size: 50,
     speed: 0.4,
     iconType: 'nodejs',
-    phaseShift: Math.PI,
+    phaseShift: (3 * Math.PI) / 4,
     glowColor: 'orange',
     label: 'Node.js'
   },
@@ -209,9 +213,29 @@ const skillsConfig: SkillConfig[] = [
     size: 50,
     speed: 0.4,
     iconType: 'angular',
-    phaseShift: (4 * Math.PI) / 3,
+    phaseShift: (4 * Math.PI) / 4,
     glowColor: 'orange',
     label: 'Angular'
+  },
+  {
+    id: 'react',
+    orbitRadius: 220,
+    size: 50,
+    speed: 0.4,
+    iconType: 'react',
+    phaseShift: (5 * Math.PI) / 4,
+    glowColor: 'orange',
+    label: 'React'
+  },
+  {
+    id: 'dotnet',
+    orbitRadius: 220,
+    size: 50,
+    speed: 0.4,
+    iconType: 'dotnet',
+    phaseShift: (6 * Math.PI) / 4,
+    glowColor: 'orange',
+    label: '.NET'
   },
 ];
 
