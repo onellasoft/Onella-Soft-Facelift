@@ -32,7 +32,7 @@ export default function ContentMarketingHero() {
           <span className="text-white">CONTENT MARKETING</span>
         </div>
         <h1 className="text-white text-5xl font-bold tracking-tight">
-          Content Marketing is the Best Ever
+          Crafting Content That Captivates and Converts
         </h1>
         <p className="mt-4 text-neutral-300 text-lg leading-relaxed">
           At Onella Soft, a leading digital marketing company in Pune, content marketing and SEO go hand-in-glove. A robust content marketing plan must be based on a sound SEO foundation. Content marketing encompasses the creation and dissemination of content assets like blogs, e-books, guides, infographics, interactive tools, videos, website content, newspaper articles etc.
