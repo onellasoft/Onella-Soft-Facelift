@@ -72,7 +72,7 @@ export function SeoHoverSlider() {
             <div className="flex flex-col gap-10 lg:gap-16">
               {sliderData.map((item, index) => (
                 <div key={item.id} className="flex flex-col gap-2">
-                  <TextStaggerHover index={index} text={item.title} />
+                  <TextStaggerHover index={index} text={item.title} viewport={{ once: false, amount: 1 }} />
                   <AnimatePresence>
                      <p className="max-w-md text-muted-foreground">
                         {item.description}
