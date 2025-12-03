@@ -26,8 +26,15 @@ const sliderData = [
     id: 'seo-reporting',
     title: 'SEO Reporting and Analytics',
     description:
-      'SEO reporting and analytics are crucial for understanding and improving a website\'s performance. We track and document KPIs like keyword rankings, organic traffic, and back-links.',
+      "SEO reporting and analytics are crucial for understanding and improving a website's performance. We track and document KPIs like keyword rankings, organic traffic, and back-links.",
     imageId: 'seo-reporting-analytics',
+  },
+  {
+    id: 'technical-seo-audit',
+    title: 'Technical SEO Audits',
+    description:
+      'Technical SEO Audits involve a business of non-promotional SEO devices. We focus on the technical aspects of your website, ensure that your site is easily accessible to search engines, and facilitates improved crawlability, a better user experience, and signal search rankings.',
+    imageId: 'technical-seo-audit',
   },
 ];
 
