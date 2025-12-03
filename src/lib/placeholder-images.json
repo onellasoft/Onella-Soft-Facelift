@@ -27,13 +27,13 @@
     {
       "id": "company-vision",
       "description": "A colorful brain inside a lightbulb, representing innovation and ideas.",
-      "imageUrl": "https://images.unsplash.com/photo-1589828994474-40c4d27e92c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxpbm5vdmF0aW9uJTIwaWRlYXN8ZW58MHx8fHwxNzYzOTc3NzkwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1589828994474-40c4d27e92c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxpbm5vdmF0aW9uJTIwaWRlYXN8ZW58MHx8fHwxNzYzOTc3NzkwfDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "innovation ideas"
     },
     {
       "id": "company-mission",
       "description": "A lightbulb with a glowing brain inside, sitting on a table, representing focus and execution.",
-      "imageUrl": "https://images.unsplash.com/photo-1623077299184-5cc7fd33ea99?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzdHJhdGVnaWMlMjBleGVjdXRpb258ZW58MHx8fHwxNzYzOTc3NzkwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1623077299184-5cc7fd33ea99?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzdHJhdGVnaWMlMjBleGVjdXRpb258ZW58MHx8fHwxNzYzOTc3NzkwfDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "strategic execution"
     },
     {
@@ -117,7 +117,7 @@
     {
       "id": "content-hero",
       "description": "An abstract image of a brain inside a lightbulb, representing ideas.",
-      "imageUrl": "https://images.unsplash.com/photo-1621772304863-a65c644cd226?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhYnN0cmFjdCUyMGlkZWFzfGVufDB8fHx8MTc2Mzk3MzYzNHww&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1621772304863-a65c644cd226?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhYnN0cmFjdCUyMGlkZWFzfGVufDB8fHx8MTc2Mzk3MzYzNHww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "abstract ideas"
     },
     {
@@ -141,13 +141,13 @@
     {
       "id": "website-content",
       "description": "A person interacting with a futuristic interface showing website code.",
-      "imageUrl": "https://images.unsplash.com/photo-1593720213428-28a5b9e94613?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3ZWIlMjBkZXZlbG9wbWVudHxlbnwwfHx8fDE3NjM5OTkzMTZ8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1593720213428-28a5b9e94613?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3ZWIlMjBkZXZlbG9wbWVudHxlbnwwfHx8fDE3NjM5OTkzMTZ8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "web development"
     },
     {
       "id": "web-dev-hero",
       "description": "An illustration showing a person interacting with a large mobile phone screen, representing digital experiences.",
-      "imageUrl": "https://images.unsplash.com/photo-1483478550801-ceba5fe50e8e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkaWdpdGFsJTIwZXhwZXJpZW5jZXxlbnwwfHx8fDE3NjQwNzUzNTF8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1483478550801-ceba5fe50e8e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkaWdpdGFsJTIwZXhwZXJpZW5jZXxlbnwwfHx8fDE3NjQwNzUzNTF8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "digital experience"
     },
     {
@@ -187,15 +187,21 @@
       "imageHint": "desk work"
     },
     {
-      "id": "ecommerce-hero-bg",
-      "description": "A person holding a credit card in front of a laptop displaying an e-commerce website.",
-      "imageUrl": "https://images.unsplash.com/photo-1544816155-12df9643f363?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxlY29tbWVyY2UlMjBzaG9wcGluZ3xlbnwwfHx8fDE3NjQwNjUxODZ8MA&ixlib-rb-4.1.0&q=80&w=1080",
-      "imageHint": "ecommerce shopping"
+      "id": "ecommerce-grow-business",
+      "description": "A 3D rendering of shopping bags and carts, representing e-commerce growth.",
+      "imageUrl": "https://images.unsplash.com/photo-1579227572-243683693416?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzaG9wcGluZyUyMGJhZ3N8ZW58MHx8fHwxNzY0MDY0NzEyfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "shopping bags"
+    },
+    {
+      "id": "ecommerce-our-vision",
+      "description": "A person holding a glowing lightbulb, symbolizing ideas and vision.",
+      "imageUrl": "https://images.unsplash.com/photo-1521791136064-7986c2920216?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx2aXNpb258ZW58MHx8fHwxNzY0NjQzOTIxfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "vision"
     },
     {
       "id": "real-estate-who-we-are",
       "description": "A modern office building with a sleek glass facade and cityscape views.",
-      "imageUrl": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxyZWFsJTIwZXN0YXRlJTIwYWdlbnR8ZW58MHx8fHwxNzY0MjI2MDM2fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxyZWFsJTIwZXN0YXRlJTIwYWdlbnR8ZW58MHx8fHwxNzY0MjI2MDM2fDA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "real estate agent"
     },
     {
@@ -225,7 +231,7 @@
     {
       "id": "healthcare-startups",
       "description": "A female doctor in a mask and lab coat using a tablet.",
-      "imageUrl": "https://images.unsplash.com/photo-1646392206581-2527b1cae5cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxkb2N0b3IlMjB0YWJsZXR8ZW58MHx8fHwxNzY0MDg4OTU1fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1646392206581-2527b1cae5cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxkb2N0b3IlMjB0YWJsZXR8ZW58MHx8fHwxNzY0MDg4OTU1fDA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "doctor tablet"
     },
     {
@@ -237,19 +243,19 @@
     {
       "id": "education-hero-bg",
       "description": "A man on the phone in a modern office pod.",
-      "imageUrl": "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjb2xsYWJvcmF0aW9ufGVufDB8fHx8MTc2NDE1Mjc3OXww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjb2xsYWJvcmF0aW9ufGVufDB8fHx8MTc2NDE1Mjc3OXww&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "modern office"
     },
     {
       "id": "education-dm",
       "description": "Glasses resting on a paper with charts and graphs.",
-      "imageUrl": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx3b3Jrc3BhY2V8ZW58MHx8fHwxNzY0MjM5Mjc1fDA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx3b3Jrc3BhY2V8ZW58MHx8fHwxNzY0MjM5Mjc1fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "charts graphs"
     },
     {
       "id": "education-strategy",
       "description": "A person using a laptop showing a colorful screen.",
-      "imageUrl": "https://images.unsplash.com/photo-1542744095-291d1f67b221?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx3b3Jrc3BhY2V8ZW58MHx8fHwxNzY0MjM5Mjc1fDA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1542744095-291d1f67b221?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx3b3Jrc3BhY2V8ZW58MHx8fHwxNzY0MjM5Mjc1fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "workspace laptop"
     },
     {
@@ -261,7 +267,7 @@
     {
       "id": "hospitality-attract",
       "description": "A comfortable hotel lounge area.",
-      "imageUrl": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxob3RlbCUyMHJvb218ZW58MHx8fHwxNzY0MjQxODgyfDA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxob3RlbCUyMHJvb218ZW58MHx8fHwxNzY0MjQxODgyfDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "hotel room"
     },
     {
@@ -291,13 +297,13 @@
     {
       "id": "blog-healthcare-revolution",
       "description": "Two doctors looking at a tablet with medical data charts.",
-      "imageUrl": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxoZWFsdGhjYXJlJTIwdGVjaG5vbG9neXxlbnwwfHx8fDE3MjE4MTg0NTV8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxoZWFsdGhjYXJlJTIwdGVjaG5vbG9neXxlbnwwfHx8fDE3MjE4MTg0NTV8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "healthcare technology"
     },
     {
       "id": "blog-ecommerce-seo",
       "description": "An illustration of a warehouse with boxes on shelves and an SEO chart overlay.",
-      "imageUrl": "https://images.unsplash.com/photo-1586528116311-069241518878?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxlY29tbWVyY2UlMjBzZW98ZW58MHx8fHwxNzIxODE4NDU1fDA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1586528116311-069241518878?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxlY29tbWVyY2UlMjBzZW98ZW58MHx8fHwxNzIxODE4NDU1fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "ecommerce seo"
     },
     {
@@ -339,7 +345,7 @@
     {
       "id": "hospitality-gallery-5",
       "description": "A person with a laptop at a cafe.",
-      "imageUrl": "https://images.unsplash.com/photo-1521017432531-fbd92d768814?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxidXNpbmVzcyUyMHRyYXZlbHxlbnwwfHx8fDE3NjQ2NDIxMzl8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1521017432531-fbd92d768814?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxidXNpbmVzcyUyMHRyYXZlbHxlbnwwfHx8fDE3NjQ2NDIxMzl8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "business travel"
     },
     {
@@ -351,7 +357,7 @@
     {
       "id": "ecom-gallery-1",
       "description": "A person holding a credit card in front of a laptop showing an online store.",
-      "imageUrl": "https://images.unsplash.com/photo-1556740738-b6a63e2775df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxvbmxpbmUlMjBzaG9wcGluZ3xlbnwwfHx8fDE3NjQ2NDM0ODZ8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1556740738-b6a63e2775df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxvbmxpbmUlMjBzaG9wcGluZ3xlbnwwfHx8fDE3NjQ2NDM0ODZ8MA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "online shopping"
     },
     {
@@ -375,7 +381,7 @@
     {
       "id": "ecom-gallery-5",
       "description": "A mobile phone displaying a product page on an online store.",
-      "imageUrl": "https://images.unsplash.com/photo-1580974928064-00ae6306c4b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBzaG9wcGluZ3xlbnwwfHx8fDE3NjQ2NDM1NDh8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1580974928064-00ae6306c4b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBzaG9wcGluZ3xlbnwwfHx8fDE3NjQ2NDM1NDh8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "mobile shopping"
     },
     {
@@ -383,6 +389,42 @@
       "description": "A close-up of the Magento logo on a laptop screen.",
       "imageUrl": "https://images.unsplash.com/photo-1616401784845-180844d483a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYWdlbnRvJTIwbG9nb3xlbnwwfHx8fDE3NjQ2NDM1NDh8MA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "magento logo"
+    },
+    {
+      "id": "partner-logo-1",
+      "description": "Wix logo",
+      "imageUrl": "https://images.unsplash.com/photo-1632168393529-22c6799015b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3aXglMjBsb2dvfGVufDB8fHx8MTc2NDY0MzU0OHww&ixlib-rb-4.1.0&q=80&w=120&h=40",
+      "imageHint": "wix logo"
+    },
+    {
+      "id": "partner-logo-2",
+      "description": "Stripe logo",
+      "imageUrl": "https://images.unsplash.com/photo-1699912040483-3c9f7a77e822?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzdHlwZSUyMGxvZ298ZW58MHx8fHwxNzY0NjQzNTQ4fDA&ixlib-rb-4.1.0&q=80&w=120&h=40",
+      "imageHint": "stripe logo"
+    },
+    {
+      "id": "partner-logo-3",
+      "description": "PayPal logo",
+      "imageUrl": "https://images.unsplash.com/photo-1631095034639-65a88a8f15e8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwYXlwYWwlMjBsb2dvfGVufDB8fHx8MTc2NDY0MzU0OHww&ixlib-rb-4.1.0&q=80&w=120&h=40",
+      "imageHint": "paypal logo"
+    },
+    {
+      "id": "partner-logo-4",
+      "description": "Generic company logo 4",
+      "imageUrl": "https://images.unsplash.com/photo-1562783912-21ad31ee2a83?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjb21wYW55JTIwbG9nb3xlbnwwfHx8fDE3NjQ3MzY2NTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "company logo"
+    },
+    {
+      "id": "partner-logo-5",
+      "description": "Generic company logo 5",
+      "imageUrl": "https://images.unsplash.com/photo-1562783912-21ad31ee2a83?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjb21wYW55JTIwbG9nb3xlbnwwfHx8fDE3NjQ3MzY2NTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "company logo"
+    },
+    {
+      "id": "partner-logo-6",
+      "description": "Generic company logo 6",
+      "imageUrl": "https://images.unsplash.com/photo-1496200186974-4293800e2c20?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjb21wYW55JTIwbG9nb3xlbnwwfHx8fDE3NjQ3MzY2NTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "company logo"
     }
   ]
 }
