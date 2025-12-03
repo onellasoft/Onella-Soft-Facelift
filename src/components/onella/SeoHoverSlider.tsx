@@ -1,3 +1,4 @@
+
 'use client';
 import {
   HoverSlider,
@@ -6,6 +7,7 @@ import {
   HoverSliderImage,
 } from '@/components/ui/HoverSlider';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
+import { motion, AnimatePresence } from 'framer-motion';
 
 const sliderData = [
   {
@@ -73,9 +75,11 @@ export function SeoHoverSlider() {
                   <h3 className="text-2xl font-semibold text-white">
                     <TextStaggerHover index={index} text={item.title} />
                   </h3>
-                  <p className="max-w-md text-muted-foreground">
-                    {item.description}
-                  </p>
+                  <AnimatePresence>
+                     <p className="max-w-md text-muted-foreground">
+                        {item.description}
+                      </p>
+                  </AnimatePresence>
                 </div>
               ))}
             </div>
