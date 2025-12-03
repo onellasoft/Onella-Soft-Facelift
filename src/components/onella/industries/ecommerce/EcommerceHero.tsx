@@ -11,8 +11,8 @@ const partnerIds = [
   'partner-woocommerce',
   'partner-magento',
   'partner-bigcommerce',
-  'partner-square',
-  'partner-amazon'
+  'partner-stripe',
+  'partner-paypal'
 ];
 
 export function EcommerceHero() {

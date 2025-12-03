@@ -237,38 +237,26 @@
     {
       "id": "partner-magento",
       "description": "Magento logo",
-      "imageUrl": "https://picsum.photos/seed/magento/120/40",
+      "imageUrl": "https://images.unsplash.com/photo-1678235282464-37c227f71b94?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYWdlbnRvJTIwbG9nb3xlbnwwfHx8fDE3MjM5NDM1MjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "magento logo"
     },
     {
       "id": "partner-bigcommerce",
       "description": "BigCommerce logo",
-      "imageUrl": "https://picsum.photos/seed/bigcom/120/40",
+      "imageUrl": "https://images.unsplash.com/photo-1678235282381-42cb44975d84?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiaWdjb21tZXJjZSUyMGxvZ298ZW58MHx8fHwxNzIzOTQzNTI1fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "bigcommerce logo"
     },
     {
-      "id": "partner-square",
-      "description": "Square logo",
-      "imageUrl": "https://images.unsplash.com/photo-1734228974414-5ae2fbf4d48e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzcXVhcmUlMjBsb2dvfGVufDB8fHx8MTc2NDA5NjQzOHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "square logo"
+      "id": "partner-stripe",
+      "description": "Stripe logo",
+      "imageUrl": "https://images.unsplash.com/photo-1678235282381-42cb44975d84?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiaWdjb21tZXJjZSUyMGxvZ298ZW58MHx8fHwxNzIzOTQzNTI1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "stripe logo"
     },
     {
-      "id": "partner-amazon",
-      "description": "Amazon logo",
-      "imageUrl": "https://images.unsplash.com/photo-1602359337719-a8bcbd1f7b51?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhbWF6b24lMjBsb2dvfGVufDB8fHx8MTc2NDA0Nzc4OHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "amazon logo"
-    },
-    {
-      "id": "ecommerce-grow-business",
-      "description": "Illustration of people shopping online with a large screen showing a storefront.",
-      "imageUrl": "https://images.unsplash.com/photo-1605902711834-8b11c3e3ef2f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxvbmxpbmUlMjBzaG9wcGluZ3xlbnwwfHx8fDE3NjQxMzk2MjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "online shopping"
-    },
-    {
-      "id": "ecommerce-our-vision",
-      "description": "Laptop and tablet displaying business analytics dashboards.",
-      "imageUrl": "https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxidXNpbmVzcyUyMGFuYWx5dGljc3xlbnwwfHx8fDE3NjQxNTA3NTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "business analytics"
+      "id": "partner-paypal",
+      "description": "PayPal logo",
+      "imageUrl": "https://images.unsplash.com/photo-1616469692029-5b72e1fb5b58?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxQYXlQYWwlMjBsb2dvfGVufDB8fHx8MTcyMzk0MzM5N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "paypal logo"
     },
     {
       "id": "real-estate-who-we-are",
