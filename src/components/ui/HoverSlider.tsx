@@ -51,25 +51,29 @@ export const HoverSlider = React.forwardRef<
 HoverSlider.displayName = "HoverSlider"
 
 export const TextStaggerHover = React.forwardRef<
-  HTMLElement,
-  React.HTMLAttributes<HTMLElement> & TextStaggerHoverProps
+  HTMLHeadingElement,
+  React.HTMLAttributes<HTMLHeadingElement> & TextStaggerHoverProps
 >(({ text, index, children, className, ...props }, ref) => {
   const { activeSlide, changeSlide } = useHoverSliderContext()
   const isActive = activeSlide === index
   const handleMouse = () => changeSlide(index)
+  const handleViewportEnter = () => changeSlide(index);
+  
   return (
-    <motion.span
+    <motion.h3
       className={cn(
-        "relative inline-block origin-bottom transition-opacity duration-300",
-        className
+        "relative inline-block origin-bottom transition-opacity duration-300 text-2xl font-semibold text-white",
+        className,
+        isActive ? "opacity-100" : "opacity-40"
       )}
       {...props}
       ref={ref}
       onMouseEnter={handleMouse}
-      animate={{ opacity: isActive ? 1 : 0.4 }}
+      onViewportEnter={handleViewportEnter}
+      viewport={{ once: false, amount: 0.5 }}
     >
       {text}
-    </motion.span>
+    </motion.h3>
   )
 })
 TextStaggerHover.displayName = "TextStaggerHover"
