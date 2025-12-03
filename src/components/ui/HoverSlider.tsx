@@ -62,10 +62,16 @@ export const TextStaggerHover = React.forwardRef<
   return (
     <motion.h3
       className={cn(
-        "relative inline-block origin-bottom transition-colors duration-300 text-2xl font-semibold",
+        "relative inline-block origin-bottom text-2xl font-semibold text-muted-foreground",
         className,
-        isActive ? "text-white" : "text-muted-foreground"
       )}
+      animate={{
+        color: isActive ? 'hsl(var(--foreground))' : 'hsl(var(--muted-foreground))'
+      }}
+      transition={{
+        duration: 0.3,
+        delay: isActive ? 0.4 : 0
+      }}
       {...props}
       ref={ref}
       onMouseEnter={handleMouse}
