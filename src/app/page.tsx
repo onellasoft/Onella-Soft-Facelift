@@ -20,30 +20,28 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen bg-background">
       <main>
-        <div className="relative z-10">
-          <Hero
-            trustBadge={{
-              text: "Trusted by forward-thinking teams.",
-              icons: ["✨"]
-            }}
-            headline={{
-              line1: "Expert Digital Marketing",
-              line2: "Solutions for Your Business"
-            }}
-            subtitle="Generate more leads, boost sales, or enhance your brand's online visibility with our experienced digital marketing specialists."
-            buttons={{
-              primary: {
-                text: "Get Started for Free",
-                onClick: handlePrimaryClick
-              },
-              secondary: {
-                text: "Explore Features",
-                onClick: handleSecondaryClick
-              }
-            }}
-          />
-        </div>
-        <div className="relative z-20 bg-background pt-20">
+        <Hero
+          trustBadge={{
+            text: "Trusted by forward-thinking teams.",
+            icons: ["✨"]
+          }}
+          headline={{
+            line1: "Expert Digital Marketing",
+            line2: "Solutions for Your Business"
+          }}
+          subtitle="Generate more leads, boost sales, or enhance your brand's online visibility with our experienced digital marketing specialists."
+          buttons={{
+            primary: {
+              text: "Get Started for Free",
+              onClick: handlePrimaryClick
+            },
+            secondary: {
+              text: "Explore Features",
+              onClick: handleSecondaryClick
+            }
+          }}
+        />
+        <div className="relative z-20 bg-background">
           <Partners />
           <GrowBusiness />
           <DigitalSolutions />
