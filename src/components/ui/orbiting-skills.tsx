@@ -18,7 +18,6 @@ import {
   SiAdobephotoshop,
   SiDotnet,
 } from 'react-icons/si';
-import { Bot } from "lucide-react";
 
 // --- Type Definitions ---
 type IconType = 'photoshop' | 'after-effects' | 'google-analytics' | 'davinci-resolve' | 'figma' | 'chatgpt' | 'firebase' | 'php' | 'nodejs' | 'java' | 'angular' | 'python' | 'javascript' | 'react' | 'dotnet';
