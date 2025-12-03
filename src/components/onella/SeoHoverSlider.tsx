@@ -66,10 +66,10 @@ export function SeoHoverSlider() {
         </p>
       </div>
 
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 mt-16">
+      <div className="relative container mx-auto px-4 sm:px-6 lg:px-8 mt-16">
         <HoverSlider>
           <div className="grid grid-cols-1 items-start gap-10 md:grid-cols-2">
-            <div className="flex flex-col gap-10 lg:gap-16">
+            <div className="sticky top-28 flex flex-col gap-10 lg:gap-16">
               {sliderData.map((item, index) => (
                 <div key={item.id} className="flex flex-col gap-2">
                   <TextStaggerHover index={index} text={item.title} viewport={{ once: false, amount: 1 }} />
@@ -81,22 +81,24 @@ export function SeoHoverSlider() {
                 </div>
               ))}
             </div>
-            <div className="sticky top-28">
-              <HoverSliderImageWrap className="aspect-video h-auto w-full overflow-hidden rounded-2xl md:aspect-[4/3] lg:aspect-video">
-                {images.map(
-                  (item, index) =>
-                    item.imageUrl && (
-                      <HoverSliderImage
-                        index={index}
-                        key={item.id}
-                        src={item.imageUrl}
-                        alt={item.imageAlt || ''}
-                        data-ai-hint={item.imageHint}
-                        className="object-cover"
-                      />
-                    )
-                )}
-              </HoverSliderImageWrap>
+            <div className="h-[calc(4*16rem)]">
+               <div className="sticky top-28">
+                <HoverSliderImageWrap className="aspect-video h-auto w-full overflow-hidden rounded-2xl md:aspect-[4/3] lg:aspect-video">
+                  {images.map(
+                    (item, index) =>
+                      item.imageUrl && (
+                        <HoverSliderImage
+                          index={index}
+                          key={item.id}
+                          src={item.imageUrl}
+                          alt={item.imageAlt || ''}
+                          data-ai-hint={item.imageHint}
+                          className="object-cover"
+                        />
+                      )
+                  )}
+                </HoverSliderImageWrap>
+              </div>
             </div>
           </div>
         </HoverSlider>
