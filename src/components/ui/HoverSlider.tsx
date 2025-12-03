@@ -62,9 +62,9 @@ export const TextStaggerHover = React.forwardRef<
   return (
     <motion.h3
       className={cn(
-        "relative inline-block origin-bottom transition-opacity duration-300 text-2xl font-semibold text-white",
+        "relative inline-block origin-bottom transition-colors duration-300 text-2xl font-semibold",
         className,
-        isActive ? "opacity-100" : "opacity-40"
+        isActive ? "text-white" : "text-muted-foreground"
       )}
       {...props}
       ref={ref}
