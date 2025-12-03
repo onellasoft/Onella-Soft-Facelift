@@ -1,8 +1,6 @@
-
 "use client"
 import React, { useEffect, useState, memo } from 'react';
 import {
-  FaPhotoshop,
   FaGoogle,
   FaFigma,
   FaPhp,
@@ -12,6 +10,7 @@ import {
   FaPython,
   FaJs
 } from 'react-icons/fa';
+import { FaPhotoshop } from 'react-icons/fa6';
 import {
   SiAdobeaftereffects,
   SiDavinciresolve,
