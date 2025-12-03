@@ -20,15 +20,6 @@ export function IntegratedFavorites() {
             <p className="mt-4 text-white">
              Furthermore, social media platforms enable Onella Soft to help your company build together their presence, strengthen customer connections, and drive measurable growth through tailored digital strategies.
             </p>
-            <div className="mt-6">
-              <MovingBorderButton
-                  containerClassName="h-11 w-auto"
-                  className="bg-transparent text-white px-8"
-                  borderRadius="0.5rem"
-                >
-                  Get Started <ArrowRight className="ml-2 h-4 w-4" />
-                </MovingBorderButton>
-            </div>
           </div>
         </div>
         <div className="flex items-center">
