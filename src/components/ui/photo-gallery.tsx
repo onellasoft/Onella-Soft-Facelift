@@ -8,9 +8,9 @@ import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 
 export const PhotoGallery = ({
-  animationDelay = 0.5,
+  imageSet = 'hospitality'
 }: {
-  animationDelay?: number;
+  imageSet?: 'hospitality' | 'ecommerce';
 }) => {
   const [isVisible, setIsVisible] = useState(false);
   const [isLoaded, setIsLoaded] = useState(false);
@@ -18,20 +18,20 @@ export const PhotoGallery = ({
   useEffect(() => {
     const visibilityTimer = setTimeout(() => {
       setIsVisible(true);
-    }, animationDelay * 1000);
+    }, 0.5 * 1000);
 
     const animationTimer = setTimeout(
       () => {
         setIsLoaded(true);
       },
-      (animationDelay + 0.4) * 1000
+      (0.5 + 0.4) * 1000
     ); 
 
     return () => {
       clearTimeout(visibilityTimer);
       clearTimeout(animationTimer);
     };
-  }, [animationDelay]);
+  }, []);
 
   const containerVariants = {
     hidden: { opacity: 1 },
@@ -66,56 +66,110 @@ export const PhotoGallery = ({
     }),
   };
 
-  const photos = [
-    {
-      id: "hospitality-img-1",
-      order: 0,
-      x: "-400px",
-      y: "-20px",
-      zIndex: 60,
-      direction: "left" as Direction,
-    },
-    {
-      id: "hospitality-img-2",
-      order: 1,
-      x: "-240px",
-      y: "40px",
-      zIndex: 50,
-      direction: "left" as Direction,
-    },
-    {
-      id: "hospitality-img-3",
-      order: 2,
-      x: "-80px",
-      y: "10px",
-      zIndex: 40,
-      direction: "right" as Direction,
-    },
-    {
-      id: "hospitality-img-4",
-      order: 3,
-      x: "80px",
-      y: "30px",
-      zIndex: 30,
-      direction: "right" as Direction,
-    },
-    {
-      id: "hospitality-gallery-5",
-      order: 4,
-      x: "240px",
-      y: "-10px",
-      zIndex: 20,
-      direction: "left" as Direction,
-    },
-    {
-      id: "hospitality-bell",
-      order: 5,
-      x: "400px",
-      y: "50px",
-      zIndex: 10,
-      direction: "right" as Direction,
-    },
-  ].map(photo => {
+  const photoConfigs = {
+    hospitality: [
+      {
+        id: "hospitality-img-1",
+        order: 0,
+        x: "-400px",
+        y: "-20px",
+        zIndex: 60,
+        direction: "left" as Direction,
+      },
+      {
+        id: "hospitality-img-2",
+        order: 1,
+        x: "-240px",
+        y: "40px",
+        zIndex: 50,
+        direction: "left" as Direction,
+      },
+      {
+        id: "hospitality-img-3",
+        order: 2,
+        x: "-80px",
+        y: "10px",
+        zIndex: 40,
+        direction: "right" as Direction,
+      },
+      {
+        id: "hospitality-img-4",
+        order: 3,
+        x: "80px",
+        y: "30px",
+        zIndex: 30,
+        direction: "right" as Direction,
+      },
+      {
+        id: "hospitality-gallery-5",
+        order: 4,
+        x: "240px",
+        y: "-10px",
+        zIndex: 20,
+        direction: "left" as Direction,
+      },
+      {
+        id: "hospitality-bell",
+        order: 5,
+        x: "400px",
+        y: "50px",
+        zIndex: 10,
+        direction: "right" as Direction,
+      },
+    ],
+    ecommerce: [
+      {
+        id: "ecom-gallery-1",
+        order: 0,
+        x: "-400px",
+        y: "-20px",
+        zIndex: 60,
+        direction: "left" as Direction,
+      },
+      {
+        id: "ecom-gallery-2",
+        order: 1,
+        x: "-240px",
+        y: "40px",
+        zIndex: 50,
+        direction: "left" as Direction,
+      },
+      {
+        id: "ecom-gallery-3",
+        order: 2,
+        x: "-80px",
+        y: "10px",
+        zIndex: 40,
+        direction: "right" as Direction,
+      },
+      {
+        id: "ecom-gallery-4",
+        order: 3,
+        x: "80px",
+        y: "30px",
+        zIndex: 30,
+        direction: "right" as Direction,
+      },
+      {
+        id: "ecom-gallery-5",
+        order: 4,
+        x: "240px",
+        y: "-10px",
+        zIndex: 20,
+        direction: "left" as Direction,
+      },
+      {
+        id: "ecom-gallery-6",
+        order: 5,
+        x: "400px",
+        y: "50px",
+        zIndex: 10,
+        direction: "right" as Direction,
+      },
+    ]
+  }
+
+  const photos = photoConfigs[imageSet].map(photo => {
     const imageData = PlaceHolderImages.find(p => p.id === photo.id);
     return { ...photo, ...imageData };
   }).filter(p => p.imageUrl);
@@ -154,7 +208,7 @@ export const PhotoGallery = ({
                       width={220}
                       height={220}
                       src={photo.imageUrl}
-                      alt={photo.description || "Hospitality image"}
+                      alt={photo.description || "Gallery image"}
                       direction={photo.direction}
                     />
                   </motion.div>
