@@ -24,7 +24,6 @@ export default function Home() {
         <HomeHero />
         <div className="relative z-20 bg-background">
           <ThreeDPhotoCarousel />
-          <Partners />
           <GrowBusiness />
           <DigitalSolutions />
           <GetInTouchHome />
