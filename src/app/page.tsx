@@ -5,6 +5,7 @@ import { Partners } from '@/components/onella/Partners';
 import { GrowBusiness } from '@/components/onella/home/GrowBusiness';
 import { DigitalSolutions } from '@/components/onella/home/DigitalSolutions';
 import { GetInTouchHome } from '@/components/onella/home/GetInTouchHome';
+import { MarketingImageGrid } from '@/components/onella/home/MarketingImageGrid';
 
 export default function Home() {
   const handlePrimaryClick = () => {
@@ -22,6 +23,7 @@ export default function Home() {
       <main>
         <HomeHero />
         <div className="relative z-20 bg-background">
+          <MarketingImageGrid />
           <Partners />
           <GrowBusiness />
           <DigitalSolutions />
