@@ -1,11 +1,10 @@
-
 "use client";
 
 import { RulerCarousel, type CarouselItem } from "@/components/ui/ruler-carousel";
 
 export function OurPartners() {
   const originalItems: CarouselItem[] = [
-    { id: 1, title: "firstrate" },
+    { id: 1, title: "Firstrate" },
     { id: 2, title: "Kaya Skin Care" },
     { id: 3, title: "Sri Sai Diabetes Centre" },
     { id: 4, title: "Podar Learn School" },
