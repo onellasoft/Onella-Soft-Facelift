@@ -1,4 +1,4 @@
-import { Component as LumaSpin } from '@/components/ui/luma-spin';
+import LumaSpin from '@/components/ui/luma-spin';
 
 export default function Loading() {
   return (

@@ -1,6 +1,6 @@
 
 "use client";
-export const Component = () => {
+export default function LumaSpin() {
 return (
     <div className= "relative w-[65px] aspect-square" >
     <span className="absolute rounded-[50px] animate-loaderAnim shadow-[inset_0_0_0_3px] shadow-gray-800 dark:shadow-gray-100" />
@@ -45,3 +45,4 @@ return (
   < /div>
   );
 };
+
