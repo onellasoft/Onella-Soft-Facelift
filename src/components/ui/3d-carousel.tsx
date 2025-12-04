@@ -117,7 +117,7 @@ const Carousel = memo(
             transform,
             rotateY: rotation,
             width: cylinderWidth,
-            transformStyle: "preserve-d",
+            transformStyle: "preserve-3d",
           }}
           onDrag={(_, info) =>
             isCarouselActive &&
