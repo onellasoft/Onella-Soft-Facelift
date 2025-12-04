@@ -1,3 +1,4 @@
+
 "use client"
 
 import { memo, useEffect, useLayoutEffect, useMemo, useState } from "react"
@@ -12,52 +13,6 @@ import {
 
 export const useIsomorphicLayoutEffect =
   typeof window !== "undefined" ? useLayoutEffect : useEffect
-
-type UseMediaQueryOptions = {
-  defaultValue?: boolean
-  initializeWithValue?: boolean
-}
-
-const IS_SERVER = typeof window === "undefined"
-
-export function useMediaQuery(
-  query: string,
-  {
-    defaultValue = false,
-    initializeWithValue = true,
-  }: UseMediaQueryOptions = {}
-): boolean {
-  const getMatches = (query: string): boolean => {
-    if (IS_SERVER) {
-      return defaultValue
-    }
-    return window.matchMedia(query).matches
-  }
-
-  const [matches, setMatches] = useState<boolean>(() => {
-    if (initializeWithValue) {
-      return getMatches(query)
-    }
-    return defaultValue
-  })
-
-  const handleChange = () => {
-    setMatches(getMatches(query))
-  }
-
-  useIsomorphicLayoutEffect(() => {
-    const matchMedia = window.matchMedia(query)
-    handleChange()
-
-    matchMedia.addEventListener("change", handleChange)
-
-    return () => {
-      matchMedia.removeEventListener("change", handleChange)
-    }
-  }, [query])
-
-  return matches
-}
 
 const keywords = [
   "marketing",
@@ -91,8 +46,27 @@ const Carousel = memo(
     cards: string[]
     isCarouselActive: boolean
   }) => {
-    const isScreenSizeSm = useMediaQuery("(max-width: 640px)")
-    const cylinderWidth = isScreenSizeSm ? 1100 : 1800
+    const [cylinderWidth, setCylinderWidth] = useState(1800);
+
+    useEffect(() => {
+      const calculateWidth = () => {
+        if (typeof window !== 'undefined') {
+          const screenWidth = window.innerWidth;
+          if (screenWidth < 640) {
+            setCylinderWidth(1100);
+          } else if (screenWidth < 1024) {
+            setCylinderWidth(1400);
+          } else {
+            setCylinderWidth(1800);
+          }
+        }
+      };
+
+      calculateWidth();
+      window.addEventListener('resize', calculateWidth);
+      return () => window.removeEventListener('resize', calculateWidth);
+    }, []);
+
     const faceCount = cards.length
     const faceWidth = cylinderWidth / faceCount
     const radius = cylinderWidth / (2 * Math.PI)
