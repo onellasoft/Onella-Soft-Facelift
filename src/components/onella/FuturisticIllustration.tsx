@@ -6,7 +6,7 @@ import { getFuturisticIllustration } from '@/app/actions';
 import { Skeleton } from '@/components/ui/skeleton';
 import { AlertTriangle, ServerCrash } from 'lucide-react';
 import { Card, CardContent } from '../ui/card';
-import { Component as LumaSpin } from '@/components/ui/luma-spin';
+import LumaSpin from '@/components/ui/luma-spin';
 
 export function FuturisticIllustration() {
   const [imageUrl, setImageUrl] = useState<string | null>(null);
