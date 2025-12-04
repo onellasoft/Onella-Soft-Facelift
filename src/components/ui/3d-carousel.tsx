@@ -1,4 +1,3 @@
-
 "use client"
 
 import { memo, useEffect, useLayoutEffect, useMemo, useState } from "react"
@@ -273,5 +272,3 @@ function ThreeDPhotoCarousel() {
 }
 
 export { ThreeDPhotoCarousel };
-
-    
