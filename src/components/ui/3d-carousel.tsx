@@ -1,3 +1,4 @@
+
 "use client"
 
 import { memo, useEffect, useLayoutEffect, useMemo, useState } from "react"
@@ -7,6 +8,7 @@ import {
   useAnimation,
   useMotionValue,
   useTransform,
+  animate,
 } from "framer-motion"
 
 export const useIsomorphicLayoutEffect =
@@ -101,6 +103,26 @@ const Carousel = memo(
       (value) => `rotate3d(0, 1, 0, ${value}deg)`
     )
 
+    useEffect(() => {
+      let animationControls: ReturnType<typeof animate> | undefined;
+    
+      const startAnimation = () => {
+        if (isCarouselActive) {
+          animationControls = animate(rotation, rotation.get() + 360, {
+            duration: 40,
+            repeat: Infinity,
+            ease: 'linear',
+          });
+        }
+      };
+    
+      startAnimation();
+    
+      return () => {
+        animationControls?.stop();
+      };
+    }, [isCarouselActive, rotation]);
+
     return (
       <div
         className="flex h-full items-center justify-center"
@@ -119,22 +141,33 @@ const Carousel = memo(
             width: cylinderWidth,
             transformStyle: "preserve-3d",
           }}
+          onDragStart={() => {
+            rotation.stop();
+          }}
           onDrag={(_, info) =>
             isCarouselActive &&
             rotation.set(rotation.get() + info.offset.x * 0.05)
           }
-          onDragEnd={(_, info) =>
-            isCarouselActive &&
-            controls.start({
-              rotateY: rotation.get() + info.velocity.x * 0.05,
-              transition: {
-                type: "spring",
-                stiffness: 100,
-                damping: 30,
-                mass: 0.1,
-              },
-            })
-          }
+          onDragEnd={(_, info) => {
+            if (isCarouselActive) {
+              const currentRotation = rotation.get();
+              const velocity = info.velocity.x * 0.05;
+              
+              animate(velocity, 0, {
+                duration: 0.5,
+                onUpdate: (latest) => {
+                  rotation.set(currentRotation + latest);
+                },
+                onComplete: () => {
+                   animate(rotation, rotation.get() + 360, {
+                    duration: 40,
+                    repeat: Infinity,
+                    ease: 'linear',
+                  });
+                }
+              });
+            }
+          }}
           animate={controls}
         >
           {cards.map((imgUrl, i) => (
@@ -240,3 +273,5 @@ function ThreeDPhotoCarousel() {
 }
 
 export { ThreeDPhotoCarousel };
+
+    
