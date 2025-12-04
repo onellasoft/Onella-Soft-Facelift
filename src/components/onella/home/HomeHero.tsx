@@ -62,17 +62,20 @@ export function HomeHero() {
   }
 
   const backgroundImages = [
-    { id: 'office-meeting-1', src: 'https://picsum.photos/seed/office1/800/600', hint: 'office meeting' },
-    { id: 'office-meeting-2', src: 'https://picsum.photos/seed/office2/800/600', hint: 'team collaboration' },
-    { id: 'office-meeting-3', src: 'https://picsum.photos/seed/office3/800/600', hint: 'business presentation' },
-    { id: 'office-meeting-4', src: 'https://picsum.photos/seed/office4/800/600', hint: 'creative workspace' },
-    { id: 'office-meeting-5', src: 'https://picsum.photos/seed/office5/800/600', hint: 'digital marketing' },
-    { id: 'office-meeting-6', src: 'https://picsum.photos/seed/office6/800/600', hint: 'modern office' },
+    { id: 'digital-marketing-1', src: 'https://picsum.photos/seed/dm1/800/600', hint: 'digital marketing' },
+    { id: 'digital-marketing-2', src: 'https://picsum.photos/seed/dm2/800/600', hint: 'social media' },
+    { id: 'digital-marketing-3', src: 'https://picsum.photos/seed/dm3/800/600', hint: 'seo analytics' },
+    { id: 'digital-marketing-4', src: 'https://picsum.photos/seed/dm4/800/600', hint: 'content strategy' },
+    { id: 'digital-marketing-5', src: 'https://picsum.photos/seed/dm5/800/600', hint: 'email campaign' },
+    { id: 'digital-marketing-6', src: 'https://picsum.photos/seed/dm6/800/600', hint: 'ppc ads' },
+    { id: 'digital-marketing-7', src: 'https://picsum.photos/seed/dm7/800/600', hint: 'influencer marketing' },
+    { id: 'digital-marketing-8', src: 'https://picsum.photos/seed/dm8/800/600', hint: 'data dashboard' },
+    { id: 'digital-marketing-9', src: 'https://picsum.photos/seed/dm9/800/600', hint: 'web analytics' },
   ];
 
   return (
     <section className="relative w-full overflow-hidden bg-background pt-32 pb-16 md:pt-48 md:pb-24">
-      <div className="absolute inset-0 grid grid-cols-3 grid-rows-2 opacity-15 [mask-image:linear-gradient(to_bottom,white_20%,transparent_100%)]">
+      <div className="absolute inset-0 grid grid-cols-3 grid-rows-3 opacity-15 [mask-image:linear-gradient(to_bottom,white_20%,transparent_100%)]">
         {backgroundImages.map((image) => (
           <div key={image.id} className="relative h-full w-full">
             <Image
