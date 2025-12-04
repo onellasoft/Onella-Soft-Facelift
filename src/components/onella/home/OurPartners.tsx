@@ -1,3 +1,4 @@
+
 "use client";
 
 import { RulerCarousel, type CarouselItem } from "@/components/ui/ruler-carousel";
@@ -11,6 +12,9 @@ export function OurPartners() {
     { id: 5, title: "Unik Super Market" },
     { id: 6, title: "Amrapali E-commerce" },
     { id: 7, title: "Visawa Hotel" },
+    { id: 8, title: "Orange interio" },
+    { id: 9, title: "Aapi smart Baazar" },
+    { id: 10, title: "Sahara Healthcare" },
   ];
   return (
     <section className="bg-background dark:bg-black">
