@@ -14,13 +14,9 @@ import {
   FormMessage,
 } from '@/components/ui/form';
 import { Input } from '@/components/ui/input';
-import { Textarea } from '@/components/ui/textarea';
 import { useToast } from '@/hooks/use-toast';
 import {
   User,
-  Mail,
-  Phone,
-  MessageSquare,
   ArrowRight
 } from 'lucide-react';
 import Image from 'next/image';
@@ -30,14 +26,8 @@ const FormSchema = z.object({
   fullName: z.string().min(2, {
     message: 'Full name must be at least 2 characters.',
   }),
-  email: z.string().email({
-    message: 'Please enter a valid email address.',
-  }),
   phone: z.string().min(10, {
     message: 'Phone number must be at least 10 digits.',
-  }),
-  message: z.string().min(10, {
-    message: 'Message must be at least 10 characters.',
   }),
 });
 
@@ -47,9 +37,7 @@ export function HomeHero() {
     resolver: zodResolver(FormSchema),
     defaultValues: {
       fullName: '',
-      email: '',
       phone: '',
-      message: '',
     },
   });
 
@@ -74,7 +62,7 @@ export function HomeHero() {
   ];
 
   return (
-    <section className="relative w-full overflow-hidden bg-background pt-32 md:pt-48">
+    <section className="relative w-full overflow-hidden bg-background pt-32 pb-16 md:pt-48 md:pb-24">
       <div className="absolute inset-0 grid grid-cols-3 grid-rows-3 opacity-15 [mask-image:linear-gradient(to_bottom,white_20%,transparent_100%)]">
         {backgroundImages.map((image) => (
           <div key={image.id} className="relative h-full w-full">
@@ -136,38 +124,12 @@ export function HomeHero() {
                 />
                 <FormField
                   control={form.control}
-                  name="email"
-                  render={({ field }) => (
-                    <FormItem>
-                      <FormLabel className="text-white/80">Email Address *</FormLabel>
-                      <FormControl>
-                        <Input type="email" placeholder="Email" {...field} className="bg-background/50 border-white/20"/>
-                      </FormControl>
-                      <FormMessage />
-                    </FormItem>
-                  )}
-                />
-                <FormField
-                  control={form.control}
                   name="phone"
                   render={({ field }) => (
                     <FormItem>
                       <FormLabel className="text-white/80">Mobile Number *</FormLabel>
                       <FormControl>
                         <Input type="tel" placeholder="Phone" {...field} className="bg-background/50 border-white/20"/>
-                      </FormControl>
-                      <FormMessage />
-                    </FormItem>
-                  )}
-                />
-                 <FormField
-                  control={form.control}
-                  name="message"
-                  render={({ field }) => (
-                    <FormItem>
-                      <FormLabel className="text-white/80">Message *</FormLabel>
-                      <FormControl>
-                        <Textarea placeholder="Message" {...field} className="bg-background/50 border-white/20" rows={3}/>
                       </FormControl>
                       <FormMessage />
                     </FormItem>
