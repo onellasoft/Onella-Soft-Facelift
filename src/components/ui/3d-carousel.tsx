@@ -51,11 +51,9 @@ const Carousel = memo(
     useEffect(() => {
       const calculateWidth = () => {
         if (typeof window !== 'undefined') {
-          // This will make the carousel diameter roughly 80% of the screen width.
-          // (width / PI) = diameter. So, (width / diameter) = PI.
-          // To make diameter = 0.8 * screenWidth, we need width = 0.8 * screenWidth * PI
-          // PI is approx 3.14. 0.8 * 3.14 is approx 2.5
-          setCylinderWidth(window.innerWidth * 2.5);
+          // This will make the carousel diameter roughly 80% of the screen width, with a max.
+          const newWidth = Math.min(window.innerWidth * 2.5, 2400); // Capped at 2400px
+          setCylinderWidth(newWidth);
         }
       };
 
