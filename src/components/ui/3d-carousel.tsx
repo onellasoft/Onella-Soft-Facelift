@@ -227,7 +227,7 @@ function ThreeDPhotoCarousel() {
   }
 
   return (
-    <motion.div layout className="relative py-16 md:py-24 bg-background">
+    <motion.div layout className="relative py-8 md:py-12 bg-background">
       <AnimatePresence mode="sync">
         {activeImg && (
           <motion.div
