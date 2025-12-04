@@ -1,5 +1,4 @@
 import { RealEstateHero } from '@/components/onella/industries/real-estate/RealEstateHero';
-import { Partners } from '@/components/onella/Partners';
 import { WhoWeAre } from '@/components/onella/industries/real-estate/WhoWeAre';
 import { WhyChooseUs } from '@/components/onella/industries/real-estate/WhyChooseUs';
 import { HowItWorks } from '@/components/onella/industries/real-estate/HowItWorks';
@@ -12,7 +11,6 @@ export default function RealEstatePage() {
     <div className="flex flex-col min-h-screen bg-background pt-24">
       <main className="flex-grow">
         <RealEstateHero />
-        <Partners />
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 space-y-16 md:space-y-24 py-16 md:py-24">
           <WhoWeAre />
           <WhyChooseUs />
