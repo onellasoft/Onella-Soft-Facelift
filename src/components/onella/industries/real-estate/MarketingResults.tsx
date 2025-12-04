@@ -61,17 +61,6 @@ export function MarketingResults() {
             )
         })}
       </div>
-      <div className="text-center mt-12">
-        <Link href="/support">
-          <MovingBorderButton
-              containerClassName="h-11 w-auto"
-              className="bg-glass text-white px-8"
-              borderRadius="0.5rem"
-            >
-              View All Projects
-            </MovingBorderButton>
-        </Link>
-      </div>
     </section>
   );
 }
