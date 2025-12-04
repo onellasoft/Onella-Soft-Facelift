@@ -13,7 +13,7 @@ export function OurPartners() {
     { id: 6, title: "Amrapali E-commerce" },
     { id: 7, title: "Visawa Hotel" },
     { id: 8, title: "Orange interio" },
-    { id: 9, title: "Aapi smart Baazar" },
+    { id: 9, title: "Appi smart baazar" },
     { id: 10, title: "Sahara Healthcare" },
   ];
   return (
@@ -30,3 +30,4 @@ export function OurPartners() {
     </section>
   );
 }
+
