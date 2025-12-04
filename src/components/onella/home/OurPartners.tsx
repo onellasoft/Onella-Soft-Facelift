@@ -5,12 +5,13 @@ import { RulerCarousel, type CarouselItem } from "@/components/ui/ruler-carousel
 
 export function OurPartners() {
   const originalItems: CarouselItem[] = [
-    { id: 1, title: "Kaya Skin Care" },
-    { id: 2, title: "Sri Sai Diabetes Centre" },
-    { id: 3, title: "Podar Learn School" },
-    { id: 4, title: "Unik Super Market" },
-    { id: 5, title: "Amrapali E-commerce" },
-    { id: 6, title: "Visawa Hotel" },
+    { id: 1, title: "firsrate company" },
+    { id: 2, title: "Kaya Skin Care" },
+    { id: 3, title: "Sri Sai Diabetes Centre" },
+    { id: 4, title: "Podar Learn School" },
+    { id: 5, title: "Unik Super Market" },
+    { id: 6, title: "Amrapali E-commerce" },
+    { id: 7, title: "Visawa Hotel" },
   ];
   return (
     <section className="bg-background dark:bg-black">
