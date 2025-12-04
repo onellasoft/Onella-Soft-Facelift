@@ -74,7 +74,7 @@ export function HomeHero() {
   ];
 
   return (
-    <section className="relative w-full overflow-hidden bg-background pt-32 pb-16 md:pt-48 md:pb-24">
+    <section className="relative w-full overflow-hidden bg-background pt-32 md:pt-48">
       <div className="absolute inset-0 grid grid-cols-3 grid-rows-3 opacity-15 [mask-image:linear-gradient(to_bottom,white_20%,transparent_100%)]">
         {backgroundImages.map((image) => (
           <div key={image.id} className="relative h-full w-full">
