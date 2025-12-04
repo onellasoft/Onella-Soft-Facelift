@@ -181,8 +181,8 @@ export function Navbar() {
     <NavigationMenu onValueChange={(val) => setIsOpen(!!val)} className="[&>div]:left-auto">
       <NavigationMenuList>
          <NavigationMenuItem>
-            <Link href="/" legacyBehavior passHref>
-              <NavigationMenuLink className={cn(navigationMenuTriggerStyle(), "bg-transparent text-sm hover:text-white rounded-full", pathname === "/" ? "bg-white/90 text-black hover:bg-white/90 hover:text-black shadow-[0_0_10px_1px_rgba(255,255,255,0.3)]" : "text-gray-300")}>
+            <Link href="/" passHref>
+              <NavigationMenuLink active={pathname === '/'} className={cn(navigationMenuTriggerStyle(), "bg-transparent text-sm hover:text-white rounded-full", pathname === "/" ? "bg-white/90 text-black hover:bg-white/90 hover:text-black shadow-[0_0_10px_1px_rgba(255,255,255,0.3)]" : "text-gray-300")}>
                 Home
               </NavigationMenuLink>
             </Link>
@@ -233,15 +233,15 @@ export function Navbar() {
           </NavigationMenuContent>
         </NavigationMenuItem>
         <NavigationMenuItem>
-            <Link href="/blogs" legacyBehavior passHref>
-              <NavigationMenuLink className={cn(navigationMenuTriggerStyle(), "bg-transparent text-sm hover:text-white rounded-full", pathname === "/blogs" ? "bg-white/90 text-black hover:bg-white/90 hover:text-black shadow-[0_0_10px_1px_rgba(255,255,255,0.3)]" : "text-gray-300")}>
+            <Link href="/blogs" passHref>
+              <NavigationMenuLink active={pathname === '/blogs'} className={cn(navigationMenuTriggerStyle(), "bg-transparent text-sm hover:text-white rounded-full", pathname === "/blogs" ? "bg-white/90 text-black hover:bg-white/90 hover:text-black shadow-[0_0_10px_1px_rgba(255,255,255,0.3)]" : "text-gray-300")}>
                 Blogs
               </NavigationMenuLink>
             </Link>
         </NavigationMenuItem>
          <NavigationMenuItem>
-            <Link href="/support" legacyBehavior passHref>
-              <NavigationMenuLink className={cn(navigationMenuTriggerStyle(), "bg-transparent text-sm hover:text-white rounded-full", pathname === "/support" ? "bg-white/90 text-black hover:bg-white/90 hover:text-black shadow-[0_0_10px_1px_rgba(255,255,255,0.3)]" : "text-gray-300")}>
+            <Link href="/support" passHref>
+              <NavigationMenuLink active={pathname === '/support'} className={cn(navigationMenuTriggerStyle(), "bg-transparent text-sm hover:text-white rounded-full", pathname === "/support" ? "bg-white/90 text-black hover:bg-white/90 hover:text-black shadow-[0_0_10px_1px_rgba(255,255,255,0.3)]" : "text-gray-300")}>
                 Support
               </NavigationMenuLink>
             </Link>
