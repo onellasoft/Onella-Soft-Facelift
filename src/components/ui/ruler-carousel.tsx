@@ -172,7 +172,7 @@ export function RulerCarousel({
         </div>
         <div className="flex items-center justify-center w-full h-full relative overflow-hidden">
           <motion.div
-            className="flex items-center gap-[100px]"
+            className="flex items-center gap-[150px]"
             animate={{
               x: isResetting ? targetX : targetX,
             }}
@@ -194,7 +194,7 @@ export function RulerCarousel({
                 <motion.button
                   key={item.id}
                   onClick={() => handleItemClick(index)}
-                  className={`text-4xl md:text-6xl font-bold whitespace-nowrap cursor-pointer flex items-center justify-center ${
+                  className={`text-3xl md:text-5xl font-bold whitespace-nowrap cursor-pointer flex items-center justify-center ${
                     isActive
                       ? "text-primary dark:text-white"
                       : "text-muted-foreground dark:text-gray-500 hover:text-foreground dark:hover:text-gray-400"
@@ -213,7 +213,7 @@ export function RulerCarousel({
                         }
                   }
                   style={{
-                    width: "400px",
+                    width: "350px",
                   }}
                 >
                   {item.title}
